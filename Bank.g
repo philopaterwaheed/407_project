@@ -4,18 +4,14 @@ options {
     language = Java;
 }
 
-class_definition
-    : 'class' class_name '{' member_declarations '}'
-    ;
+class_definition : 'class' class_name '{' member_declarations '}' ;
 
-class_name
-    : ID
-    ;
+class_name: ID ;
 
 function_definition
     :( return_type function_name '(' parameters? ')' 
     | deposit_function 
-    | create_account_function 
+    | create_account_function
     | withdraw_function
     | transfer_funds_function
     | display_all_accounts_function body )body
@@ -37,16 +33,11 @@ parameter
     : type ID
     ;
 
-type : ('int' | 'double' | 'string' | custom_type) ('*')? ;
+type : ('int' | 'double' | 'string' | custom_type | 'vector' '<' type '>') ('*')? ;
 
+custom_type : ID;
 
-custom_type
-    : ID
-    ;
-
-body
-    : '{' statements '}'
-    ;
+body : '{' statements '}' | statement ;
 
 statements
     : statement*
@@ -63,9 +54,10 @@ statement
     | pointer
     ;
 
-declaration
-    : type ID ('=' expression (','expression )*)? ';'
-    ;
+declaration: type variables ('=' expression)?  ';' ;
+
+variables : ID (',' ID)*;
+
 
 assignment
     : ID '=' expression ';'
@@ -124,33 +116,34 @@ control_structure
     | for_loop
     | while_loop
     | do_while_loop
+    | switch_cases
     ;
 
-if_statement
-    : 'if' '(' (expression | pointer) ')' body else_part
-    ;
+compilation_unit : (include | name_space)*;
+    
+include: '#include' (lib | header);
 
-pointer : ID '->' function_call (';' | Roper expression)? ;
+lib: '<' (~('\r' | '\n' | '>'))* '>';
 
+header: '"' (~('\r' | '\n' | '"'))* '"';
 
+name_space : 'using' 'namespace' ID ';';
 
-else_part
-    : 'else' body
-    | 
-    ;
+if_statement : 'if' '(' condition ')' body  ('else' body)? ;
 
-for_loop
-    : 'for' '(' (declaration expression ';' expression | ('const'? 'auto' ID ':' ID)) ')' body
-    ;
+switch_statment : 'switch' '(' expression ')'  '{' switch_cases+  default_case? '}' ;
 
+switch_cases : 'case' expression ':' statements break_statement?;
 
-while_loop
-    : 'while' '(' expression ')' body
-    ;
+default_case: 'default' ':'  statements;
 
-do_while_loop
-    : 'do' body 'while' '(' expression ')' ';'
-    ;
+break_statement: 'break' ';';
+
+for_loop : 'for' '(' (declaration expression ';' expression | ('const'? 'auto' ID ':' ID)) ')' body ;
+
+while_loop : 'while' '(' expression ')' body ;
+
+do_while_loop : 'do' body 'while' '(' expression ')' ';' ;
 
 static_member
     : 'static' type ID
@@ -247,28 +240,40 @@ amount
     : expression
     ;
 
-amount_value
-    : DIGIT+ ('.' DIGIT+)?
-    ;
+amount_value : DIGIT+  ('.' DIGIT+)? ;
+    
+condition: boolean_expression* ;
+    
+boolean_expression: and_exp ( '||' and_exp )*;
 
+and_exp : bitwiseOR_exp  ( '&&' bitwiseOR_exp)*;
 
-ID
-    : LETTER (LETTER | DIGIT | '_')*
-    ;
+bitwiseOR_exp : bitwiseXOR_exp ( '|' bitwiseXOR_exp)* ;	
 
-DIGIT
-    : '0'..'9'
-    ;
+bitwiseXOR_exp : bitwiseAND_exp ( '^' bitwiseAND_exp)* ;	
 
-LETTER
-    : 'a'..'z' | 'A'..'Z'
-    ;
+bitwiseAND_exp : equality_exp ( '&' equality_exp)*;	
 
-Roper	: '>' | '<' | '==' | '>=' | '<=' ;
+equality_exp: relational_exp ( ('==' | '!=') relational_exp)*;
+
+relational_exp: unary_exp ( ( '<' | '>' | '<=' | '>=' ) unary_exp )*;
+
+unary_exp: primary_exp | '!' unary_exp;
+
+primary_exp : '(' boolean_expression ')' | ( ID | expression | BOOLEAN | pointer_access);  
+
+pointer: pointer_access ';';
+
+pointer_access : ID '->' function_call;
+
+ID : LETTER (LETTER | DIGIT | '_')* ;
+
+DIGIT : '0'..'9' ;
+    
+BOOLEAN : 'true' | 'false' ;
+
+LETTER : 'a'..'z' | 'A'..'Z' ;
 
 WS: (' '|'\n'|'\r'|'\t')+ {skip();} ;
 
-
-COMMENT
-    :   ('//' ~( '\r'|'\n'|'\r\n')* ) | ('/*' (options {greedy=false;} : .)* '*/') {skip();}
-    ;
+COMMENT : ('//' ~( '\r'|'\n'|'\r\n')* ) | ('/*' (options {greedy=false;} : .)* '*/') {skip();} ;

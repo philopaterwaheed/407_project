@@ -1,20 +1,20 @@
 
 ## In Progress
 
-### Basics
-- [ ] Booleans  
-    - [ ] Boolean expressions: `&&`, `||`, `!`, `&`, `|`
-- [ ] `if` Statements  
-    - [ ] Without parentheses  
-        - [ ] `if else`  
-        - [ ] `if else if else`  
-- [ ] `switch` Statement  
-- [ ] Pointers  
-    - [ ] Pointer declaration  
-    - [x] Pointer access (`->`)  
-- [ ] `namespace`  
-- [ ] `#include`  
-- [ ] Vectors (add to declaration section)
+### Basics (Day 1)
+- [X] Booleans  
+    - [X] Boolean expressions: `&&`, `||`, `!`, `&`, `|`, `^`
+- [X] `if` Statements  
+    - [X] Without parentheses  
+        - [X] `if else`  
+        - [X] `if else if else`  
+- [X] `switch` Statement  
+- [X] Pointers  
+    - [X] Pointer declaration  
+    - [X] Pointer access (`->`)  
+- [X] `namespace`  
+- [X] `#include`  
+- [X] Vectors (add to declaration section)
 
 ---
 
@@ -55,11 +55,10 @@
 - [x] `cin`  
 - [x] `for` loop  
     - [x] Range-based for loop: `for (x : y)`  
-- [x] Pointer access `->`  
 - [x] `do while` loop  
 - [x] Function Declaration  
     - [ ] Include class types  
-- [x] Declaration  
+- [x] Declaration
     - [x] Include class  
 - [x] Expressions  
 - [x] Stream Operator (`<<` / `>>`)  
