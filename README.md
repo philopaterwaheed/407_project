@@ -1,61 +1,67 @@
+
 ## In Progress
-[]booleans
-    []boolean expressions && || ! & | 
-[]if 
-    []without praenthesis
-    	[]if else
-    	[]if else if else
-[]switch
-[]pointers
-    []pointer declaration
-    [*]pointer access (->) 
-[]namespcae
-[]include 
-[]vectors (put it in declaration)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[]class body 
-    []inheritance
-    []protected member
-    []public member
-    []private member
-    []constructor (no return type , same name as class)
-	[]overload
-    []destructor
-    []class functions
-	[]overload
-	[]virtual function (handle)
-	    []overload
-    []static member (handle)
-    []accessing static member from outside class
-[]class function call object.func()
-[]object creation
-    []function style (constructor)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[]getline 
-[]string declaration function (   string (40,'-')  ) (search how it works in c++)
-[]new
-[]delete
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Basics
+- [ ] Booleans  
+    - [ ] Boolean expressions: `&&`, `||`, `!`, `&`, `|`
+- [ ] `if` Statements  
+    - [ ] Without parentheses  
+        - [ ] `if else`  
+        - [ ] `if else if else`  
+- [ ] `switch` Statement  
+- [ ] Pointers  
+    - [ ] Pointer declaration  
+    - [x] Pointer access (`->`)  
+- [ ] `namespace`  
+- [ ] `#include`  
+- [ ] Vectors (add to declaration section)
 
+---
 
+### Classes
+- [ ] Class Body  
+    - [ ] Inheritance  
+    - [ ] Protected members  
+    - [ ] Public members  
+    - [ ] Private members  
+    - [ ] Constructor (no return type, same name as class)  
+        - [ ] Overload constructors  
+    - [ ] Destructor  
+    - [ ] Class Functions  
+        - [ ] Overload  
+        - [ ] Virtual Functions  
+            - [ ] Handle virtual overload  
+        - [ ] Static Members  
+            - [ ] Handle static  
+    - [ ] Accessing static member from outside the class  
+- [ ] Calling Class Functions: `object.func()`  
+- [ ] Object Creation  
+    - [ ] Function-style constructor call  
 
+---
 
-## Done 
+### Miscellaneous
+- [ ] `getline()`  
+- [ ] String declaration with fill constructor: `string(40, '-')` (research how it works in C++)  
+- [ ] `new` keyword  
+- [ ] `delete` keyword  
 
-[*]while
-[*]cout 
-[*]cin
-[*]for loop
-    [*]for each function for (x:y)
-[*]pointer access  ->
-[*]do while 
-[*]function delcare
-    []include class types
-[*]declaration
-    [*]include class
-[*]expression
-[*]stream operator
-[*]normal function declaration 
-    [*]body of a function
+---
 
+## Done
+
+- [x] `while` loop  
+- [x] `cout`  
+- [x] `cin`  
+- [x] `for` loop  
+    - [x] Range-based for loop: `for (x : y)`  
+- [x] Pointer access `->`  
+- [x] `do while` loop  
+- [x] Function Declaration  
+    - [ ] Include class types  
+- [x] Declaration  
+    - [x] Include class  
+- [x] Expressions  
+- [x] Stream Operator (`<<` / `>>`)  
+- [x] Normal Function Declaration  
+    - [x] Function Body  
