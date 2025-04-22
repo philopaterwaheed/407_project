@@ -34,7 +34,7 @@
         - [ ] Static Members  
             - [ ] Handle static  
     - [ ] Accessing static member from outside the class  
-- [ ] Calling Class Functions: `object.func()`  
+- [X] Calling Class Functions: `object.func()`  
 - [ ] Object Creation  
     - [ ] Function-style constructor call  
 
