@@ -99,7 +99,7 @@ string_literal
     ;
 
 function_call
-    : ID '(' arguments? ')' ';'
+    : ID  ( ('.' ID)? '(' arguments? ')'  )   ';'
     ;
 
 arguments
