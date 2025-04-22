@@ -6,9 +6,10 @@ options {
 class_visibility :( 'public' | 'private' | 'protected' )  ;
 class_return_type : 'int' | 'double' | 'string' | 'bool' ;
 class_method :  '(' parameters? ')' class_method_body   ;
+constructor :  '(' parameters? ')' constructor_body   ;
 class_void_method :  'void' ID '(' parameters? ')' class_method_body;
 class_ass :  ('=' expression)? ';' ;
-class_members : (( (class_visibility ':' )?   ( class_return_type ID member_declaration  | 'virtual' calss_return_type ID (class_method | class_void_method)) ) * );
+class_members : ( ( (class_visibility ':' )? ( constructor |  ( class_return_type ID member_declaration  | 'virtual' calss_return_type ID (class_method | class_void_method)) )) * );
 member_declaration 
 	: ((class_method | class_ass)  | class_void_method ) ;
 
@@ -38,6 +39,10 @@ custom_type : ID;
 
 body : '{' statements '}' | statement ;
 class_method_body :'{' statements '}'; 
+constructor_body :'{' constructor_statements '}'; 
+constructor_statements
+    : (constructor_statement)*
+    ;
 statements
     : (statement)*
     ;
@@ -52,6 +57,14 @@ statement
     | pointer
     ;
 
+constructor_statement
+    : declaration
+    | function_call
+    | control_structure
+    | output
+    | input
+    | pointer
+    ;
 declaration: type variables ';' ;
 
 variables : assignment (',' assignment)*;
