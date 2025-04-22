@@ -21,9 +21,9 @@
 ### Classes
 - [ ] Class Body  
     - [ ] Inheritance  
-    - [ ] Protected members  
-    - [ ] Public members  
-    - [ ] Private members  
+    - [X] Protected members  
+    - [X] Public members  
+    - [X] Private members  
     - [ ] Constructor (no return type, same name as class)  
         - [ ] Overload constructors  
     - [ ] Destructor  
