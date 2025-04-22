@@ -3,13 +3,16 @@ grammar Bank;
 options {
     language = Java;
 }
+class_visibility :( 'public' | 'private' | 'protected' ) ':' ;
 class_return_type : 'int' | 'double' | 'string' | 'bool' ;
 class_method :  '(' parameters? ')' class_method_body   ;
 class_void_method :  'void' ID '(' parameters? ')' class_method_body;
-class_variable :  ('=' expression)? ';' ;
-member_declarations 
-	: ((class_return_type ID (class_method | class_variable) ) | class_void_method )* ;
-class_definition : 'class' ID '{' member_declarations '}' ';';
+class_ass :  ('=' expression)? ';' ;
+class_members : (( class_visibility?   class_return_type ID member_declaration) * );
+member_declaration 
+	: ((class_method | class_ass)  | class_void_method ) ;
+
+class_definition : 'class' ID '{'  class_members '}' ';';
 
 
 function_definition
