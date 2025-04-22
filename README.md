@@ -24,7 +24,7 @@
     - [X] Protected members  
     - [X] Public members  
     - [X] Private members  
-    - [ ] Constructor (no return type, same name as class)  
+    - [x] Constructor (no return type, same name as class)  
         - [ ] Overload constructors  
     - [ ] Destructor  
     - [ ] Class Functions  
