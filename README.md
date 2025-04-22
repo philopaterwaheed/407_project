@@ -20,7 +20,7 @@
 
 ### Classes
 - [ ] Class Body  
-    - [ ] Inheritance  
+    - [X] Inheritance  
     - [X] Protected members  
     - [X] Public members  
     - [X] Private members  
