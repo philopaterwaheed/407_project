@@ -29,7 +29,7 @@
     - [ ] Destructor  
     - [ ] Class Functions  
         - [ ] Overload  
-        - [ ] Virtual Functions  
+        - [X] Virtual Functions  
             - [ ] Handle virtual overload  
         - [ ] Static Members  
             - [ ] Handle static  
