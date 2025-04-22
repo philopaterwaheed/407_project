@@ -3,27 +3,23 @@ grammar Bank;
 options {
     language = Java;
 }
+class_return_type : 'int' | 'double' | 'string' | 'bool' ;
+class_method :  '(' parameters? ')' class_method_body   ;
+class_void_method :  'void' ID '(' parameters? ')' class_method_body;
+class_variable :  ('=' expression)? ';' ;
+member_declarations 
+	: ((class_return_type ID (class_method | class_variable) ) | class_void_method )* ;
+class_definition : 'class' ID '{' member_declarations '}' ';';
 
-class_definition : 'class' class_name '{' member_declarations '}' ;
-
-class_name: ID ;
 
 function_definition
-    :( return_type function_name '(' parameters? ')' 
-    | deposit_function 
-    | create_account_function
-    | withdraw_function
-    | transfer_funds_function
-    | display_all_accounts_function body )body
+    :( return_type function_name '(' parameters? ')' body )body
     ;
 
 return_type
     : 'void' | 'int' | 'double' | 'string' | 'bool' | custom_type
     ;
 
-function_name
-    : ID
-    ;
 
 parameters
     : parameter (',' parameter)*
@@ -38,14 +34,13 @@ type : ('int' | 'double' | 'string' | custom_type | 'vector' '<' type '>') ('*')
 custom_type : ID;
 
 body : '{' statements '}' | statement ;
-
+class_method_body :'{' statements '}'; 
 statements
-    : statement*
+    : (statement)*
     ;
 
 statement
     : declaration
-    | assignment
     | function_call
     | control_structure
     | return_statement
@@ -54,13 +49,13 @@ statement
     | pointer
     ;
 
-declaration: type variables ('=' expression)?  ';' ;
+declaration: type variables ';' ;
 
-variables : ID (',' ID)*;
+variables : assignment (',' assignment)*;
 
 
 assignment
-    : ID '=' expression ';'
+    : ID ('=' expression)? 
     ;
 
 expression
@@ -101,7 +96,7 @@ string_literal
     ;
 
 function_call
-    : (function_name | 'deposit' | 'withdraw' | 'display') '(' arguments? ')'
+    : ID '(' arguments? ')' ';'
     ;
 
 arguments
@@ -185,12 +180,7 @@ file_stream
 
 
 function_declarations
-    : (create_account_function
-    | deposit_function
-    | withdraw_function
-    | transfer_funds_function
-    | display_all_accounts_function
-    | function_definition)*
+    :(function_definition)*
     ;
 
 
@@ -234,4 +224,4 @@ LETTER : 'a'..'z' | 'A'..'Z' ;
 
 WS: (' '|'\n'|'\r'|'\t')+ {skip();} ;
 
-COMMENT : ('//' ~( '\r'|'\n'|'\r\n')* ) | ('/*' (options {greedy=false;} : .)* '*/') {skip();} ;
+COMMENT : ('//' ~( '\t' | '\r' | '\n' | '\r\n' )* ) | ('/*' (options {greedy=false;} : .)* '*/') {skip();} ;
