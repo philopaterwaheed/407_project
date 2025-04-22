@@ -183,29 +183,6 @@ file_stream
     : ID
     ;
 
-bankAccount_class
-    : 'class' 'BankAccount' '{' member_declarations '}'
-    ;
-
-member_declarations
-    : (function_definition | declaration | static_member)*
-    ;
-
-bankAccount_deposit_function
-    : 'virtual' 'void' 'deposit' '(' 'double' amount ')'
-    ;
-
-bankAccount_withdraw_function
-    : 'virtual' 'bool' 'withdraw' '(' 'double' amount ')'
-    ;
-
-display_function
-    : 'virtual' 'void' 'display' '(' ')' 'const'
-    ;
-
-bank_class
-    : 'class' 'Bank' '{' function_declarations '}'
-    ;
 
 function_declarations
     : (create_account_function
@@ -216,25 +193,6 @@ function_declarations
     | function_definition)*
     ;
 
-create_account_function
-    : 'void' 'createAccount' '(' ')'
-    ;
-
-deposit_function
-    : 'void' 'deposit' '(' ')'
-    ;
-
-withdraw_function
-    : 'void' 'withdraw' '(' ')'
-    ;
-
-transfer_funds_function
-    : 'void' 'transferFunds' '(' ')'
-    ;
-
-display_all_accounts_function
-    : 'void' 'displayAllAccounts' '(' ')'
-    ;
 
 amount
     : expression
