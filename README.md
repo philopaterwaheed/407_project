@@ -28,15 +28,15 @@
         - [X] override constructors  
     - [x] Destructor  
     - [x] Class Functions  
-        - [ ] override  
+        - [X] override  
         - [X] Virtual Functions  
-            - [ ] Handle virtual override  
+            - [X] Handle virtual override  
         - [ ] Static Members  
             - [ ] Handle static  
     - [ ] Accessing static member from outside the class  
 - [X] Calling Class Functions: `object.func()`  
-- [ ] Object Creation  
-    - [ ] Function-style constructor call  
+- [X] Object Creation  
+    - [X] Function-style constructor call  
 
 ---
 
