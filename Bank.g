@@ -6,7 +6,7 @@ options {
 class_visibility :( 'public' | 'private' | 'protected' )  ;
 class_return_type : 'int' | 'double' | 'string' | 'bool' ;
 class_method :  '(' parameters? ')' class_method_body   ;
-constructor :  '(' parameters? ')' constructor_body   ;
+constructor :  '(' parameters? ')' (':' class_visibility )?  constructor_body   ;
 class_void_method :  'void' ID '(' parameters? ')' class_method_body;
 class_ass :  ('=' expression)? ';' ;
 class_members : ( ( (class_visibility ':' )? ( constructor |  ( class_return_type ID member_declaration  | 'virtual' calss_return_type ID (class_method | class_void_method)) )) * );
