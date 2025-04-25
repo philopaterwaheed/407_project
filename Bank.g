@@ -56,6 +56,7 @@ statement
     | output
     | input
     | pointer
+    | static_member
     ;
 
 constructor_statement
@@ -160,6 +161,7 @@ do_while_loop : 'do' body 'while' '(' expression ')' ';' ;
 static_member
     : 'static' type ID
     ;
+static_call: 'static' ID '::' ID ('(' parameters? ')')? ';' ;
 
 input : 'cin' ('>>' expression)* ';' ;
 output : 'cout' ( '<<' (expression | function_call) )+ ('<<' 'endl')? ';' ;

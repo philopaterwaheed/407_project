@@ -19,7 +19,7 @@
 ---
 
 ### Classes
-- [ ] Class Body  
+- [X] Class Body  
     - [X] Inheritance  
     - [X] Protected members  
     - [X] Public members  
@@ -31,9 +31,9 @@
         - [X] override  
         - [X] Virtual Functions  
             - [X] Handle virtual override  
-        - [ ] Static Members  
-            - [ ] Handle static  
-    - [ ] Accessing static member from outside the class  
+        - [X] Static Members  
+            - [X] Handle static  
+    - [X] Accessing static member from outside the class  
 - [X] Calling Class Functions: `object.func()`  
 - [X] Object Creation  
     - [X] Function-style constructor call  
