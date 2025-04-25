@@ -25,12 +25,12 @@
     - [X] Public members  
     - [X] Private members  
     - [x] Constructor (no return type, same name as class)  
-        - [X] Overload constructors  
-    - [ ] Destructor  
-    - [ ] Class Functions  
-        - [ ] Overload  
+        - [X] override constructors  
+    - [x] Destructor  
+    - [x] Class Functions  
+        - [ ] override  
         - [X] Virtual Functions  
-            - [ ] Handle virtual overload  
+            - [ ] Handle virtual override  
         - [ ] Static Members  
             - [ ] Handle static  
     - [ ] Accessing static member from outside the class  
