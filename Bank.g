@@ -3,50 +3,64 @@ grammar Bank;
 options {
     language = Java;
 }
-class_visibility :( 'public' | 'private' | 'protected' )  ;
+
+class_visibility : ('public' | 'private' | 'protected') ;
+
 class_return_type : 'int' | 'double' | 'string' | 'bool' ;
-class_method :  '(' parameters? ')' class_method_body   ;
-constructor : ID '(' parameters? ')' (':' class_visibility  ID )?  constructor_body   ;
-destructor : '~' ID '(' parameters ? ')' (':' class_visibility ID )?  constructor_body   ;
-class_void_method :  'void' ID '(' parameters? ')' (':' class_visibility ID)? class_method_body;
-class_ass :  ('=' expression)? ';' ;
-class_members : ( ( (class_visibility ':' )? ( ( ID constructor | destructor )  |  ( class_return_type ID member_declaration  | 'virtual' ((calss_return_type ID (class_method | class_void_method) )| ID constructor |destructor )) )) * );
-member_declaration 
-	: ((class_method | class_ass)  | class_void_method ) ;
 
-class_definition : 'class' ID  ( ':'  class_visibility ID) ? '{'  class_members '}' ';';
+class_method : '(' parameters? ')' class_method_body ;
 
+constructor : ID '(' parameters? ')' (':' class_visibility ID)? constructor_body ;
 
-function_definition
-    :( return_type function_name '(' parameters? ')' body )body
+destructor : '~' ID '(' parameters? ')' (':' class_visibility ID)? constructor_body ;
+
+class_void_method
+    :( class_visibility ':')? 'void' ID '(' parameters? ')' ('const')? class_method_body
     ;
 
-return_type
-    : 'void' | 'int' | 'double' | 'string' | 'bool' | custom_type
+method_qualifier
+    : 'const'
     ;
 
+class_ass : ('=' expression)? ';' ;
 
-parameters
-    : parameter (',' parameter)*
-    ;
+class_members : 
+    ((class_visibility ':')? 
+    (
+        (ID constructor | destructor)
+        | (class_return_type ID member_declaration 
+        | 'virtual' ((class_return_type ID (class_method | class_void_method)) | ID constructor | destructor))
+    ))* ;
 
-parameter
-    : type ID
-    ;
+member_declaration : ((class_method | class_ass) | class_void_method) ;
+
+class_definition : 'class' ID (':' class_visibility ID)? '{' class_members '}' ';';
+
+function_name : ID ;
+
+function_definition : return_type function_name '(' parameters? ')' body ;
+
+return_type : 'void' | 'int' | 'double' | 'string' | 'bool' | custom_type ;
+
+parameters : parameter (',' parameter)* ;
+
+parameter : type ID ;
 
 type : ('int' | 'double' | 'string' | custom_type | 'vector' '<' type '>') ('*')? ;
 
-custom_type : ID;
+custom_type : ID ;
 
 body : '{' statements '}' | statement ;
-class_method_body :'{' statements '}'; 
-constructor_body :'{' constructor_statements '}'; 
-constructor_statements
-    : (constructor_statement)*
-    ;
-statements
-    : (statement)*
-    ;
+
+class_method_body : '{' statements '}' ;
+
+constructor_body : '{' constructor_statements '}' ;
+
+constructor_statements : (constructor_statement)* ;
+
+statements : (statement)* ;
+
+
 
 statement
     : declaration
@@ -55,192 +69,170 @@ statement
     | return_statement
     | output
     | input
-    | pointer
-    | static_member
+    | assignment ';'
+    | pointer_access_statement
+    | delete_statement
+    | file_operation ';'
     ;
 
-constructor_statement
-    : declaration
-    | function_call
-    | control_structure
-    | output
-    | input
-    | pointer
+constructor_statement 
+    : declaration 
+    | function_call 
+    | control_structure 
+    | output 
+    | input 
+    | pointer_access_statement 
+    | file_operation ';'
     ;
-declaration: type variables ';' ;
 
-variables : assignment (',' assignment)*;
+declaration
+    : type variables ';'
+    | type ID '(' arguments? ')' ';'  // Add this line for constructor calls
+    | ('ofstream' | 'ifstream') ID '(' string_literal ')' ';'
+    ;
 
+variables : assignment (',' assignment)* ;
 
-assignment
-    : ID ('=' expression)? 
+assignment : ID (('='|'+='|'-=') expression)? ;
+
+pointer_assignment
+    : pointer_access '=' expression ';'
+    ;
+
+member_access
+    : ID '.' ID
+    | ID '.' ID '(' arguments? ')'
+    | pointer_access
+    ;
+
+pointer_access 
+    : ID ('->' | '.') ID ('(' arguments? ')')?
     ;
 
 expression
     : term (('+' | '-') term)*
-    ;
-
-term
-    : factor (('*' | '/') factor)*
-    ;
-
-factor
-    : function_call
+    | 'new' type (('[' expression ']')|'('arguments')')?
     | literal
-    | '(' expression ')'
-    | string_literal
     | ID
-    | manipulators
-    | 'nullptr'
+    | pointer_access
+    | member_access
+    | ID '(' arguments? ')'
+    | type '(' arguments ')'
     ;
 
+term : factor (('*' | '/') factor)* ;
+
+factor : literal | ID | pointer_access | 'nullptr' | '(' expression ')' ;
+
+pointer_access_statement : pointer_access ';' ;
 
 literal
     : integer_literal
     | float_literal
     | string_literal
+    | character_literal
     ;
 
-integer_literal
-    : DIGIT+
+character_literal
+    : '\'' (~'\'' | '\\\'')* '\''
     ;
 
-float_literal
-    : DIGIT+ '.' DIGIT+
-    ;
+integer_literal : DIGIT+ ;
 
-string_literal
-    : '"' (~'"')* '"'
-    ;
+float_literal : DIGIT+ '.' DIGIT+ ;
 
-function_call
-    : ID  ( ('.' ID)? '(' arguments? ')'  )   ';'
-    ;
+string_literal : '"' (~'"')* '"' ;
 
-arguments
-    : expression (',' expression)*
-    ;
+function_call : ID '(' arguments? ')' ';' ;
+
+arguments : expression (',' expression)* ;
 
 return_statement : 'return' expression? ';' ;
 
+control_structure : if_statement | for_loop | while_loop | do_while_loop | switch_statement ;
 
-control_structure
-    : if_statement
-    | for_loop
-    | while_loop
-    | do_while_loop
-    | switch_cases
-    ;
+compilation_unit : (include | name_space)* ;
 
-compilation_unit : (include | name_space)*;
+include : '#include' (lib | header) ;
+
+lib : '<' (~('\r' | '\n' | '>'))* '>' ;
+
+header : '"' (~('\r' | '\n' | '"'))* '"' ;
+
+name_space : 'using' 'namespace' ID ';' ;
+
+if_statement : 'if' '(' condition ')' body ('else' body)? ;
+
+switch_statement : 'switch' '(' expression ')' '{' switch_cases+ default_case? '}' ;
+
+switch_cases : 'case' expression ':' statements break_statement? ;
+
+default_case : 'default' ':' statements ;
+
+break_statement : 'break' ';' ;
+
+for_loop : 
+    'for' '(' 
+    (   
+        (declaration | expression)? ';' expression? ';' expression? 
+    |   
+        'const'? 'auto' '&'? ID ':' expression
+    ) 
+    ')' body ;
     
-include: '#include' (lib | header);
-
-lib: '<' (~('\r' | '\n' | '>'))* '>';
-
-header: '"' (~('\r' | '\n' | '"'))* '"';
-
-name_space : 'using' 'namespace' ID ';';
-
-if_statement : 'if' '(' condition ')' body  ('else' body)? ;
-
-switch_statment : 'switch' '(' expression ')'  '{' switch_cases+  default_case? '}' ;
-
-switch_cases : 'case' expression ':' statements break_statement?;
-
-default_case: 'default' ':'  statements;
-
-break_statement: 'break' ';';
-
-for_loop : 'for' '(' (declaration expression ';' expression | ('const'? 'auto' ID ':' ID)) ')' body ;
-
 while_loop : 'while' '(' expression ')' body ;
 
 do_while_loop : 'do' body 'while' '(' expression ')' ';' ;
 
-static_member
-    : 'static' type ID
-    ;
-static_call: 'static' ID '::' ID ('(' parameters? ')')? ';' ;
+static_member : 'static' type ID ;
+input
+: stream ('>>' expression)+ ';'
+| 'getline' '(' stream ',' ID (',' character_literal)? ')' ';'
+|   stream '.ignore' '(' ')' ';'
+;
 
-input : 'cin' ('>>' expression)* ';' ;
-output : 'cout' ( '<<' (expression | function_call) )+ ('<<' 'endl')? ';' ;
 
+stream : 'cin' | ID ;
 
-manipulators
-    : 'left' | 'right' | 'setw'
-    ;
+manipulators : 'left' | 'right' | 'setw' '(' expression ')' ;
+
+output : 'cout' ('<<' (expression | string_literal | 'endl' | manipulators))* ';' ;
 
 file_operation
-    : open_file
-    | write_to_file
-    | close_file
+    : ('ofstream' | 'ifstream') ID '(' string_literal ')'
+    | ID '.' 'close' '(' ')'
     ;
 
-open_file
-    : 'ifstream' file_name
-    ;
+function_declarations : (function_definition)* ;
 
-write_to_file
-    : 'ofstream' file_name
-    ;
+amount : expression ;
 
-close_file
-    : file_stream '.close()'
-    ;
+amount_value : DIGIT+ ('.' DIGIT+)? ;
 
-file_name
-    : ID
-    ;
+condition : boolean_expression ;
 
-file_stream
-    : ID
-    ;
+boolean_expression : and_exp ('||' and_exp)* ;
 
+and_exp : equality_exp ('&&' equality_exp)* ;
 
-function_declarations
-    :(function_definition)*
-    ;
+equality_exp : relational_exp (('==' | '!=') relational_exp)* ;
 
+relational_exp : unary_exp (('<' | '>' | '<=' | '>=') unary_exp)* ;
 
-amount
-    : expression
-    ;
+unary_exp : primary_exp | '!' unary_exp ;
 
-amount_value : DIGIT+  ('.' DIGIT+)? ;
-    
-condition: boolean_expression* ;
-    
-boolean_expression: and_exp ( '||' and_exp )*;
+primary_exp : '(' boolean_expression ')' | (ID | expression | BOOLEAN | pointer_access) ;
 
-and_exp : bitwiseOR_exp  ( '&&' bitwiseOR_exp)*;
-
-bitwiseOR_exp : bitwiseXOR_exp ( '|' bitwiseXOR_exp)* ;	
-
-bitwiseXOR_exp : bitwiseAND_exp ( '^' bitwiseAND_exp)* ;	
-
-bitwiseAND_exp : equality_exp ( '&' equality_exp)*;	
-
-equality_exp: relational_exp ( ('==' | '!=') relational_exp)*;
-
-relational_exp: unary_exp ( ( '<' | '>' | '<=' | '>=' ) unary_exp )*;
-
-unary_exp: primary_exp | '!' unary_exp;
-
-primary_exp : '(' boolean_expression ')' | ( ID | expression | BOOLEAN | pointer_access);  
-
-pointer: pointer_access ';';
-
-pointer_access : ID '->' function_call;
+delete_statement : 'delete' expression ';' ;
 
 ID : LETTER (LETTER | DIGIT | '_')* ;
 
 DIGIT : '0'..'9' ;
-    
+
 BOOLEAN : 'true' | 'false' ;
 
 LETTER : 'a'..'z' | 'A'..'Z' ;
 
-WS: (' '|'\n'|'\r'|'\t')+ {skip();} ;
+WS : (' ' | '\n' | '\r' | '\t')+ {skip();} ;
 
 COMMENT : ('//' ~( '\t' | '\r' | '\n' | '\r\n' )* ) | ('/*' (options {greedy=false;} : .)* '*/') {skip();} ;
