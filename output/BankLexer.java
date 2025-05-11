@@ -1,4 +1,4 @@
-// $ANTLR 3.4 E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g 2025-05-09 22:39:04
+// $ANTLR 3.4 E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g 2025-05-11 16:50:09
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -8,47 +8,6 @@ import java.util.ArrayList;
 @SuppressWarnings({"all", "warnings", "unchecked"})
 public class BankLexer extends Lexer {
     public static final int EOF=-1;
-    public static final int T__13=13;
-    public static final int T__14=14;
-    public static final int T__15=15;
-    public static final int T__16=16;
-    public static final int T__17=17;
-    public static final int T__18=18;
-    public static final int T__19=19;
-    public static final int T__20=20;
-    public static final int T__21=21;
-    public static final int T__22=22;
-    public static final int T__23=23;
-    public static final int T__24=24;
-    public static final int T__25=25;
-    public static final int T__26=26;
-    public static final int T__27=27;
-    public static final int T__28=28;
-    public static final int T__29=29;
-    public static final int T__30=30;
-    public static final int T__31=31;
-    public static final int T__32=32;
-    public static final int T__33=33;
-    public static final int T__34=34;
-    public static final int T__35=35;
-    public static final int T__36=36;
-    public static final int T__37=37;
-    public static final int T__38=38;
-    public static final int T__39=39;
-    public static final int T__40=40;
-    public static final int T__41=41;
-    public static final int T__42=42;
-    public static final int T__43=43;
-    public static final int T__44=44;
-    public static final int T__45=45;
-    public static final int T__46=46;
-    public static final int T__47=47;
-    public static final int T__48=48;
-    public static final int T__49=49;
-    public static final int T__50=50;
-    public static final int T__51=51;
-    public static final int T__52=52;
-    public static final int T__53=53;
     public static final int T__54=54;
     public static final int T__55=55;
     public static final int T__56=56;
@@ -84,15 +43,95 @@ public class BankLexer extends Lexer {
     public static final int T__86=86;
     public static final int T__87=87;
     public static final int T__88=88;
-    public static final int BOOLEAN=4;
-    public static final int CLASS=5;
-    public static final int COMMENT=6;
-    public static final int DIGIT=7;
-    public static final int ELSE=8;
-    public static final int FOR=9;
-    public static final int ID=10;
-    public static final int IF=11;
-    public static final int WS=12;
+    public static final int T__89=89;
+    public static final int T__90=90;
+    public static final int T__91=91;
+    public static final int T__92=92;
+    public static final int T__93=93;
+    public static final int T__94=94;
+    public static final int T__95=95;
+    public static final int T__96=96;
+    public static final int T__97=97;
+    public static final int T__98=98;
+    public static final int T__99=99;
+    public static final int T__100=100;
+    public static final int T__101=101;
+    public static final int T__102=102;
+    public static final int T__103=103;
+    public static final int T__104=104;
+    public static final int T__105=105;
+    public static final int T__106=106;
+    public static final int T__107=107;
+    public static final int T__108=108;
+    public static final int T__109=109;
+    public static final int T__110=110;
+    public static final int T__111=111;
+    public static final int T__112=112;
+    public static final int T__113=113;
+    public static final int T__114=114;
+    public static final int T__115=115;
+    public static final int T__116=116;
+    public static final int T__117=117;
+    public static final int T__118=118;
+    public static final int T__119=119;
+    public static final int T__120=120;
+    public static final int T__121=121;
+    public static final int T__122=122;
+    public static final int T__123=123;
+    public static final int T__124=124;
+    public static final int T__125=125;
+    public static final int T__126=126;
+    public static final int T__127=127;
+    public static final int Arithmetic_Expression=4;
+    public static final int Assign=5;
+    public static final int BOOLEAN=6;
+    public static final int Body=7;
+    public static final int Break=8;
+    public static final int CLASS=9;
+    public static final int COMMENT=10;
+    public static final int Call=11;
+    public static final int Class=12;
+    public static final int Class_Member=13;
+    public static final int Class_Members=14;
+    public static final int Compilition_Unit=15;
+    public static final int Constructor=16;
+    public static final int Control_Structure=17;
+    public static final int DIGIT=18;
+    public static final int Declaration=19;
+    public static final int Default_Case=20;
+    public static final int Delete=21;
+    public static final int Destructor=22;
+    public static final int Do_While=23;
+    public static final int ELSE=24;
+    public static final int Else=25;
+    public static final int FOR=26;
+    public static final int Factor=27;
+    public static final int For=28;
+    public static final int Function=29;
+    public static final int ID=30;
+    public static final int IF=31;
+    public static final int IFSTREAM=32;
+    public static final int If=33;
+    public static final int Include=34;
+    public static final int Manipulator=35;
+    public static final int Member_Access=36;
+    public static final int NameSpace=37;
+    public static final int Not=38;
+    public static final int Parameter=39;
+    public static final int Qualified=40;
+    public static final int Return=41;
+    public static final int Return_Type=42;
+    public static final int Start=43;
+    public static final int Statement=44;
+    public static final int Statements=45;
+    public static final int Switch=46;
+    public static final int Switch_Case=47;
+    public static final int Top_Level=48;
+    public static final int Top_Level_Component=49;
+    public static final int Type=50;
+    public static final int WS=51;
+    public static final int While=52;
+    public static final int While_EXP=53;
 
     // delegates
     // delegators
@@ -109,920 +148,15 @@ public class BankLexer extends Lexer {
     }
     public String getGrammarFileName() { return "E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g"; }
 
-    // $ANTLR start "T__13"
-    public final void mT__13() throws RecognitionException {
-        try {
-            int _type = T__13;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:7:7: ( '!' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:7:9: '!'
-            {
-            match('!'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__13"
-
-    // $ANTLR start "T__14"
-    public final void mT__14() throws RecognitionException {
-        try {
-            int _type = T__14;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:8:7: ( '!=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:8:9: '!='
-            {
-            match("!="); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__14"
-
-    // $ANTLR start "T__15"
-    public final void mT__15() throws RecognitionException {
-        try {
-            int _type = T__15;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:9:7: ( '\"' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:9:9: '\"'
-            {
-            match('\"'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__15"
-
-    // $ANTLR start "T__16"
-    public final void mT__16() throws RecognitionException {
-        try {
-            int _type = T__16;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:10:7: ( '#include' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:10:9: '#include'
-            {
-            match("#include"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__16"
-
-    // $ANTLR start "T__17"
-    public final void mT__17() throws RecognitionException {
-        try {
-            int _type = T__17;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:11:7: ( '&&' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:11:9: '&&'
-            {
-            match("&&"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__17"
-
-    // $ANTLR start "T__18"
-    public final void mT__18() throws RecognitionException {
-        try {
-            int _type = T__18;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:12:7: ( '&' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:12:9: '&'
-            {
-            match('&'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__18"
-
-    // $ANTLR start "T__19"
-    public final void mT__19() throws RecognitionException {
-        try {
-            int _type = T__19;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:13:7: ( '(' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:13:9: '('
-            {
-            match('('); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__19"
-
-    // $ANTLR start "T__20"
-    public final void mT__20() throws RecognitionException {
-        try {
-            int _type = T__20;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:14:7: ( ')' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:14:9: ')'
-            {
-            match(')'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__20"
-
-    // $ANTLR start "T__21"
-    public final void mT__21() throws RecognitionException {
-        try {
-            int _type = T__21;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:15:7: ( '*' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:15:9: '*'
-            {
-            match('*'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__21"
-
-    // $ANTLR start "T__22"
-    public final void mT__22() throws RecognitionException {
-        try {
-            int _type = T__22;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:16:7: ( '+' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:16:9: '+'
-            {
-            match('+'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__22"
-
-    // $ANTLR start "T__23"
-    public final void mT__23() throws RecognitionException {
-        try {
-            int _type = T__23;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:17:7: ( '++' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:17:9: '++'
-            {
-            match("++"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__23"
-
-    // $ANTLR start "T__24"
-    public final void mT__24() throws RecognitionException {
-        try {
-            int _type = T__24;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:18:7: ( '+=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:18:9: '+='
-            {
-            match("+="); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__24"
-
-    // $ANTLR start "T__25"
-    public final void mT__25() throws RecognitionException {
-        try {
-            int _type = T__25;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:19:7: ( ',' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:19:9: ','
-            {
-            match(','); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__25"
-
-    // $ANTLR start "T__26"
-    public final void mT__26() throws RecognitionException {
-        try {
-            int _type = T__26;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:20:7: ( '-' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:20:9: '-'
-            {
-            match('-'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__26"
-
-    // $ANTLR start "T__27"
-    public final void mT__27() throws RecognitionException {
-        try {
-            int _type = T__27;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:21:7: ( '--' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:21:9: '--'
-            {
-            match("--"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__27"
-
-    // $ANTLR start "T__28"
-    public final void mT__28() throws RecognitionException {
-        try {
-            int _type = T__28;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:22:7: ( '-=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:22:9: '-='
-            {
-            match("-="); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__28"
-
-    // $ANTLR start "T__29"
-    public final void mT__29() throws RecognitionException {
-        try {
-            int _type = T__29;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:23:7: ( '->' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:23:9: '->'
-            {
-            match("->"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__29"
-
-    // $ANTLR start "T__30"
-    public final void mT__30() throws RecognitionException {
-        try {
-            int _type = T__30;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:24:7: ( '.' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:24:9: '.'
-            {
-            match('.'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__30"
-
-    // $ANTLR start "T__31"
-    public final void mT__31() throws RecognitionException {
-        try {
-            int _type = T__31;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:25:7: ( '.ignore' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:25:9: '.ignore'
-            {
-            match(".ignore"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__31"
-
-    // $ANTLR start "T__32"
-    public final void mT__32() throws RecognitionException {
-        try {
-            int _type = T__32;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:26:7: ( '/' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:26:9: '/'
-            {
-            match('/'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__32"
-
-    // $ANTLR start "T__33"
-    public final void mT__33() throws RecognitionException {
-        try {
-            int _type = T__33;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:27:7: ( ':' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:27:9: ':'
-            {
-            match(':'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__33"
-
-    // $ANTLR start "T__34"
-    public final void mT__34() throws RecognitionException {
-        try {
-            int _type = T__34;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:28:7: ( '::' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:28:9: '::'
-            {
-            match("::"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__34"
-
-    // $ANTLR start "T__35"
-    public final void mT__35() throws RecognitionException {
-        try {
-            int _type = T__35;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:29:7: ( ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:29:9: ';'
-            {
-            match(';'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__35"
-
-    // $ANTLR start "T__36"
-    public final void mT__36() throws RecognitionException {
-        try {
-            int _type = T__36;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:30:7: ( '<' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:30:9: '<'
-            {
-            match('<'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__36"
-
-    // $ANTLR start "T__37"
-    public final void mT__37() throws RecognitionException {
-        try {
-            int _type = T__37;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:31:7: ( '<<' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:31:9: '<<'
-            {
-            match("<<"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__37"
-
-    // $ANTLR start "T__38"
-    public final void mT__38() throws RecognitionException {
-        try {
-            int _type = T__38;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:32:7: ( '<=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:32:9: '<='
-            {
-            match("<="); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__38"
-
-    // $ANTLR start "T__39"
-    public final void mT__39() throws RecognitionException {
-        try {
-            int _type = T__39;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:33:7: ( '=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:33:9: '='
-            {
-            match('='); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__39"
-
-    // $ANTLR start "T__40"
-    public final void mT__40() throws RecognitionException {
-        try {
-            int _type = T__40;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:34:7: ( '==' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:34:9: '=='
-            {
-            match("=="); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__40"
-
-    // $ANTLR start "T__41"
-    public final void mT__41() throws RecognitionException {
-        try {
-            int _type = T__41;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:35:7: ( '>' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:35:9: '>'
-            {
-            match('>'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__41"
-
-    // $ANTLR start "T__42"
-    public final void mT__42() throws RecognitionException {
-        try {
-            int _type = T__42;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:36:7: ( '>=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:36:9: '>='
-            {
-            match(">="); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__42"
-
-    // $ANTLR start "T__43"
-    public final void mT__43() throws RecognitionException {
-        try {
-            int _type = T__43;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:37:7: ( '>>' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:37:9: '>>'
-            {
-            match(">>"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__43"
-
-    // $ANTLR start "T__44"
-    public final void mT__44() throws RecognitionException {
-        try {
-            int _type = T__44;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:38:7: ( '\\'' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:38:9: '\\''
-            {
-            match('\''); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__44"
-
-    // $ANTLR start "T__45"
-    public final void mT__45() throws RecognitionException {
-        try {
-            int _type = T__45;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:39:7: ( '\\\\' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:39:9: '\\\\'
-            {
-            match('\\'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__45"
-
-    // $ANTLR start "T__46"
-    public final void mT__46() throws RecognitionException {
-        try {
-            int _type = T__46;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:40:7: ( '\\n' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:40:9: '\\n'
-            {
-            match('\n'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__46"
-
-    // $ANTLR start "T__47"
-    public final void mT__47() throws RecognitionException {
-        try {
-            int _type = T__47;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:41:7: ( '\\r' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:41:9: '\\r'
-            {
-            match('\r'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__47"
-
-    // $ANTLR start "T__48"
-    public final void mT__48() throws RecognitionException {
-        try {
-            int _type = T__48;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:42:7: ( 'auto' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:42:9: 'auto'
-            {
-            match("auto"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__48"
-
-    // $ANTLR start "T__49"
-    public final void mT__49() throws RecognitionException {
-        try {
-            int _type = T__49;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:43:7: ( 'bool' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:43:9: 'bool'
-            {
-            match("bool"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__49"
-
-    // $ANTLR start "T__50"
-    public final void mT__50() throws RecognitionException {
-        try {
-            int _type = T__50;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:44:7: ( 'break' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:44:9: 'break'
-            {
-            match("break"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__50"
-
-    // $ANTLR start "T__51"
-    public final void mT__51() throws RecognitionException {
-        try {
-            int _type = T__51;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:45:7: ( 'case' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:45:9: 'case'
-            {
-            match("case"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__51"
-
-    // $ANTLR start "T__52"
-    public final void mT__52() throws RecognitionException {
-        try {
-            int _type = T__52;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:46:7: ( 'char' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:46:9: 'char'
-            {
-            match("char"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__52"
-
-    // $ANTLR start "T__53"
-    public final void mT__53() throws RecognitionException {
-        try {
-            int _type = T__53;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:47:7: ( 'cin' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:47:9: 'cin'
-            {
-            match("cin"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__53"
-
     // $ANTLR start "T__54"
     public final void mT__54() throws RecognitionException {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:48:7: ( 'const' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:48:9: 'const'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:2:7: ( '!' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:2:9: '!'
             {
-            match("const"); 
-
-
+            match('!'); 
 
             }
 
@@ -1040,10 +174,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:49:7: ( 'cout' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:49:9: 'cout'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:3:7: ( '!=' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:3:9: '!='
             {
-            match("cout"); 
+            match("!="); 
 
 
 
@@ -1063,12 +197,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:50:7: ( 'default' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:50:9: 'default'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:4:7: ( '\"' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:4:9: '\"'
             {
-            match("default"); 
-
-
+            match('\"'); 
 
             }
 
@@ -1086,10 +218,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:51:7: ( 'delete' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:51:9: 'delete'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:5:7: ( '#include' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:5:9: '#include'
             {
-            match("delete"); 
+            match("#include"); 
 
 
 
@@ -1109,10 +241,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:52:7: ( 'do' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:52:9: 'do'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:6:7: ( '&&' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:6:9: '&&'
             {
-            match("do"); 
+            match("&&"); 
 
 
 
@@ -1132,12 +264,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:53:7: ( 'double' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:53:9: 'double'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:7:7: ( '&' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:7:9: '&'
             {
-            match("double"); 
-
-
+            match('&'); 
 
             }
 
@@ -1155,12 +285,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:54:7: ( 'endl' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:54:9: 'endl'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:8:7: ( '(' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:8:9: '('
             {
-            match("endl"); 
-
-
+            match('('); 
 
             }
 
@@ -1178,12 +306,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:55:7: ( 'float' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:55:9: 'float'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:9:7: ( ')' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:9:9: ')'
             {
-            match("float"); 
-
-
+            match(')'); 
 
             }
 
@@ -1201,12 +327,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:7: ( 'getline' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:9: 'getline'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:10:7: ( '*' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:10:9: '*'
             {
-            match("getline"); 
-
-
+            match('*'); 
 
             }
 
@@ -1224,12 +348,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:57:7: ( 'ifstream' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:57:9: 'ifstream'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:11:7: ( '+' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:11:9: '+'
             {
-            match("ifstream"); 
-
-
+            match('+'); 
 
             }
 
@@ -1247,10 +369,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:58:7: ( 'int' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:58:9: 'int'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:12:7: ( '++' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:12:9: '++'
             {
-            match("int"); 
+            match("++"); 
 
 
 
@@ -1270,10 +392,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:59:7: ( 'left' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:59:9: 'left'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:13:7: ( '+=' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:13:9: '+='
             {
-            match("left"); 
+            match("+="); 
 
 
 
@@ -1293,12 +415,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:60:7: ( 'long' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:60:9: 'long'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:14:7: ( ',' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:14:9: ','
             {
-            match("long"); 
-
-
+            match(','); 
 
             }
 
@@ -1316,12 +436,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:61:7: ( 'namespace' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:61:9: 'namespace'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:15:7: ( '-' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:15:9: '-'
             {
-            match("namespace"); 
-
-
+            match('-'); 
 
             }
 
@@ -1339,10 +457,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:62:7: ( 'new' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:62:9: 'new'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:16:7: ( '--' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:16:9: '--'
             {
-            match("new"); 
+            match("--"); 
 
 
 
@@ -1362,10 +480,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:63:7: ( 'ofstream' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:63:9: 'ofstream'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:17:7: ( '-=' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:17:9: '-='
             {
-            match("ofstream"); 
+            match("-="); 
 
 
 
@@ -1385,10 +503,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:64:7: ( 'private' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:64:9: 'private'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:18:7: ( '->' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:18:9: '->'
             {
-            match("private"); 
+            match("->"); 
 
 
 
@@ -1408,12 +526,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:65:7: ( 'protected' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:65:9: 'protected'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:19:7: ( '.' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:19:9: '.'
             {
-            match("protected"); 
-
-
+            match('.'); 
 
             }
 
@@ -1431,10 +547,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:7: ( 'public' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:9: 'public'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:20:7: ( '.ignore' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:20:9: '.ignore'
             {
-            match("public"); 
+            match(".ignore"); 
 
 
 
@@ -1454,12 +570,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:67:7: ( 'return' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:67:9: 'return'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:21:7: ( '/' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:21:9: '/'
             {
-            match("return"); 
-
-
+            match('/'); 
 
             }
 
@@ -1477,12 +591,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:68:7: ( 'right' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:68:9: 'right'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:22:7: ( ':' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:22:9: ':'
             {
-            match("right"); 
-
-
+            match(':'); 
 
             }
 
@@ -1500,10 +612,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:69:7: ( 'setw' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:69:9: 'setw'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:23:7: ( '::' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:23:9: '::'
             {
-            match("setw"); 
+            match("::"); 
 
 
 
@@ -1523,12 +635,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:70:7: ( 'short' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:70:9: 'short'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:24:7: ( ';' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:24:9: ';'
             {
-            match("short"); 
-
-
+            match(';'); 
 
             }
 
@@ -1546,12 +656,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:71:7: ( 'static' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:71:9: 'static'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:25:7: ( '<' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:25:9: '<'
             {
-            match("static"); 
-
-
+            match('<'); 
 
             }
 
@@ -1569,10 +677,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:72:7: ( 'string' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:72:9: 'string'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:26:7: ( '<<' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:26:9: '<<'
             {
-            match("string"); 
+            match("<<"); 
 
 
 
@@ -1592,10 +700,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:73:7: ( 'switch' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:73:9: 'switch'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:27:7: ( '<=' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:27:9: '<='
             {
-            match("switch"); 
+            match("<="); 
 
 
 
@@ -1615,12 +723,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:7: ( 'using' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:9: 'using'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:28:7: ( '=' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:28:9: '='
             {
-            match("using"); 
-
-
+            match('='); 
 
             }
 
@@ -1638,10 +744,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:7: ( 'vector' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:9: 'vector'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:29:7: ( '==' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:29:9: '=='
             {
-            match("vector"); 
+            match("=="); 
 
 
 
@@ -1661,12 +767,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:76:7: ( 'virtual' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:76:9: 'virtual'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:30:7: ( '>' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:30:9: '>'
             {
-            match("virtual"); 
-
-
+            match('>'); 
 
             }
 
@@ -1684,10 +788,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:77:7: ( 'void' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:77:9: 'void'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:31:7: ( '>=' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:31:9: '>='
             {
-            match("void"); 
+            match(">="); 
 
 
 
@@ -1707,10 +811,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:78:7: ( 'while' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:78:9: 'while'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:32:7: ( '>>' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:32:9: '>>'
             {
-            match("while"); 
+            match(">>"); 
 
 
 
@@ -1730,10 +834,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:79:7: ( '{' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:79:9: '{'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:33:7: ( '\\'' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:33:9: '\\''
             {
-            match('{'); 
+            match('\''); 
 
             }
 
@@ -1751,12 +855,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:80:7: ( '||' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:80:9: '||'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:34:7: ( '\\\\' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:34:9: '\\\\'
             {
-            match("||"); 
-
-
+            match('\\'); 
 
             }
 
@@ -1774,10 +876,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:81:7: ( '}' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:81:9: '}'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:35:7: ( '\\n' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:35:9: '\\n'
             {
-            match('}'); 
+            match('\n'); 
 
             }
 
@@ -1795,10 +897,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:82:7: ( '~' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:82:9: '~'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:36:7: ( '\\r' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:36:9: '\\r'
             {
-            match('~'); 
+            match('\r'); 
 
             }
 
@@ -1811,12 +913,903 @@ public class BankLexer extends Lexer {
     }
     // $ANTLR end "T__88"
 
+    // $ANTLR start "T__89"
+    public final void mT__89() throws RecognitionException {
+        try {
+            int _type = T__89;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:37:7: ( 'auto' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:37:9: 'auto'
+            {
+            match("auto"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__89"
+
+    // $ANTLR start "T__90"
+    public final void mT__90() throws RecognitionException {
+        try {
+            int _type = T__90;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:38:7: ( 'bool' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:38:9: 'bool'
+            {
+            match("bool"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__90"
+
+    // $ANTLR start "T__91"
+    public final void mT__91() throws RecognitionException {
+        try {
+            int _type = T__91;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:39:7: ( 'break' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:39:9: 'break'
+            {
+            match("break"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__91"
+
+    // $ANTLR start "T__92"
+    public final void mT__92() throws RecognitionException {
+        try {
+            int _type = T__92;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:40:7: ( 'case' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:40:9: 'case'
+            {
+            match("case"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__92"
+
+    // $ANTLR start "T__93"
+    public final void mT__93() throws RecognitionException {
+        try {
+            int _type = T__93;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:41:7: ( 'char' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:41:9: 'char'
+            {
+            match("char"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__93"
+
+    // $ANTLR start "T__94"
+    public final void mT__94() throws RecognitionException {
+        try {
+            int _type = T__94;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:42:7: ( 'cin' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:42:9: 'cin'
+            {
+            match("cin"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__94"
+
+    // $ANTLR start "T__95"
+    public final void mT__95() throws RecognitionException {
+        try {
+            int _type = T__95;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:43:7: ( 'const' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:43:9: 'const'
+            {
+            match("const"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__95"
+
+    // $ANTLR start "T__96"
+    public final void mT__96() throws RecognitionException {
+        try {
+            int _type = T__96;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:44:7: ( 'cout' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:44:9: 'cout'
+            {
+            match("cout"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__96"
+
+    // $ANTLR start "T__97"
+    public final void mT__97() throws RecognitionException {
+        try {
+            int _type = T__97;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:45:7: ( 'default' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:45:9: 'default'
+            {
+            match("default"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__97"
+
+    // $ANTLR start "T__98"
+    public final void mT__98() throws RecognitionException {
+        try {
+            int _type = T__98;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:46:7: ( 'delete' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:46:9: 'delete'
+            {
+            match("delete"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__98"
+
+    // $ANTLR start "T__99"
+    public final void mT__99() throws RecognitionException {
+        try {
+            int _type = T__99;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:47:7: ( 'do' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:47:9: 'do'
+            {
+            match("do"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__99"
+
+    // $ANTLR start "T__100"
+    public final void mT__100() throws RecognitionException {
+        try {
+            int _type = T__100;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:48:8: ( 'double' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:48:10: 'double'
+            {
+            match("double"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__100"
+
+    // $ANTLR start "T__101"
+    public final void mT__101() throws RecognitionException {
+        try {
+            int _type = T__101;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:49:8: ( 'endl' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:49:10: 'endl'
+            {
+            match("endl"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__101"
+
+    // $ANTLR start "T__102"
+    public final void mT__102() throws RecognitionException {
+        try {
+            int _type = T__102;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:50:8: ( 'float' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:50:10: 'float'
+            {
+            match("float"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__102"
+
+    // $ANTLR start "T__103"
+    public final void mT__103() throws RecognitionException {
+        try {
+            int _type = T__103;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:51:8: ( 'getline' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:51:10: 'getline'
+            {
+            match("getline"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__103"
+
+    // $ANTLR start "T__104"
+    public final void mT__104() throws RecognitionException {
+        try {
+            int _type = T__104;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:52:8: ( 'int' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:52:10: 'int'
+            {
+            match("int"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__104"
+
+    // $ANTLR start "T__105"
+    public final void mT__105() throws RecognitionException {
+        try {
+            int _type = T__105;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:53:8: ( 'left' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:53:10: 'left'
+            {
+            match("left"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__105"
+
+    // $ANTLR start "T__106"
+    public final void mT__106() throws RecognitionException {
+        try {
+            int _type = T__106;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:54:8: ( 'long' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:54:10: 'long'
+            {
+            match("long"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__106"
+
+    // $ANTLR start "T__107"
+    public final void mT__107() throws RecognitionException {
+        try {
+            int _type = T__107;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:55:8: ( 'namespace' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:55:10: 'namespace'
+            {
+            match("namespace"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__107"
+
+    // $ANTLR start "T__108"
+    public final void mT__108() throws RecognitionException {
+        try {
+            int _type = T__108;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:8: ( 'new' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:10: 'new'
+            {
+            match("new"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__108"
+
+    // $ANTLR start "T__109"
+    public final void mT__109() throws RecognitionException {
+        try {
+            int _type = T__109;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:57:8: ( 'private' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:57:10: 'private'
+            {
+            match("private"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__109"
+
+    // $ANTLR start "T__110"
+    public final void mT__110() throws RecognitionException {
+        try {
+            int _type = T__110;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:58:8: ( 'protected' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:58:10: 'protected'
+            {
+            match("protected"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__110"
+
+    // $ANTLR start "T__111"
+    public final void mT__111() throws RecognitionException {
+        try {
+            int _type = T__111;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:59:8: ( 'public' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:59:10: 'public'
+            {
+            match("public"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__111"
+
+    // $ANTLR start "T__112"
+    public final void mT__112() throws RecognitionException {
+        try {
+            int _type = T__112;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:60:8: ( 'return' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:60:10: 'return'
+            {
+            match("return"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__112"
+
+    // $ANTLR start "T__113"
+    public final void mT__113() throws RecognitionException {
+        try {
+            int _type = T__113;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:61:8: ( 'right' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:61:10: 'right'
+            {
+            match("right"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__113"
+
+    // $ANTLR start "T__114"
+    public final void mT__114() throws RecognitionException {
+        try {
+            int _type = T__114;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:62:8: ( 'setw' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:62:10: 'setw'
+            {
+            match("setw"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__114"
+
+    // $ANTLR start "T__115"
+    public final void mT__115() throws RecognitionException {
+        try {
+            int _type = T__115;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:63:8: ( 'short' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:63:10: 'short'
+            {
+            match("short"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__115"
+
+    // $ANTLR start "T__116"
+    public final void mT__116() throws RecognitionException {
+        try {
+            int _type = T__116;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:64:8: ( 'static' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:64:10: 'static'
+            {
+            match("static"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__116"
+
+    // $ANTLR start "T__117"
+    public final void mT__117() throws RecognitionException {
+        try {
+            int _type = T__117;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:65:8: ( 'string' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:65:10: 'string'
+            {
+            match("string"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__117"
+
+    // $ANTLR start "T__118"
+    public final void mT__118() throws RecognitionException {
+        try {
+            int _type = T__118;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:8: ( 'switch' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:10: 'switch'
+            {
+            match("switch"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__118"
+
+    // $ANTLR start "T__119"
+    public final void mT__119() throws RecognitionException {
+        try {
+            int _type = T__119;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:67:8: ( 'using' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:67:10: 'using'
+            {
+            match("using"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__119"
+
+    // $ANTLR start "T__120"
+    public final void mT__120() throws RecognitionException {
+        try {
+            int _type = T__120;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:68:8: ( 'vector' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:68:10: 'vector'
+            {
+            match("vector"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__120"
+
+    // $ANTLR start "T__121"
+    public final void mT__121() throws RecognitionException {
+        try {
+            int _type = T__121;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:69:8: ( 'virtual' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:69:10: 'virtual'
+            {
+            match("virtual"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__121"
+
+    // $ANTLR start "T__122"
+    public final void mT__122() throws RecognitionException {
+        try {
+            int _type = T__122;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:70:8: ( 'void' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:70:10: 'void'
+            {
+            match("void"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__122"
+
+    // $ANTLR start "T__123"
+    public final void mT__123() throws RecognitionException {
+        try {
+            int _type = T__123;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:71:8: ( 'while' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:71:10: 'while'
+            {
+            match("while"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__123"
+
+    // $ANTLR start "T__124"
+    public final void mT__124() throws RecognitionException {
+        try {
+            int _type = T__124;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:72:8: ( '{' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:72:10: '{'
+            {
+            match('{'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__124"
+
+    // $ANTLR start "T__125"
+    public final void mT__125() throws RecognitionException {
+        try {
+            int _type = T__125;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:73:8: ( '||' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:73:10: '||'
+            {
+            match("||"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__125"
+
+    // $ANTLR start "T__126"
+    public final void mT__126() throws RecognitionException {
+        try {
+            int _type = T__126;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:8: ( '}' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:10: '}'
+            {
+            match('}'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__126"
+
+    // $ANTLR start "T__127"
+    public final void mT__127() throws RecognitionException {
+        try {
+            int _type = T__127;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:8: ( '~' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:10: '~'
+            {
+            match('~'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "T__127"
+
     // $ANTLR start "BOOLEAN"
     public final void mBOOLEAN() throws RecognitionException {
         try {
             int _type = BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:219:9: ( 'true' | 'false' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:705:9: ( 'true' | 'false' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -1835,7 +1828,7 @@ public class BankLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:219:11: 'true'
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:705:11: 'true'
                     {
                     match("true"); 
 
@@ -1844,7 +1837,7 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:219:20: 'false'
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:705:20: 'false'
                     {
                     match("false"); 
 
@@ -1868,8 +1861,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:221:7: ( 'class' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:221:9: 'class'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:707:7: ( 'class' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:707:9: 'class'
             {
             match("class"); 
 
@@ -1891,8 +1884,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:223:4: ( 'if' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:223:6: 'if'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:709:4: ( 'if' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:709:6: 'if'
             {
             match("if"); 
 
@@ -1914,8 +1907,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:225:6: ( 'else' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:225:8: 'else'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:711:6: ( 'else' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:711:8: 'else'
             {
             match("else"); 
 
@@ -1937,8 +1930,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:227:5: ( 'for' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:227:7: 'for'
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:713:5: ( 'for' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:713:7: 'for'
             {
             match("for"); 
 
@@ -1955,13 +1948,65 @@ public class BankLexer extends Lexer {
     }
     // $ANTLR end "FOR"
 
+    // $ANTLR start "IFSTREAM"
+    public final void mIFSTREAM() throws RecognitionException {
+        try {
+            int _type = IFSTREAM;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:715:10: ( 'ofstream' | 'ifstream' )
+            int alt2=2;
+            int LA2_0 = input.LA(1);
+
+            if ( (LA2_0=='o') ) {
+                alt2=1;
+            }
+            else if ( (LA2_0=='i') ) {
+                alt2=2;
+            }
+            else {
+                NoViableAltException nvae =
+                    new NoViableAltException("", 2, 0, input);
+
+                throw nvae;
+
+            }
+            switch (alt2) {
+                case 1 :
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:715:12: 'ofstream'
+                    {
+                    match("ofstream"); 
+
+
+
+                    }
+                    break;
+                case 2 :
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:715:25: 'ifstream'
+                    {
+                    match("ifstream"); 
+
+
+
+                    }
+                    break;
+
+            }
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "IFSTREAM"
+
     // $ANTLR start "ID"
     public final void mID() throws RecognitionException {
         try {
             int _type = ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:229:4: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:229:6: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:717:4: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )* )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:717:6: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
             {
             if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -1973,18 +2018,18 @@ public class BankLexer extends Lexer {
             }
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:229:28: ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
-            loop2:
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:717:28: ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
+            loop3:
             do {
-                int alt2=2;
-                int LA2_0 = input.LA(1);
+                int alt3=2;
+                int LA3_0 = input.LA(1);
 
-                if ( ((LA2_0 >= '0' && LA2_0 <= '9')||(LA2_0 >= 'A' && LA2_0 <= 'Z')||LA2_0=='_'||(LA2_0 >= 'a' && LA2_0 <= 'z')) ) {
-                    alt2=1;
+                if ( ((LA3_0 >= '0' && LA3_0 <= '9')||(LA3_0 >= 'A' && LA3_0 <= 'Z')||LA3_0=='_'||(LA3_0 >= 'a' && LA3_0 <= 'z')) ) {
+                    alt3=1;
                 }
 
 
-                switch (alt2) {
+                switch (alt3) {
             	case 1 :
             	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
             	    {
@@ -2002,7 +2047,7 @@ public class BankLexer extends Lexer {
             	    break;
 
             	default :
-            	    break loop2;
+            	    break loop3;
                 }
             } while (true);
 
@@ -2023,7 +2068,7 @@ public class BankLexer extends Lexer {
         try {
             int _type = DIGIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:231:7: ( '0' .. '9' )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:719:7: ( '0' .. '9' )
             // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
@@ -2052,22 +2097,22 @@ public class BankLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:233:4: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:233:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:721:4: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:721:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:233:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
-            int cnt3=0;
-            loop3:
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:721:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            int cnt4=0;
+            loop4:
             do {
-                int alt3=2;
-                int LA3_0 = input.LA(1);
+                int alt4=2;
+                int LA4_0 = input.LA(1);
 
-                if ( ((LA3_0 >= '\t' && LA3_0 <= '\n')||LA3_0=='\r'||LA3_0==' ') ) {
-                    alt3=1;
+                if ( ((LA4_0 >= '\t' && LA4_0 <= '\n')||LA4_0=='\r'||LA4_0==' ') ) {
+                    alt4=1;
                 }
 
 
-                switch (alt3) {
+                switch (alt4) {
             	case 1 :
             	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
             	    {
@@ -2085,12 +2130,12 @@ public class BankLexer extends Lexer {
             	    break;
 
             	default :
-            	    if ( cnt3 >= 1 ) break loop3;
+            	    if ( cnt4 >= 1 ) break loop4;
                         EarlyExitException eee =
-                            new EarlyExitException(3, input);
+                            new EarlyExitException(4, input);
                         throw eee;
                 }
-                cnt3++;
+                cnt4++;
             } while (true);
 
 
@@ -2112,22 +2157,22 @@ public class BankLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:9: ( ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* ) | ( '/*' ( options {greedy=false; } : . )* '*/' ) )
-            int alt6=2;
-            int LA6_0 = input.LA(1);
+            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:9: ( ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* ) | ( '/*' ( options {greedy=false; } : . )* '*/' ) )
+            int alt7=2;
+            int LA7_0 = input.LA(1);
 
-            if ( (LA6_0=='/') ) {
-                int LA6_1 = input.LA(2);
+            if ( (LA7_0=='/') ) {
+                int LA7_1 = input.LA(2);
 
-                if ( (LA6_1=='/') ) {
-                    alt6=1;
+                if ( (LA7_1=='/') ) {
+                    alt7=1;
                 }
-                else if ( (LA6_1=='*') ) {
-                    alt6=2;
+                else if ( (LA7_1=='*') ) {
+                    alt7=2;
                 }
                 else {
                     NoViableAltException nvae =
-                        new NoViableAltException("", 6, 1, input);
+                        new NoViableAltException("", 7, 1, input);
 
                     throw nvae;
 
@@ -2135,36 +2180,36 @@ public class BankLexer extends Lexer {
             }
             else {
                 NoViableAltException nvae =
-                    new NoViableAltException("", 6, 0, input);
+                    new NoViableAltException("", 7, 0, input);
 
                 throw nvae;
 
             }
-            switch (alt6) {
+            switch (alt7) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:12: '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:12: '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
                     {
                     match("//"); 
 
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:17: (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
-                    loop4:
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:17: (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
+                    loop5:
                     do {
-                        int alt4=2;
-                        int LA4_0 = input.LA(1);
+                        int alt5=2;
+                        int LA5_0 = input.LA(1);
 
-                        if ( ((LA4_0 >= '\u0000' && LA4_0 <= '\b')||(LA4_0 >= '\u000B' && LA4_0 <= '\f')||(LA4_0 >= '\u000E' && LA4_0 <= '\uFFFF')) ) {
-                            alt4=1;
+                        if ( ((LA5_0 >= '\u0000' && LA5_0 <= '\b')||(LA5_0 >= '\u000B' && LA5_0 <= '\f')||(LA5_0 >= '\u000E' && LA5_0 <= '\uFFFF')) ) {
+                            alt5=1;
                         }
 
 
-                        switch (alt4) {
+                        switch (alt5) {
                     	case 1 :
-                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:17: ~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' )
+                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:17: ~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' )
                     	    {
                     	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\b')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
                     	        input.consume();
@@ -2180,7 +2225,7 @@ public class BankLexer extends Lexer {
                     	    break;
 
                     	default :
-                    	    break loop4;
+                    	    break loop5;
                         }
                     } while (true);
 
@@ -2191,41 +2236,41 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:56: '/*' ( options {greedy=false; } : . )* '*/'
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:56: '/*' ( options {greedy=false; } : . )* '*/'
                     {
                     match("/*"); 
 
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:61: ( options {greedy=false; } : . )*
-                    loop5:
+                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:61: ( options {greedy=false; } : . )*
+                    loop6:
                     do {
-                        int alt5=2;
-                        int LA5_0 = input.LA(1);
+                        int alt6=2;
+                        int LA6_0 = input.LA(1);
 
-                        if ( (LA5_0=='*') ) {
-                            int LA5_1 = input.LA(2);
+                        if ( (LA6_0=='*') ) {
+                            int LA6_1 = input.LA(2);
 
-                            if ( (LA5_1=='/') ) {
-                                alt5=2;
+                            if ( (LA6_1=='/') ) {
+                                alt6=2;
                             }
-                            else if ( ((LA5_1 >= '\u0000' && LA5_1 <= '.')||(LA5_1 >= '0' && LA5_1 <= '\uFFFF')) ) {
-                                alt5=1;
+                            else if ( ((LA6_1 >= '\u0000' && LA6_1 <= '.')||(LA6_1 >= '0' && LA6_1 <= '\uFFFF')) ) {
+                                alt6=1;
                             }
 
 
                         }
-                        else if ( ((LA5_0 >= '\u0000' && LA5_0 <= ')')||(LA5_0 >= '+' && LA5_0 <= '\uFFFF')) ) {
-                            alt5=1;
+                        else if ( ((LA6_0 >= '\u0000' && LA6_0 <= ')')||(LA6_0 >= '+' && LA6_0 <= '\uFFFF')) ) {
+                            alt6=1;
                         }
 
 
-                        switch (alt5) {
+                        switch (alt6) {
                     	case 1 :
-                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:235:88: .
+                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:88: .
                     	    {
                     	    matchAny(); 
 
@@ -2233,7 +2278,7 @@ public class BankLexer extends Lexer {
                     	    break;
 
                     	default :
-                    	    break loop5;
+                    	    break loop6;
                         }
                     } while (true);
 
@@ -2261,684 +2306,676 @@ public class BankLexer extends Lexer {
     // $ANTLR end "COMMENT"
 
     public void mTokens() throws RecognitionException {
-        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:8: ( T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | BOOLEAN | CLASS | IF | ELSE | FOR | ID | DIGIT | WS | COMMENT )
-        int alt7=85;
-        alt7 = dfa7.predict(input);
-        switch (alt7) {
+        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:8: ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT )
+        int alt8=84;
+        alt8 = dfa8.predict(input);
+        switch (alt8) {
             case 1 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:10: T__13
-                {
-                mT__13(); 
-
-
-                }
-                break;
-            case 2 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:16: T__14
-                {
-                mT__14(); 
-
-
-                }
-                break;
-            case 3 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:22: T__15
-                {
-                mT__15(); 
-
-
-                }
-                break;
-            case 4 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:28: T__16
-                {
-                mT__16(); 
-
-
-                }
-                break;
-            case 5 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:34: T__17
-                {
-                mT__17(); 
-
-
-                }
-                break;
-            case 6 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:40: T__18
-                {
-                mT__18(); 
-
-
-                }
-                break;
-            case 7 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:46: T__19
-                {
-                mT__19(); 
-
-
-                }
-                break;
-            case 8 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:52: T__20
-                {
-                mT__20(); 
-
-
-                }
-                break;
-            case 9 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:58: T__21
-                {
-                mT__21(); 
-
-
-                }
-                break;
-            case 10 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:64: T__22
-                {
-                mT__22(); 
-
-
-                }
-                break;
-            case 11 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:70: T__23
-                {
-                mT__23(); 
-
-
-                }
-                break;
-            case 12 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:76: T__24
-                {
-                mT__24(); 
-
-
-                }
-                break;
-            case 13 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:82: T__25
-                {
-                mT__25(); 
-
-
-                }
-                break;
-            case 14 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:88: T__26
-                {
-                mT__26(); 
-
-
-                }
-                break;
-            case 15 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:94: T__27
-                {
-                mT__27(); 
-
-
-                }
-                break;
-            case 16 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:100: T__28
-                {
-                mT__28(); 
-
-
-                }
-                break;
-            case 17 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:106: T__29
-                {
-                mT__29(); 
-
-
-                }
-                break;
-            case 18 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:112: T__30
-                {
-                mT__30(); 
-
-
-                }
-                break;
-            case 19 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:118: T__31
-                {
-                mT__31(); 
-
-
-                }
-                break;
-            case 20 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:124: T__32
-                {
-                mT__32(); 
-
-
-                }
-                break;
-            case 21 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:130: T__33
-                {
-                mT__33(); 
-
-
-                }
-                break;
-            case 22 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:136: T__34
-                {
-                mT__34(); 
-
-
-                }
-                break;
-            case 23 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:142: T__35
-                {
-                mT__35(); 
-
-
-                }
-                break;
-            case 24 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:148: T__36
-                {
-                mT__36(); 
-
-
-                }
-                break;
-            case 25 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:154: T__37
-                {
-                mT__37(); 
-
-
-                }
-                break;
-            case 26 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:160: T__38
-                {
-                mT__38(); 
-
-
-                }
-                break;
-            case 27 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:166: T__39
-                {
-                mT__39(); 
-
-
-                }
-                break;
-            case 28 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:172: T__40
-                {
-                mT__40(); 
-
-
-                }
-                break;
-            case 29 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:178: T__41
-                {
-                mT__41(); 
-
-
-                }
-                break;
-            case 30 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:184: T__42
-                {
-                mT__42(); 
-
-
-                }
-                break;
-            case 31 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:190: T__43
-                {
-                mT__43(); 
-
-
-                }
-                break;
-            case 32 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:196: T__44
-                {
-                mT__44(); 
-
-
-                }
-                break;
-            case 33 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:202: T__45
-                {
-                mT__45(); 
-
-
-                }
-                break;
-            case 34 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:208: T__46
-                {
-                mT__46(); 
-
-
-                }
-                break;
-            case 35 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:214: T__47
-                {
-                mT__47(); 
-
-
-                }
-                break;
-            case 36 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:220: T__48
-                {
-                mT__48(); 
-
-
-                }
-                break;
-            case 37 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:226: T__49
-                {
-                mT__49(); 
-
-
-                }
-                break;
-            case 38 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:232: T__50
-                {
-                mT__50(); 
-
-
-                }
-                break;
-            case 39 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:238: T__51
-                {
-                mT__51(); 
-
-
-                }
-                break;
-            case 40 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:244: T__52
-                {
-                mT__52(); 
-
-
-                }
-                break;
-            case 41 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:250: T__53
-                {
-                mT__53(); 
-
-
-                }
-                break;
-            case 42 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:256: T__54
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:10: T__54
                 {
                 mT__54(); 
 
 
                 }
                 break;
-            case 43 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:262: T__55
+            case 2 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:16: T__55
                 {
                 mT__55(); 
 
 
                 }
                 break;
-            case 44 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:268: T__56
+            case 3 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:22: T__56
                 {
                 mT__56(); 
 
 
                 }
                 break;
-            case 45 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:274: T__57
+            case 4 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:28: T__57
                 {
                 mT__57(); 
 
 
                 }
                 break;
-            case 46 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:280: T__58
+            case 5 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:34: T__58
                 {
                 mT__58(); 
 
 
                 }
                 break;
-            case 47 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:286: T__59
+            case 6 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:40: T__59
                 {
                 mT__59(); 
 
 
                 }
                 break;
-            case 48 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:292: T__60
+            case 7 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:46: T__60
                 {
                 mT__60(); 
 
 
                 }
                 break;
-            case 49 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:298: T__61
+            case 8 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:52: T__61
                 {
                 mT__61(); 
 
 
                 }
                 break;
-            case 50 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:304: T__62
+            case 9 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:58: T__62
                 {
                 mT__62(); 
 
 
                 }
                 break;
-            case 51 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:310: T__63
+            case 10 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:64: T__63
                 {
                 mT__63(); 
 
 
                 }
                 break;
-            case 52 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:316: T__64
+            case 11 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:70: T__64
                 {
                 mT__64(); 
 
 
                 }
                 break;
-            case 53 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:322: T__65
+            case 12 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:76: T__65
                 {
                 mT__65(); 
 
 
                 }
                 break;
-            case 54 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:328: T__66
+            case 13 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:82: T__66
                 {
                 mT__66(); 
 
 
                 }
                 break;
-            case 55 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:334: T__67
+            case 14 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:88: T__67
                 {
                 mT__67(); 
 
 
                 }
                 break;
-            case 56 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:340: T__68
+            case 15 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:94: T__68
                 {
                 mT__68(); 
 
 
                 }
                 break;
-            case 57 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:346: T__69
+            case 16 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:100: T__69
                 {
                 mT__69(); 
 
 
                 }
                 break;
-            case 58 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:352: T__70
+            case 17 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:106: T__70
                 {
                 mT__70(); 
 
 
                 }
                 break;
-            case 59 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:358: T__71
+            case 18 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:112: T__71
                 {
                 mT__71(); 
 
 
                 }
                 break;
-            case 60 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:364: T__72
+            case 19 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:118: T__72
                 {
                 mT__72(); 
 
 
                 }
                 break;
-            case 61 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:370: T__73
+            case 20 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:124: T__73
                 {
                 mT__73(); 
 
 
                 }
                 break;
-            case 62 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:376: T__74
+            case 21 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:130: T__74
                 {
                 mT__74(); 
 
 
                 }
                 break;
-            case 63 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:382: T__75
+            case 22 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:136: T__75
                 {
                 mT__75(); 
 
 
                 }
                 break;
-            case 64 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:388: T__76
+            case 23 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:142: T__76
                 {
                 mT__76(); 
 
 
                 }
                 break;
-            case 65 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:394: T__77
+            case 24 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:148: T__77
                 {
                 mT__77(); 
 
 
                 }
                 break;
-            case 66 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:400: T__78
+            case 25 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:154: T__78
                 {
                 mT__78(); 
 
 
                 }
                 break;
-            case 67 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:406: T__79
+            case 26 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:160: T__79
                 {
                 mT__79(); 
 
 
                 }
                 break;
-            case 68 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:412: T__80
+            case 27 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:166: T__80
                 {
                 mT__80(); 
 
 
                 }
                 break;
-            case 69 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:418: T__81
+            case 28 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:172: T__81
                 {
                 mT__81(); 
 
 
                 }
                 break;
-            case 70 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:424: T__82
+            case 29 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:178: T__82
                 {
                 mT__82(); 
 
 
                 }
                 break;
-            case 71 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:430: T__83
+            case 30 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:184: T__83
                 {
                 mT__83(); 
 
 
                 }
                 break;
-            case 72 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:436: T__84
+            case 31 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:190: T__84
                 {
                 mT__84(); 
 
 
                 }
                 break;
-            case 73 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:442: T__85
+            case 32 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:196: T__85
                 {
                 mT__85(); 
 
 
                 }
                 break;
-            case 74 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:448: T__86
+            case 33 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:202: T__86
                 {
                 mT__86(); 
 
 
                 }
                 break;
-            case 75 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:454: T__87
+            case 34 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:208: T__87
                 {
                 mT__87(); 
 
 
                 }
                 break;
-            case 76 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:460: T__88
+            case 35 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:214: T__88
                 {
                 mT__88(); 
 
 
                 }
                 break;
-            case 77 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:466: BOOLEAN
+            case 36 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:220: T__89
+                {
+                mT__89(); 
+
+
+                }
+                break;
+            case 37 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:226: T__90
+                {
+                mT__90(); 
+
+
+                }
+                break;
+            case 38 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:232: T__91
+                {
+                mT__91(); 
+
+
+                }
+                break;
+            case 39 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:238: T__92
+                {
+                mT__92(); 
+
+
+                }
+                break;
+            case 40 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:244: T__93
+                {
+                mT__93(); 
+
+
+                }
+                break;
+            case 41 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:250: T__94
+                {
+                mT__94(); 
+
+
+                }
+                break;
+            case 42 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:256: T__95
+                {
+                mT__95(); 
+
+
+                }
+                break;
+            case 43 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:262: T__96
+                {
+                mT__96(); 
+
+
+                }
+                break;
+            case 44 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:268: T__97
+                {
+                mT__97(); 
+
+
+                }
+                break;
+            case 45 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:274: T__98
+                {
+                mT__98(); 
+
+
+                }
+                break;
+            case 46 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:280: T__99
+                {
+                mT__99(); 
+
+
+                }
+                break;
+            case 47 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:286: T__100
+                {
+                mT__100(); 
+
+
+                }
+                break;
+            case 48 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:293: T__101
+                {
+                mT__101(); 
+
+
+                }
+                break;
+            case 49 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:300: T__102
+                {
+                mT__102(); 
+
+
+                }
+                break;
+            case 50 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:307: T__103
+                {
+                mT__103(); 
+
+
+                }
+                break;
+            case 51 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:314: T__104
+                {
+                mT__104(); 
+
+
+                }
+                break;
+            case 52 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:321: T__105
+                {
+                mT__105(); 
+
+
+                }
+                break;
+            case 53 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:328: T__106
+                {
+                mT__106(); 
+
+
+                }
+                break;
+            case 54 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:335: T__107
+                {
+                mT__107(); 
+
+
+                }
+                break;
+            case 55 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:342: T__108
+                {
+                mT__108(); 
+
+
+                }
+                break;
+            case 56 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:349: T__109
+                {
+                mT__109(); 
+
+
+                }
+                break;
+            case 57 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:356: T__110
+                {
+                mT__110(); 
+
+
+                }
+                break;
+            case 58 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:363: T__111
+                {
+                mT__111(); 
+
+
+                }
+                break;
+            case 59 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:370: T__112
+                {
+                mT__112(); 
+
+
+                }
+                break;
+            case 60 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:377: T__113
+                {
+                mT__113(); 
+
+
+                }
+                break;
+            case 61 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:384: T__114
+                {
+                mT__114(); 
+
+
+                }
+                break;
+            case 62 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:391: T__115
+                {
+                mT__115(); 
+
+
+                }
+                break;
+            case 63 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:398: T__116
+                {
+                mT__116(); 
+
+
+                }
+                break;
+            case 64 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:405: T__117
+                {
+                mT__117(); 
+
+
+                }
+                break;
+            case 65 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:412: T__118
+                {
+                mT__118(); 
+
+
+                }
+                break;
+            case 66 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:419: T__119
+                {
+                mT__119(); 
+
+
+                }
+                break;
+            case 67 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:426: T__120
+                {
+                mT__120(); 
+
+
+                }
+                break;
+            case 68 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:433: T__121
+                {
+                mT__121(); 
+
+
+                }
+                break;
+            case 69 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:440: T__122
+                {
+                mT__122(); 
+
+
+                }
+                break;
+            case 70 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:447: T__123
+                {
+                mT__123(); 
+
+
+                }
+                break;
+            case 71 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:454: T__124
+                {
+                mT__124(); 
+
+
+                }
+                break;
+            case 72 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:461: T__125
+                {
+                mT__125(); 
+
+
+                }
+                break;
+            case 73 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:468: T__126
+                {
+                mT__126(); 
+
+
+                }
+                break;
+            case 74 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:475: T__127
+                {
+                mT__127(); 
+
+
+                }
+                break;
+            case 75 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:482: BOOLEAN
                 {
                 mBOOLEAN(); 
 
 
                 }
                 break;
-            case 78 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:474: CLASS
+            case 76 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:490: CLASS
                 {
                 mCLASS(); 
 
 
                 }
                 break;
-            case 79 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:480: IF
+            case 77 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:496: IF
                 {
                 mIF(); 
 
 
                 }
                 break;
-            case 80 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:483: ELSE
+            case 78 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:499: ELSE
                 {
                 mELSE(); 
 
 
                 }
                 break;
-            case 81 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:488: FOR
+            case 79 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:504: FOR
                 {
                 mFOR(); 
 
 
                 }
                 break;
-            case 82 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:492: ID
+            case 80 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:508: IFSTREAM
+                {
+                mIFSTREAM(); 
+
+
+                }
+                break;
+            case 81 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:517: ID
                 {
                 mID(); 
 
 
                 }
                 break;
-            case 83 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:495: DIGIT
+            case 82 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:520: DIGIT
                 {
                 mDIGIT(); 
 
 
                 }
                 break;
-            case 84 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:501: WS
+            case 83 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:526: WS
                 {
                 mWS(); 
 
 
                 }
                 break;
-            case 85 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:504: COMMENT
+            case 84 :
+                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:529: COMMENT
                 {
                 mCOMMENT(); 
 
@@ -2951,88 +2988,89 @@ public class BankLexer extends Lexer {
     }
 
 
-    protected DFA7 dfa7 = new DFA7(this);
-    static final String DFA7_eotS =
+    protected DFA8 dfa8 = new DFA8(this);
+    static final String DFA8_eotS =
         "\1\uffff\1\60\2\uffff\1\62\3\uffff\1\65\1\uffff\1\71\1\73\1\75\1"+
-        "\77\1\uffff\1\102\1\104\1\107\2\uffff\1\110\1\111\21\54\4\uffff"+
-        "\1\54\36\uffff\11\54\1\173\6\54\1\u0083\31\54\1\u009f\6\54\1\uffff"+
-        "\4\54\1\u00aa\2\54\1\uffff\1\u00ad\3\54\1\u00b1\21\54\1\u00c3\1"+
-        "\u00c4\1\54\1\u00c6\1\u00c7\1\uffff\1\54\1\u00c9\4\54\1\u00ce\1"+
-        "\u00cf\2\54\1\uffff\2\54\1\uffff\1\u00d4\1\u00d5\1\54\1\uffff\6"+
-        "\54\1\u00dd\7\54\1\u00e5\1\54\1\u00e7\2\uffff\1\u00e8\2\uffff\1"+
-        "\u00e9\1\uffff\1\u00ea\3\54\2\uffff\1\u00ee\1\u00e7\2\54\2\uffff"+
-        "\6\54\1\u00f7\1\uffff\1\u00f8\3\54\1\u00fc\2\54\1\uffff\1\u00ff"+
-        "\4\uffff\1\54\1\u0101\1\u0102\1\uffff\6\54\1\u0109\1\u010a\2\uffff"+
-        "\1\u010b\1\u010c\1\u010d\1\uffff\1\u010e\1\54\1\uffff\1\u0110\2"+
-        "\uffff\1\u0111\3\54\1\u0115\1\54\6\uffff\1\u0117\2\uffff\1\u0118"+
-        "\1\54\1\u011a\1\uffff\1\54\2\uffff\1\u011c\1\uffff\1\u011d\2\uffff";
-    static final String DFA7_eofS =
-        "\u011e\uffff";
-    static final String DFA7_minS =
+        "\77\1\uffff\1\102\1\104\1\107\2\uffff\1\110\1\111\20\54\4\uffff"+
+        "\2\54\36\uffff\11\54\1\173\7\54\1\u0084\30\54\1\u009f\6\54\1\uffff"+
+        "\4\54\1\u00aa\1\54\1\u00ac\1\54\1\uffff\3\54\1\u00b1\21\54\1\u00c3"+
+        "\1\u00c4\1\54\1\u00c6\1\u00c7\1\uffff\1\54\1\u00c9\4\54\1\u00ce"+
+        "\1\u00cf\2\54\1\uffff\1\54\1\uffff\1\54\1\u00d4\1\u00d5\1\54\1\uffff"+
+        "\5\54\1\u00dc\7\54\1\u00e4\1\54\1\u00e6\1\54\2\uffff\1\u00e8\2\uffff"+
+        "\1\u00e9\1\uffff\1\u00ea\3\54\2\uffff\1\u00ee\1\u00e6\2\54\2\uffff"+
+        "\5\54\1\u00f6\1\uffff\1\u00f7\3\54\1\u00fb\2\54\1\uffff\1\u00fe"+
+        "\1\uffff\1\54\3\uffff\1\54\1\u0101\1\u0102\1\uffff\5\54\1\u0108"+
+        "\1\u0109\2\uffff\1\u010a\1\u010b\1\u010c\1\uffff\1\u010d\1\54\1"+
+        "\uffff\1\54\1\u0110\2\uffff\1\u0111\2\54\1\u0114\1\54\6\uffff\1"+
+        "\u0116\1\54\2\uffff\1\u0118\1\54\1\uffff\1\54\1\uffff\1\u0118\1"+
+        "\uffff\1\u011b\1\u011c\2\uffff";
+    static final String DFA8_eofS =
+        "\u011d\uffff";
+    static final String DFA8_minS =
         "\1\11\1\75\2\uffff\1\46\3\uffff\1\53\1\uffff\1\55\1\151\1\52\1\72"+
         "\1\uffff\1\74\2\75\2\uffff\2\11\1\165\1\157\1\141\1\145\1\154\1"+
-        "\141\1\145\1\146\1\145\1\141\1\146\1\162\2\145\1\163\1\145\1\150"+
-        "\4\uffff\1\162\36\uffff\1\164\1\157\1\145\1\163\1\141\2\156\1\141"+
-        "\1\146\1\60\1\144\1\163\1\157\1\154\1\162\1\164\1\60\1\164\1\146"+
-        "\1\156\1\155\1\167\1\163\1\151\1\142\1\164\1\147\1\164\1\157\1\141"+
-        "\2\151\1\143\1\162\2\151\1\165\1\157\1\154\1\141\1\145\1\162\1\60"+
-        "\1\163\1\164\1\163\1\141\1\145\1\142\1\uffff\1\154\1\145\1\141\1"+
-        "\163\1\60\1\154\1\164\1\uffff\1\60\1\164\1\147\1\145\1\60\1\164"+
-        "\1\166\1\164\1\154\1\165\1\150\1\167\1\162\1\164\1\151\1\164\1\156"+
-        "\2\164\1\144\1\154\1\145\2\60\1\153\2\60\1\uffff\1\164\1\60\1\163"+
-        "\1\165\1\164\1\154\2\60\1\164\1\145\1\uffff\1\151\1\162\1\uffff"+
-        "\2\60\1\163\1\uffff\1\162\1\141\1\145\1\151\1\162\1\164\1\60\1\164"+
-        "\1\151\1\156\1\143\1\147\1\157\1\165\1\60\1\145\1\60\2\uffff\1\60"+
-        "\2\uffff\1\60\1\uffff\1\60\1\154\2\145\2\uffff\2\60\1\156\1\145"+
-        "\2\uffff\1\160\1\145\1\164\2\143\1\156\1\60\1\uffff\1\60\1\143\1"+
-        "\147\1\150\1\60\1\162\1\141\1\uffff\1\60\4\uffff\1\164\2\60\1\uffff"+
-        "\1\145\3\141\1\145\1\164\2\60\2\uffff\3\60\1\uffff\1\60\1\154\1"+
-        "\uffff\1\60\2\uffff\1\60\1\155\1\143\1\155\1\60\1\145\6\uffff\1"+
-        "\60\2\uffff\1\60\1\145\1\60\1\uffff\1\144\2\uffff\1\60\1\uffff\1"+
-        "\60\2\uffff";
-    static final String DFA7_maxS =
+        "\141\1\145\1\146\1\145\1\141\1\162\2\145\1\163\1\145\1\150\4\uffff"+
+        "\1\162\1\146\36\uffff\1\164\1\157\1\145\1\163\1\141\2\156\1\141"+
+        "\1\146\1\60\1\144\1\163\1\157\1\154\1\162\2\164\1\60\1\146\1\156"+
+        "\1\155\1\167\1\151\1\142\1\164\1\147\1\164\1\157\1\141\2\151\1\143"+
+        "\1\162\2\151\1\165\1\163\1\157\1\154\1\141\1\145\1\162\1\60\1\163"+
+        "\1\164\1\163\1\141\1\145\1\142\1\uffff\1\154\1\145\1\141\1\163\1"+
+        "\60\1\154\1\60\1\164\1\uffff\1\164\1\147\1\145\1\60\1\166\1\164"+
+        "\1\154\1\165\1\150\1\167\1\162\1\164\1\151\1\164\1\156\2\164\1\144"+
+        "\1\154\1\145\1\164\2\60\1\153\2\60\1\uffff\1\164\1\60\1\163\1\165"+
+        "\1\164\1\154\2\60\1\164\1\145\1\uffff\1\151\1\uffff\1\162\2\60\1"+
+        "\163\1\uffff\1\141\1\145\1\151\1\162\1\164\1\60\1\164\1\151\1\156"+
+        "\1\143\1\147\1\157\1\165\1\60\1\145\1\60\1\162\2\uffff\1\60\2\uffff"+
+        "\1\60\1\uffff\1\60\1\154\2\145\2\uffff\2\60\1\156\1\145\2\uffff"+
+        "\1\160\1\164\2\143\1\156\1\60\1\uffff\1\60\1\143\1\147\1\150\1\60"+
+        "\1\162\1\141\1\uffff\1\60\1\uffff\1\145\3\uffff\1\164\2\60\1\uffff"+
+        "\1\145\2\141\1\145\1\164\2\60\2\uffff\3\60\1\uffff\1\60\1\154\1"+
+        "\uffff\1\141\1\60\2\uffff\1\60\1\155\1\143\1\60\1\145\6\uffff\1"+
+        "\60\1\155\2\uffff\1\60\1\145\1\uffff\1\144\1\uffff\1\60\1\uffff"+
+        "\2\60\2\uffff";
+    static final String DFA8_maxS =
         "\1\176\1\75\2\uffff\1\46\3\uffff\1\75\1\uffff\1\76\1\151\1\57\1"+
         "\72\1\uffff\2\75\1\76\2\uffff\2\40\1\165\1\162\2\157\1\156\1\157"+
-        "\1\145\1\156\1\157\1\145\1\146\1\165\1\151\1\167\1\163\1\157\1\150"+
-        "\4\uffff\1\162\36\uffff\1\164\1\157\1\145\1\163\1\141\1\156\1\165"+
-        "\1\141\1\154\1\172\1\144\1\163\1\157\1\154\1\162\1\164\1\172\1\164"+
-        "\1\146\1\156\1\155\1\167\1\163\1\157\1\142\1\164\1\147\1\164\1\157"+
-        "\1\162\2\151\1\143\1\162\2\151\1\165\1\157\1\154\1\141\1\145\1\162"+
-        "\1\172\1\163\1\164\1\163\1\141\1\145\1\142\1\uffff\1\154\1\145\1"+
-        "\141\1\163\1\172\1\154\1\164\1\uffff\1\172\1\164\1\147\1\145\1\172"+
-        "\1\164\1\166\1\164\1\154\1\165\1\150\1\167\1\162\1\164\1\151\1\164"+
-        "\1\156\2\164\1\144\1\154\1\145\2\172\1\153\2\172\1\uffff\1\164\1"+
-        "\172\1\163\1\165\1\164\1\154\2\172\1\164\1\145\1\uffff\1\151\1\162"+
-        "\1\uffff\2\172\1\163\1\uffff\1\162\1\141\1\145\1\151\1\162\1\164"+
-        "\1\172\1\164\1\151\1\156\1\143\1\147\1\157\1\165\1\172\1\145\1\172"+
-        "\2\uffff\1\172\2\uffff\1\172\1\uffff\1\172\1\154\2\145\2\uffff\2"+
-        "\172\1\156\1\145\2\uffff\1\160\1\145\1\164\2\143\1\156\1\172\1\uffff"+
-        "\1\172\1\143\1\147\1\150\1\172\1\162\1\141\1\uffff\1\172\4\uffff"+
-        "\1\164\2\172\1\uffff\1\145\3\141\1\145\1\164\2\172\2\uffff\3\172"+
-        "\1\uffff\1\172\1\154\1\uffff\1\172\2\uffff\1\172\1\155\1\143\1\155"+
-        "\1\172\1\145\6\uffff\1\172\2\uffff\1\172\1\145\1\172\1\uffff\1\144"+
-        "\2\uffff\1\172\1\uffff\1\172\2\uffff";
-    static final String DFA7_acceptS =
+        "\1\145\1\156\1\157\1\145\1\165\1\151\1\167\1\163\1\157\1\150\4\uffff"+
+        "\1\162\1\146\36\uffff\1\164\1\157\1\145\1\163\1\141\1\156\1\165"+
+        "\1\141\1\154\1\172\1\144\1\163\1\157\1\154\1\162\2\164\1\172\1\146"+
+        "\1\156\1\155\1\167\1\157\1\142\1\164\1\147\1\164\1\157\1\162\2\151"+
+        "\1\143\1\162\2\151\1\165\1\163\1\157\1\154\1\141\1\145\1\162\1\172"+
+        "\1\163\1\164\1\163\1\141\1\145\1\142\1\uffff\1\154\1\145\1\141\1"+
+        "\163\1\172\1\154\1\172\1\164\1\uffff\1\164\1\147\1\145\1\172\1\166"+
+        "\1\164\1\154\1\165\1\150\1\167\1\162\1\164\1\151\1\164\1\156\2\164"+
+        "\1\144\1\154\1\145\1\164\2\172\1\153\2\172\1\uffff\1\164\1\172\1"+
+        "\163\1\165\1\164\1\154\2\172\1\164\1\145\1\uffff\1\151\1\uffff\1"+
+        "\162\2\172\1\163\1\uffff\1\141\1\145\1\151\1\162\1\164\1\172\1\164"+
+        "\1\151\1\156\1\143\1\147\1\157\1\165\1\172\1\145\1\172\1\162\2\uffff"+
+        "\1\172\2\uffff\1\172\1\uffff\1\172\1\154\2\145\2\uffff\2\172\1\156"+
+        "\1\145\2\uffff\1\160\1\164\2\143\1\156\1\172\1\uffff\1\172\1\143"+
+        "\1\147\1\150\1\172\1\162\1\141\1\uffff\1\172\1\uffff\1\145\3\uffff"+
+        "\1\164\2\172\1\uffff\1\145\2\141\1\145\1\164\2\172\2\uffff\3\172"+
+        "\1\uffff\1\172\1\154\1\uffff\1\141\1\172\2\uffff\1\172\1\155\1\143"+
+        "\1\172\1\145\6\uffff\1\172\1\155\2\uffff\1\172\1\145\1\uffff\1\144"+
+        "\1\uffff\1\172\1\uffff\2\172\2\uffff";
+    static final String DFA8_acceptS =
         "\2\uffff\1\3\1\4\1\uffff\1\7\1\10\1\11\1\uffff\1\15\4\uffff\1\27"+
-        "\3\uffff\1\40\1\41\23\uffff\1\111\1\112\1\113\1\114\1\uffff\1\122"+
-        "\1\123\1\124\1\2\1\1\1\5\1\6\1\13\1\14\1\12\1\17\1\20\1\21\1\16"+
-        "\1\23\1\22\1\125\1\24\1\26\1\25\1\31\1\32\1\30\1\34\1\33\1\36\1"+
-        "\37\1\35\1\42\1\43\61\uffff\1\56\7\uffff\1\117\33\uffff\1\51\12"+
-        "\uffff\1\121\2\uffff\1\64\3\uffff\1\70\21\uffff\1\44\1\45\1\uffff"+
-        "\1\47\1\50\1\uffff\1\53\4\uffff\1\60\1\120\4\uffff\1\65\1\66\7\uffff"+
-        "\1\77\7\uffff\1\107\1\uffff\1\115\1\46\1\52\1\116\3\uffff\1\61\10"+
-        "\uffff\1\76\1\100\3\uffff\1\104\2\uffff\1\110\1\uffff\1\55\1\57"+
-        "\6\uffff\1\74\1\75\1\101\1\102\1\103\1\105\1\uffff\1\54\1\62\3\uffff"+
-        "\1\72\1\uffff\1\106\1\63\1\uffff\1\71\1\uffff\1\67\1\73";
-    static final String DFA7_specialS =
-        "\u011e\uffff}>";
-    static final String[] DFA7_transitionS = {
+        "\3\uffff\1\40\1\41\22\uffff\1\107\1\110\1\111\1\112\2\uffff\1\121"+
+        "\1\122\1\123\1\2\1\1\1\5\1\6\1\13\1\14\1\12\1\17\1\20\1\21\1\16"+
+        "\1\23\1\22\1\124\1\24\1\26\1\25\1\31\1\32\1\30\1\34\1\33\1\36\1"+
+        "\37\1\35\1\42\1\43\61\uffff\1\56\10\uffff\1\115\32\uffff\1\51\12"+
+        "\uffff\1\117\1\uffff\1\63\4\uffff\1\67\21\uffff\1\44\1\45\1\uffff"+
+        "\1\47\1\50\1\uffff\1\53\4\uffff\1\60\1\116\4\uffff\1\64\1\65\6\uffff"+
+        "\1\75\7\uffff\1\105\1\uffff\1\113\1\uffff\1\46\1\52\1\114\3\uffff"+
+        "\1\61\7\uffff\1\74\1\76\3\uffff\1\102\2\uffff\1\106\2\uffff\1\55"+
+        "\1\57\5\uffff\1\72\1\73\1\77\1\100\1\101\1\103\2\uffff\1\54\1\62"+
+        "\2\uffff\1\70\1\uffff\1\104\1\uffff\1\120\2\uffff\1\66\1\71";
+    static final String DFA8_specialS =
+        "\u011d\uffff}>";
+    static final String[] DFA8_transitionS = {
             "\1\56\1\24\2\uffff\1\25\22\uffff\1\56\1\1\1\2\1\3\2\uffff\1"+
             "\4\1\22\1\5\1\6\1\7\1\10\1\11\1\12\1\13\1\14\12\55\1\15\1\16"+
             "\1\17\1\20\1\21\2\uffff\32\54\1\uffff\1\23\4\uffff\1\26\1\27"+
-            "\1\30\1\31\1\32\1\33\1\34\1\54\1\35\2\54\1\36\1\54\1\37\1\40"+
-            "\1\41\1\54\1\42\1\43\1\53\1\44\1\45\1\46\3\54\1\47\1\50\1\51"+
-            "\1\52",
+            "\1\30\1\31\1\32\1\33\1\34\1\54\1\35\2\54\1\36\1\54\1\37\1\53"+
+            "\1\40\1\54\1\41\1\42\1\52\1\43\1\44\1\45\3\54\1\46\1\47\1\50"+
+            "\1\51",
             "\1\57",
             "",
             "",
@@ -3061,20 +3099,20 @@ public class BankLexer extends Lexer {
             "\1\125\1\uffff\1\124",
             "\1\127\12\uffff\1\126\2\uffff\1\130",
             "\1\131",
-            "\1\132\7\uffff\1\133",
+            "\1\133\7\uffff\1\132",
             "\1\134\11\uffff\1\135",
             "\1\136\3\uffff\1\137",
-            "\1\140",
-            "\1\141\2\uffff\1\142",
-            "\1\143\3\uffff\1\144",
-            "\1\145\2\uffff\1\146\13\uffff\1\147\2\uffff\1\150",
-            "\1\151",
-            "\1\152\3\uffff\1\153\5\uffff\1\154",
+            "\1\140\2\uffff\1\141",
+            "\1\142\3\uffff\1\143",
+            "\1\144\2\uffff\1\145\13\uffff\1\146\2\uffff\1\147",
+            "\1\150",
+            "\1\151\3\uffff\1\152\5\uffff\1\153",
+            "\1\154",
+            "",
+            "",
+            "",
+            "",
             "\1\155",
-            "",
-            "",
-            "",
-            "",
             "\1\156",
             "",
             "",
@@ -3122,20 +3160,20 @@ public class BankLexer extends Lexer {
             "\1\177",
             "\1\u0080",
             "\1\u0081",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\22\54\1\u0082\7\54",
-            "\1\u0084",
+            "\1\u0082",
+            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\22\54\1\u0083\7\54",
             "\1\u0085",
             "\1\u0086",
             "\1\u0087",
             "\1\u0088",
-            "\1\u0089",
-            "\1\u008a\5\uffff\1\u008b",
+            "\1\u0089\5\uffff\1\u008a",
+            "\1\u008b",
             "\1\u008c",
             "\1\u008d",
             "\1\u008e",
             "\1\u008f",
-            "\1\u0090",
-            "\1\u0091\20\uffff\1\u0092",
+            "\1\u0090\20\uffff\1\u0091",
+            "\1\u0092",
             "\1\u0093",
             "\1\u0094",
             "\1\u0095",
@@ -3162,9 +3200,9 @@ public class BankLexer extends Lexer {
             "\1\u00a9",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "\1\u00ab",
-            "\1\u00ac",
-            "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00ad",
+            "",
             "\1\u00ae",
             "\1\u00af",
             "\1\u00b0",
@@ -3204,8 +3242,8 @@ public class BankLexer extends Lexer {
             "\1\u00d1",
             "",
             "\1\u00d2",
-            "\1\u00d3",
             "",
+            "\1\u00d3",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "\1\u00d6",
@@ -3215,18 +3253,18 @@ public class BankLexer extends Lexer {
             "\1\u00d9",
             "\1\u00da",
             "\1\u00db",
-            "\1\u00dc",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00dd",
             "\1\u00de",
             "\1\u00df",
             "\1\u00e0",
             "\1\u00e1",
             "\1\u00e2",
             "\1\u00e3",
-            "\1\u00e4",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00e6",
+            "\1\u00e5",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00e7",
             "",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
@@ -3251,19 +3289,19 @@ public class BankLexer extends Lexer {
             "\1\u00f3",
             "\1\u00f4",
             "\1\u00f5",
-            "\1\u00f6",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00f8",
             "\1\u00f9",
             "\1\u00fa",
-            "\1\u00fb",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00fc",
             "\1\u00fd",
-            "\1\u00fe",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
+            "\1\u00ff",
             "",
             "",
             "",
@@ -3276,7 +3314,6 @@ public class BankLexer extends Lexer {
             "\1\u0105",
             "\1\u0106",
             "\1\u0107",
-            "\1\u0108",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
@@ -3286,17 +3323,17 @@ public class BankLexer extends Lexer {
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u010e",
+            "",
             "\1\u010f",
-            "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "\1\u0112",
             "\1\u0113",
-            "\1\u0114",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u0116",
+            "\1\u0115",
             "",
             "",
             "",
@@ -3304,53 +3341,53 @@ public class BankLexer extends Lexer {
             "",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u0117",
             "",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "\1\u0119",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
-            "\1\u011b",
-            "",
+            "\1\u011a",
             "",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
+            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
             "",
             ""
     };
 
-    static final short[] DFA7_eot = DFA.unpackEncodedString(DFA7_eotS);
-    static final short[] DFA7_eof = DFA.unpackEncodedString(DFA7_eofS);
-    static final char[] DFA7_min = DFA.unpackEncodedStringToUnsignedChars(DFA7_minS);
-    static final char[] DFA7_max = DFA.unpackEncodedStringToUnsignedChars(DFA7_maxS);
-    static final short[] DFA7_accept = DFA.unpackEncodedString(DFA7_acceptS);
-    static final short[] DFA7_special = DFA.unpackEncodedString(DFA7_specialS);
-    static final short[][] DFA7_transition;
+    static final short[] DFA8_eot = DFA.unpackEncodedString(DFA8_eotS);
+    static final short[] DFA8_eof = DFA.unpackEncodedString(DFA8_eofS);
+    static final char[] DFA8_min = DFA.unpackEncodedStringToUnsignedChars(DFA8_minS);
+    static final char[] DFA8_max = DFA.unpackEncodedStringToUnsignedChars(DFA8_maxS);
+    static final short[] DFA8_accept = DFA.unpackEncodedString(DFA8_acceptS);
+    static final short[] DFA8_special = DFA.unpackEncodedString(DFA8_specialS);
+    static final short[][] DFA8_transition;
 
     static {
-        int numStates = DFA7_transitionS.length;
-        DFA7_transition = new short[numStates][];
+        int numStates = DFA8_transitionS.length;
+        DFA8_transition = new short[numStates][];
         for (int i=0; i<numStates; i++) {
-            DFA7_transition[i] = DFA.unpackEncodedString(DFA7_transitionS[i]);
+            DFA8_transition[i] = DFA.unpackEncodedString(DFA8_transitionS[i]);
         }
     }
 
-    class DFA7 extends DFA {
+    class DFA8 extends DFA {
 
-        public DFA7(BaseRecognizer recognizer) {
+        public DFA8(BaseRecognizer recognizer) {
             this.recognizer = recognizer;
-            this.decisionNumber = 7;
-            this.eot = DFA7_eot;
-            this.eof = DFA7_eof;
-            this.min = DFA7_min;
-            this.max = DFA7_max;
-            this.accept = DFA7_accept;
-            this.special = DFA7_special;
-            this.transition = DFA7_transition;
+            this.decisionNumber = 8;
+            this.eot = DFA8_eot;
+            this.eof = DFA8_eof;
+            this.min = DFA8_min;
+            this.max = DFA8_max;
+            this.accept = DFA8_accept;
+            this.special = DFA8_special;
+            this.transition = DFA8_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | BOOLEAN | CLASS | IF | ELSE | FOR | ID | DIGIT | WS | COMMENT );";
+            return "1:1: Tokens : ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT );";
         }
     }
  
