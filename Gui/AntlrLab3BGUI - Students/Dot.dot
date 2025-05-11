@@ -1,0 +1,43 @@
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="0 .4 .7"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="black"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
+	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label="Startgen...rithExpr"];
+  n1 [label="+"];
+  n1 [label="+"];
+  n2 [label="/"];
+  n2 [label="/"];
+  n3 [label="*"];
+  n3 [label="*"];
+  n4 [label="Factor"];
+  n4 [label="Factor"];
+  n5 [label="8"];
+  n6 [label="Factor"];
+  n6 [label="Factor"];
+  n7 [label="9"];
+  n8 [label="Factor"];
+  n8 [label="Factor"];
+  n9 [label="2"];
+  n10 [label="Factor"];
+  n10 [label="Factor"];
+  n11 [label="6"];
+  n12 [label=";"];
+
+  n0 -> n1 // "Startgen...rithExpr" -> "+"
+  n1 -> n2 // "+" -> "/"
+  n2 -> n3 // "/" -> "*"
+  n3 -> n4 // "*" -> "Factor"
+  n4 -> n5 // "Factor" -> "8"
+  n3 -> n6 // "*" -> "Factor"
+  n6 -> n7 // "Factor" -> "9"
+  n2 -> n8 // "/" -> "Factor"
+  n8 -> n9 // "Factor" -> "2"
+  n1 -> n10 // "+" -> "Factor"
+  n10 -> n11 // "Factor" -> "6"
+  n0 -> n12 // "Startgen...rithExpr" -> ";"
+
+}
