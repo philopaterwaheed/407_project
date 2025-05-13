@@ -1,4 +1,4 @@
-// $ANTLR 3.4 E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g 2025-05-11 16:50:09
+// $ANTLR 3.4 /home/philosan/Dev/antlr/407_project/Bank.g 2025-05-14 02:08:14
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -146,15 +146,15 @@ public class BankLexer extends Lexer {
     public BankLexer(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g"; }
+    public String getGrammarFileName() { return "/home/philosan/Dev/antlr/407_project/Bank.g"; }
 
     // $ANTLR start "T__54"
     public final void mT__54() throws RecognitionException {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:2:7: ( '!' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:2:9: '!'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:2:7: ( '!' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:2:9: '!'
             {
             match('!'); 
 
@@ -174,8 +174,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:3:7: ( '!=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:3:9: '!='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:3:7: ( '!=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:3:9: '!='
             {
             match("!="); 
 
@@ -197,8 +197,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:4:7: ( '\"' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:4:9: '\"'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:4:7: ( '\"' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:4:9: '\"'
             {
             match('\"'); 
 
@@ -218,8 +218,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:5:7: ( '#include' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:5:9: '#include'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:5:7: ( '#include' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:5:9: '#include'
             {
             match("#include"); 
 
@@ -241,8 +241,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:6:7: ( '&&' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:6:9: '&&'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:6:7: ( '&&' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:6:9: '&&'
             {
             match("&&"); 
 
@@ -264,8 +264,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:7:7: ( '&' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:7:9: '&'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:7:7: ( '&' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:7:9: '&'
             {
             match('&'); 
 
@@ -285,8 +285,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:8:7: ( '(' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:8:9: '('
+            // /home/philosan/Dev/antlr/407_project/Bank.g:8:7: ( '(' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:8:9: '('
             {
             match('('); 
 
@@ -306,8 +306,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:9:7: ( ')' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:9:9: ')'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:9:7: ( ')' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:9:9: ')'
             {
             match(')'); 
 
@@ -327,8 +327,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:10:7: ( '*' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:10:9: '*'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:10:7: ( '*' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:10:9: '*'
             {
             match('*'); 
 
@@ -348,8 +348,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:11:7: ( '+' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:11:9: '+'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:11:7: ( '+' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:11:9: '+'
             {
             match('+'); 
 
@@ -369,8 +369,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:12:7: ( '++' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:12:9: '++'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:12:7: ( '++' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:12:9: '++'
             {
             match("++"); 
 
@@ -392,8 +392,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:13:7: ( '+=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:13:9: '+='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:13:7: ( '+=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:13:9: '+='
             {
             match("+="); 
 
@@ -415,8 +415,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:14:7: ( ',' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:14:9: ','
+            // /home/philosan/Dev/antlr/407_project/Bank.g:14:7: ( ',' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:14:9: ','
             {
             match(','); 
 
@@ -436,8 +436,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:15:7: ( '-' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:15:9: '-'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:15:7: ( '-' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:15:9: '-'
             {
             match('-'); 
 
@@ -457,8 +457,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:16:7: ( '--' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:16:9: '--'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:16:7: ( '--' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:16:9: '--'
             {
             match("--"); 
 
@@ -480,8 +480,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:17:7: ( '-=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:17:9: '-='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:17:7: ( '-=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:17:9: '-='
             {
             match("-="); 
 
@@ -503,8 +503,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:18:7: ( '->' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:18:9: '->'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:18:7: ( '->' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:18:9: '->'
             {
             match("->"); 
 
@@ -526,8 +526,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:19:7: ( '.' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:19:9: '.'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:19:7: ( '.' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:19:9: '.'
             {
             match('.'); 
 
@@ -547,8 +547,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:20:7: ( '.ignore' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:20:9: '.ignore'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:20:7: ( '.ignore' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:20:9: '.ignore'
             {
             match(".ignore"); 
 
@@ -570,8 +570,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:21:7: ( '/' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:21:9: '/'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:21:7: ( '/' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:21:9: '/'
             {
             match('/'); 
 
@@ -591,8 +591,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:22:7: ( ':' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:22:9: ':'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:22:7: ( ':' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:22:9: ':'
             {
             match(':'); 
 
@@ -612,8 +612,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:23:7: ( '::' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:23:9: '::'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:23:7: ( '::' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:23:9: '::'
             {
             match("::"); 
 
@@ -635,8 +635,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:24:7: ( ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:24:9: ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:24:7: ( ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:24:9: ';'
             {
             match(';'); 
 
@@ -656,8 +656,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:25:7: ( '<' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:25:9: '<'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:25:7: ( '<' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:25:9: '<'
             {
             match('<'); 
 
@@ -677,8 +677,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:26:7: ( '<<' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:26:9: '<<'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:26:7: ( '<<' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:26:9: '<<'
             {
             match("<<"); 
 
@@ -700,8 +700,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:27:7: ( '<=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:27:9: '<='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:27:7: ( '<=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:27:9: '<='
             {
             match("<="); 
 
@@ -723,8 +723,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:28:7: ( '=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:28:9: '='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:28:7: ( '=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:28:9: '='
             {
             match('='); 
 
@@ -744,8 +744,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:29:7: ( '==' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:29:9: '=='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:29:7: ( '==' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:29:9: '=='
             {
             match("=="); 
 
@@ -767,8 +767,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:30:7: ( '>' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:30:9: '>'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:30:7: ( '>' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:30:9: '>'
             {
             match('>'); 
 
@@ -788,8 +788,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:31:7: ( '>=' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:31:9: '>='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:31:7: ( '>=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:31:9: '>='
             {
             match(">="); 
 
@@ -811,8 +811,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:32:7: ( '>>' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:32:9: '>>'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:32:7: ( '>>' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:32:9: '>>'
             {
             match(">>"); 
 
@@ -834,8 +834,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:33:7: ( '\\'' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:33:9: '\\''
+            // /home/philosan/Dev/antlr/407_project/Bank.g:33:7: ( '\\'' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:33:9: '\\''
             {
             match('\''); 
 
@@ -855,8 +855,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:34:7: ( '\\\\' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:34:9: '\\\\'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:34:7: ( '\\\\' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:34:9: '\\\\'
             {
             match('\\'); 
 
@@ -876,8 +876,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:35:7: ( '\\n' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:35:9: '\\n'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:35:7: ( '\\n' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:35:9: '\\n'
             {
             match('\n'); 
 
@@ -897,8 +897,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:36:7: ( '\\r' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:36:9: '\\r'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:36:7: ( '\\r' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:36:9: '\\r'
             {
             match('\r'); 
 
@@ -918,8 +918,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:37:7: ( 'auto' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:37:9: 'auto'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:37:7: ( 'auto' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:37:9: 'auto'
             {
             match("auto"); 
 
@@ -941,8 +941,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:38:7: ( 'bool' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:38:9: 'bool'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:38:7: ( 'bool' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:38:9: 'bool'
             {
             match("bool"); 
 
@@ -964,8 +964,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:39:7: ( 'break' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:39:9: 'break'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:39:7: ( 'break' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:39:9: 'break'
             {
             match("break"); 
 
@@ -987,8 +987,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:40:7: ( 'case' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:40:9: 'case'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:40:7: ( 'case' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:40:9: 'case'
             {
             match("case"); 
 
@@ -1010,8 +1010,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:41:7: ( 'char' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:41:9: 'char'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:41:7: ( 'char' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:41:9: 'char'
             {
             match("char"); 
 
@@ -1033,8 +1033,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:42:7: ( 'cin' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:42:9: 'cin'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:42:7: ( 'cin' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:42:9: 'cin'
             {
             match("cin"); 
 
@@ -1056,8 +1056,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:43:7: ( 'const' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:43:9: 'const'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:43:7: ( 'const' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:43:9: 'const'
             {
             match("const"); 
 
@@ -1079,8 +1079,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:44:7: ( 'cout' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:44:9: 'cout'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:44:7: ( 'cout' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:44:9: 'cout'
             {
             match("cout"); 
 
@@ -1102,8 +1102,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:45:7: ( 'default' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:45:9: 'default'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:45:7: ( 'default' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:45:9: 'default'
             {
             match("default"); 
 
@@ -1125,8 +1125,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:46:7: ( 'delete' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:46:9: 'delete'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:46:7: ( 'delete' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:46:9: 'delete'
             {
             match("delete"); 
 
@@ -1148,8 +1148,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:47:7: ( 'do' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:47:9: 'do'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:47:7: ( 'do' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:47:9: 'do'
             {
             match("do"); 
 
@@ -1171,8 +1171,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:48:8: ( 'double' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:48:10: 'double'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:48:8: ( 'double' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:48:10: 'double'
             {
             match("double"); 
 
@@ -1194,8 +1194,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:49:8: ( 'endl' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:49:10: 'endl'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:49:8: ( 'endl' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:49:10: 'endl'
             {
             match("endl"); 
 
@@ -1217,8 +1217,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:50:8: ( 'float' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:50:10: 'float'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:50:8: ( 'float' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:50:10: 'float'
             {
             match("float"); 
 
@@ -1240,8 +1240,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:51:8: ( 'getline' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:51:10: 'getline'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:51:8: ( 'getline' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:51:10: 'getline'
             {
             match("getline"); 
 
@@ -1263,8 +1263,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:52:8: ( 'int' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:52:10: 'int'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:52:8: ( 'int' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:52:10: 'int'
             {
             match("int"); 
 
@@ -1286,8 +1286,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__105;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:53:8: ( 'left' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:53:10: 'left'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:53:8: ( 'left' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:53:10: 'left'
             {
             match("left"); 
 
@@ -1309,8 +1309,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__106;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:54:8: ( 'long' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:54:10: 'long'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:54:8: ( 'long' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:54:10: 'long'
             {
             match("long"); 
 
@@ -1332,8 +1332,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__107;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:55:8: ( 'namespace' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:55:10: 'namespace'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:55:8: ( 'namespace' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:55:10: 'namespace'
             {
             match("namespace"); 
 
@@ -1355,8 +1355,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__108;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:8: ( 'new' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:10: 'new'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:8: ( 'new' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:10: 'new'
             {
             match("new"); 
 
@@ -1378,8 +1378,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__109;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:57:8: ( 'private' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:57:10: 'private'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:57:8: ( 'private' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:57:10: 'private'
             {
             match("private"); 
 
@@ -1401,8 +1401,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__110;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:58:8: ( 'protected' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:58:10: 'protected'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:58:8: ( 'protected' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:58:10: 'protected'
             {
             match("protected"); 
 
@@ -1424,8 +1424,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__111;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:59:8: ( 'public' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:59:10: 'public'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:59:8: ( 'public' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:59:10: 'public'
             {
             match("public"); 
 
@@ -1447,8 +1447,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__112;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:60:8: ( 'return' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:60:10: 'return'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:60:8: ( 'return' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:60:10: 'return'
             {
             match("return"); 
 
@@ -1470,8 +1470,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__113;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:61:8: ( 'right' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:61:10: 'right'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:61:8: ( 'right' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:61:10: 'right'
             {
             match("right"); 
 
@@ -1493,8 +1493,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__114;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:62:8: ( 'setw' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:62:10: 'setw'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:62:8: ( 'setw' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:62:10: 'setw'
             {
             match("setw"); 
 
@@ -1516,8 +1516,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__115;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:63:8: ( 'short' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:63:10: 'short'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:63:8: ( 'short' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:63:10: 'short'
             {
             match("short"); 
 
@@ -1539,8 +1539,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__116;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:64:8: ( 'static' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:64:10: 'static'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:64:8: ( 'static' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:64:10: 'static'
             {
             match("static"); 
 
@@ -1562,8 +1562,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__117;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:65:8: ( 'string' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:65:10: 'string'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:65:8: ( 'string' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:65:10: 'string'
             {
             match("string"); 
 
@@ -1585,8 +1585,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__118;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:8: ( 'switch' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:10: 'switch'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:8: ( 'switch' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:10: 'switch'
             {
             match("switch"); 
 
@@ -1608,8 +1608,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__119;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:67:8: ( 'using' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:67:10: 'using'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:67:8: ( 'using' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:67:10: 'using'
             {
             match("using"); 
 
@@ -1631,8 +1631,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__120;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:68:8: ( 'vector' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:68:10: 'vector'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:68:8: ( 'vector' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:68:10: 'vector'
             {
             match("vector"); 
 
@@ -1654,8 +1654,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__121;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:69:8: ( 'virtual' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:69:10: 'virtual'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:69:8: ( 'virtual' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:69:10: 'virtual'
             {
             match("virtual"); 
 
@@ -1677,8 +1677,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__122;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:70:8: ( 'void' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:70:10: 'void'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:70:8: ( 'void' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:70:10: 'void'
             {
             match("void"); 
 
@@ -1700,8 +1700,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__123;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:71:8: ( 'while' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:71:10: 'while'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:71:8: ( 'while' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:71:10: 'while'
             {
             match("while"); 
 
@@ -1723,8 +1723,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__124;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:72:8: ( '{' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:72:10: '{'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:72:8: ( '{' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:72:10: '{'
             {
             match('{'); 
 
@@ -1744,8 +1744,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__125;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:73:8: ( '||' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:73:10: '||'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:73:8: ( '||' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:73:10: '||'
             {
             match("||"); 
 
@@ -1767,8 +1767,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__126;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:8: ( '}' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:10: '}'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:74:8: ( '}' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:74:10: '}'
             {
             match('}'); 
 
@@ -1788,8 +1788,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__127;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:8: ( '~' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:10: '~'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:75:8: ( '~' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:75:10: '~'
             {
             match('~'); 
 
@@ -1809,7 +1809,7 @@ public class BankLexer extends Lexer {
         try {
             int _type = BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:705:9: ( 'true' | 'false' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:705:9: ( 'true' | 'false' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -1828,7 +1828,7 @@ public class BankLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:705:11: 'true'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:705:11: 'true'
                     {
                     match("true"); 
 
@@ -1837,7 +1837,7 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:705:20: 'false'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:705:20: 'false'
                     {
                     match("false"); 
 
@@ -1861,8 +1861,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:707:7: ( 'class' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:707:9: 'class'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:707:7: ( 'class' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:707:9: 'class'
             {
             match("class"); 
 
@@ -1884,8 +1884,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:709:4: ( 'if' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:709:6: 'if'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:709:4: ( 'if' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:709:6: 'if'
             {
             match("if"); 
 
@@ -1907,8 +1907,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:711:6: ( 'else' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:711:8: 'else'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:711:6: ( 'else' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:711:8: 'else'
             {
             match("else"); 
 
@@ -1930,8 +1930,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:713:5: ( 'for' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:713:7: 'for'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:713:5: ( 'for' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:713:7: 'for'
             {
             match("for"); 
 
@@ -1953,7 +1953,7 @@ public class BankLexer extends Lexer {
         try {
             int _type = IFSTREAM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:715:10: ( 'ofstream' | 'ifstream' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:715:10: ( 'ofstream' | 'ifstream' )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -1972,7 +1972,7 @@ public class BankLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:715:12: 'ofstream'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:715:12: 'ofstream'
                     {
                     match("ofstream"); 
 
@@ -1981,7 +1981,7 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:715:25: 'ifstream'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:715:25: 'ifstream'
                     {
                     match("ifstream"); 
 
@@ -2005,8 +2005,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:717:4: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:717:6: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:717:4: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:717:6: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
             {
             if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -2018,7 +2018,7 @@ public class BankLexer extends Lexer {
             }
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:717:28: ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:717:28: ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
             loop3:
             do {
                 int alt3=2;
@@ -2031,7 +2031,7 @@ public class BankLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
             	        input.consume();
@@ -2068,8 +2068,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = DIGIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:719:7: ( '0' .. '9' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            // /home/philosan/Dev/antlr/407_project/Bank.g:719:7: ( '0' .. '9' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                 input.consume();
@@ -2097,10 +2097,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:721:4: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:721:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:721:4: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:721:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:721:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:721:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
             int cnt4=0;
             loop4:
             do {
@@ -2114,7 +2114,7 @@ public class BankLexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:
             	    {
             	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||input.LA(1)=='\r'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -2157,7 +2157,7 @@ public class BankLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:9: ( ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* ) | ( '/*' ( options {greedy=false; } : . )* '*/' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:723:9: ( ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* ) | ( '/*' ( options {greedy=false; } : . )* '*/' ) )
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -2187,16 +2187,16 @@ public class BankLexer extends Lexer {
             }
             switch (alt7) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:12: '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:12: '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
                     {
                     match("//"); 
 
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:17: (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:17: (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
                     loop5:
                     do {
                         int alt5=2;
@@ -2209,7 +2209,7 @@ public class BankLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:17: ~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' )
+                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:723:17: ~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' )
                     	    {
                     	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\b')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
                     	        input.consume();
@@ -2236,16 +2236,16 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:56: '/*' ( options {greedy=false; } : . )* '*/'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:56: '/*' ( options {greedy=false; } : . )* '*/'
                     {
                     match("/*"); 
 
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:61: ( options {greedy=false; } : . )*
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:723:61: ( options {greedy=false; } : . )*
                     loop6:
                     do {
                         int alt6=2;
@@ -2270,7 +2270,7 @@ public class BankLexer extends Lexer {
 
                         switch (alt6) {
                     	case 1 :
-                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:723:88: .
+                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:723:88: .
                     	    {
                     	    matchAny(); 
 
@@ -2306,12 +2306,12 @@ public class BankLexer extends Lexer {
     // $ANTLR end "COMMENT"
 
     public void mTokens() throws RecognitionException {
-        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:8: ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT )
+        // /home/philosan/Dev/antlr/407_project/Bank.g:1:8: ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT )
         int alt8=84;
         alt8 = dfa8.predict(input);
         switch (alt8) {
             case 1 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:10: T__54
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:10: T__54
                 {
                 mT__54(); 
 
@@ -2319,7 +2319,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 2 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:16: T__55
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:16: T__55
                 {
                 mT__55(); 
 
@@ -2327,7 +2327,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 3 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:22: T__56
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:22: T__56
                 {
                 mT__56(); 
 
@@ -2335,7 +2335,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 4 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:28: T__57
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:28: T__57
                 {
                 mT__57(); 
 
@@ -2343,7 +2343,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 5 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:34: T__58
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:34: T__58
                 {
                 mT__58(); 
 
@@ -2351,7 +2351,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 6 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:40: T__59
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:40: T__59
                 {
                 mT__59(); 
 
@@ -2359,7 +2359,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 7 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:46: T__60
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:46: T__60
                 {
                 mT__60(); 
 
@@ -2367,7 +2367,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 8 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:52: T__61
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:52: T__61
                 {
                 mT__61(); 
 
@@ -2375,7 +2375,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 9 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:58: T__62
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:58: T__62
                 {
                 mT__62(); 
 
@@ -2383,7 +2383,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 10 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:64: T__63
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:64: T__63
                 {
                 mT__63(); 
 
@@ -2391,7 +2391,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 11 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:70: T__64
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:70: T__64
                 {
                 mT__64(); 
 
@@ -2399,7 +2399,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 12 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:76: T__65
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:76: T__65
                 {
                 mT__65(); 
 
@@ -2407,7 +2407,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 13 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:82: T__66
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:82: T__66
                 {
                 mT__66(); 
 
@@ -2415,7 +2415,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 14 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:88: T__67
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:88: T__67
                 {
                 mT__67(); 
 
@@ -2423,7 +2423,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 15 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:94: T__68
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:94: T__68
                 {
                 mT__68(); 
 
@@ -2431,7 +2431,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 16 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:100: T__69
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:100: T__69
                 {
                 mT__69(); 
 
@@ -2439,7 +2439,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 17 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:106: T__70
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:106: T__70
                 {
                 mT__70(); 
 
@@ -2447,7 +2447,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 18 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:112: T__71
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:112: T__71
                 {
                 mT__71(); 
 
@@ -2455,7 +2455,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 19 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:118: T__72
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:118: T__72
                 {
                 mT__72(); 
 
@@ -2463,7 +2463,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 20 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:124: T__73
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:124: T__73
                 {
                 mT__73(); 
 
@@ -2471,7 +2471,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 21 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:130: T__74
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:130: T__74
                 {
                 mT__74(); 
 
@@ -2479,7 +2479,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 22 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:136: T__75
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:136: T__75
                 {
                 mT__75(); 
 
@@ -2487,7 +2487,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 23 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:142: T__76
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:142: T__76
                 {
                 mT__76(); 
 
@@ -2495,7 +2495,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 24 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:148: T__77
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:148: T__77
                 {
                 mT__77(); 
 
@@ -2503,7 +2503,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 25 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:154: T__78
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:154: T__78
                 {
                 mT__78(); 
 
@@ -2511,7 +2511,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 26 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:160: T__79
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:160: T__79
                 {
                 mT__79(); 
 
@@ -2519,7 +2519,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 27 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:166: T__80
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:166: T__80
                 {
                 mT__80(); 
 
@@ -2527,7 +2527,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 28 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:172: T__81
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:172: T__81
                 {
                 mT__81(); 
 
@@ -2535,7 +2535,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 29 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:178: T__82
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:178: T__82
                 {
                 mT__82(); 
 
@@ -2543,7 +2543,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 30 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:184: T__83
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:184: T__83
                 {
                 mT__83(); 
 
@@ -2551,7 +2551,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 31 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:190: T__84
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:190: T__84
                 {
                 mT__84(); 
 
@@ -2559,7 +2559,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 32 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:196: T__85
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:196: T__85
                 {
                 mT__85(); 
 
@@ -2567,7 +2567,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 33 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:202: T__86
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:202: T__86
                 {
                 mT__86(); 
 
@@ -2575,7 +2575,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 34 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:208: T__87
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:208: T__87
                 {
                 mT__87(); 
 
@@ -2583,7 +2583,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 35 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:214: T__88
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:214: T__88
                 {
                 mT__88(); 
 
@@ -2591,7 +2591,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 36 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:220: T__89
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:220: T__89
                 {
                 mT__89(); 
 
@@ -2599,7 +2599,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 37 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:226: T__90
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:226: T__90
                 {
                 mT__90(); 
 
@@ -2607,7 +2607,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 38 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:232: T__91
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:232: T__91
                 {
                 mT__91(); 
 
@@ -2615,7 +2615,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 39 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:238: T__92
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:238: T__92
                 {
                 mT__92(); 
 
@@ -2623,7 +2623,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 40 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:244: T__93
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:244: T__93
                 {
                 mT__93(); 
 
@@ -2631,7 +2631,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 41 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:250: T__94
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:250: T__94
                 {
                 mT__94(); 
 
@@ -2639,7 +2639,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 42 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:256: T__95
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:256: T__95
                 {
                 mT__95(); 
 
@@ -2647,7 +2647,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 43 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:262: T__96
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:262: T__96
                 {
                 mT__96(); 
 
@@ -2655,7 +2655,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 44 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:268: T__97
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:268: T__97
                 {
                 mT__97(); 
 
@@ -2663,7 +2663,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 45 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:274: T__98
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:274: T__98
                 {
                 mT__98(); 
 
@@ -2671,7 +2671,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 46 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:280: T__99
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:280: T__99
                 {
                 mT__99(); 
 
@@ -2679,7 +2679,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 47 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:286: T__100
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:286: T__100
                 {
                 mT__100(); 
 
@@ -2687,7 +2687,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 48 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:293: T__101
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:293: T__101
                 {
                 mT__101(); 
 
@@ -2695,7 +2695,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 49 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:300: T__102
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:300: T__102
                 {
                 mT__102(); 
 
@@ -2703,7 +2703,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 50 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:307: T__103
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:307: T__103
                 {
                 mT__103(); 
 
@@ -2711,7 +2711,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 51 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:314: T__104
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:314: T__104
                 {
                 mT__104(); 
 
@@ -2719,7 +2719,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 52 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:321: T__105
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:321: T__105
                 {
                 mT__105(); 
 
@@ -2727,7 +2727,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 53 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:328: T__106
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:328: T__106
                 {
                 mT__106(); 
 
@@ -2735,7 +2735,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 54 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:335: T__107
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:335: T__107
                 {
                 mT__107(); 
 
@@ -2743,7 +2743,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 55 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:342: T__108
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:342: T__108
                 {
                 mT__108(); 
 
@@ -2751,7 +2751,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 56 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:349: T__109
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:349: T__109
                 {
                 mT__109(); 
 
@@ -2759,7 +2759,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 57 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:356: T__110
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:356: T__110
                 {
                 mT__110(); 
 
@@ -2767,7 +2767,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 58 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:363: T__111
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:363: T__111
                 {
                 mT__111(); 
 
@@ -2775,7 +2775,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 59 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:370: T__112
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:370: T__112
                 {
                 mT__112(); 
 
@@ -2783,7 +2783,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 60 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:377: T__113
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:377: T__113
                 {
                 mT__113(); 
 
@@ -2791,7 +2791,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 61 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:384: T__114
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:384: T__114
                 {
                 mT__114(); 
 
@@ -2799,7 +2799,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 62 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:391: T__115
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:391: T__115
                 {
                 mT__115(); 
 
@@ -2807,7 +2807,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 63 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:398: T__116
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:398: T__116
                 {
                 mT__116(); 
 
@@ -2815,7 +2815,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 64 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:405: T__117
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:405: T__117
                 {
                 mT__117(); 
 
@@ -2823,7 +2823,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 65 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:412: T__118
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:412: T__118
                 {
                 mT__118(); 
 
@@ -2831,7 +2831,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 66 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:419: T__119
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:419: T__119
                 {
                 mT__119(); 
 
@@ -2839,7 +2839,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 67 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:426: T__120
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:426: T__120
                 {
                 mT__120(); 
 
@@ -2847,7 +2847,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 68 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:433: T__121
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:433: T__121
                 {
                 mT__121(); 
 
@@ -2855,7 +2855,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 69 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:440: T__122
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:440: T__122
                 {
                 mT__122(); 
 
@@ -2863,7 +2863,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 70 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:447: T__123
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:447: T__123
                 {
                 mT__123(); 
 
@@ -2871,7 +2871,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 71 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:454: T__124
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:454: T__124
                 {
                 mT__124(); 
 
@@ -2879,7 +2879,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 72 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:461: T__125
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:461: T__125
                 {
                 mT__125(); 
 
@@ -2887,7 +2887,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 73 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:468: T__126
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:468: T__126
                 {
                 mT__126(); 
 
@@ -2895,7 +2895,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 74 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:475: T__127
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:475: T__127
                 {
                 mT__127(); 
 
@@ -2903,7 +2903,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 75 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:482: BOOLEAN
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:482: BOOLEAN
                 {
                 mBOOLEAN(); 
 
@@ -2911,7 +2911,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 76 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:490: CLASS
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:490: CLASS
                 {
                 mCLASS(); 
 
@@ -2919,7 +2919,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 77 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:496: IF
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:496: IF
                 {
                 mIF(); 
 
@@ -2927,7 +2927,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 78 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:499: ELSE
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:499: ELSE
                 {
                 mELSE(); 
 
@@ -2935,7 +2935,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 79 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:504: FOR
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:504: FOR
                 {
                 mFOR(); 
 
@@ -2943,7 +2943,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 80 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:508: IFSTREAM
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:508: IFSTREAM
                 {
                 mIFSTREAM(); 
 
@@ -2951,7 +2951,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 81 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:517: ID
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:517: ID
                 {
                 mID(); 
 
@@ -2959,7 +2959,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 82 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:520: DIGIT
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:520: DIGIT
                 {
                 mDIGIT(); 
 
@@ -2967,7 +2967,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 83 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:526: WS
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:526: WS
                 {
                 mWS(); 
 
@@ -2975,7 +2975,7 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 84 :
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:1:529: COMMENT
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:529: COMMENT
                 {
                 mCOMMENT(); 
 

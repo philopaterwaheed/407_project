@@ -1,4 +1,4 @@
-// $ANTLR 3.4 E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g 2025-05-11 16:50:09
+// $ANTLR 3.4 /home/philosan/Dev/antlr/407_project/Bank.g 2025-05-14 02:08:14
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -164,7 +164,7 @@ public TreeAdaptor getTreeAdaptor() {
     return adaptor;
 }
     public String[] getTokenNames() { return BankParser.tokenNames; }
-    public String getGrammarFileName() { return "E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g"; }
+    public String getGrammarFileName() { return "/home/philosan/Dev/antlr/407_project/Bank.g"; }
 
 
         String s="";
@@ -177,7 +177,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "start"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:1: start : ( top_level ) -> ^( Start top_level ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:56:1: start : ( top_level ) -> ^( Start top_level ) ;
     public final BankParser.start_return start() throws RecognitionException {
         BankParser.start_return retval = new BankParser.start_return();
         retval.start = input.LT(1);
@@ -190,11 +190,11 @@ public TreeAdaptor getTreeAdaptor() {
 
         RewriteRuleSubtreeStream stream_top_level=new RewriteRuleSubtreeStream(adaptor,"rule top_level");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:6: ( ( top_level ) -> ^( Start top_level ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:8: ( top_level )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:6: ( ( top_level ) -> ^( Start top_level ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:8: ( top_level )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:8: ( top_level )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:9: top_level
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:8: ( top_level )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:9: top_level
             {
             pushFollow(FOLLOW_top_level_in_start328);
             top_level1=top_level();
@@ -219,7 +219,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 56:20: -> ^( Start top_level )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:56:23: ^( Start top_level )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:56:23: ^( Start top_level )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -271,7 +271,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "top_level"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:1: top_level : ( compilation_unit top_level_component ) -> ^( Top_Level compilation_unit top_level_component ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:66:1: top_level : ( compilation_unit top_level_component ) -> ^( Top_Level compilation_unit top_level_component ) ;
     public final BankParser.top_level_return top_level() throws RecognitionException {
         BankParser.top_level_return retval = new BankParser.top_level_return();
         retval.start = input.LT(1);
@@ -287,11 +287,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_compilation_unit=new RewriteRuleSubtreeStream(adaptor,"rule compilation_unit");
         RewriteRuleSubtreeStream stream_top_level_component=new RewriteRuleSubtreeStream(adaptor,"rule top_level_component");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:11: ( ( compilation_unit top_level_component ) -> ^( Top_Level compilation_unit top_level_component ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:13: ( compilation_unit top_level_component )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:11: ( ( compilation_unit top_level_component ) -> ^( Top_Level compilation_unit top_level_component ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:13: ( compilation_unit top_level_component )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:13: ( compilation_unit top_level_component )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:14: compilation_unit top_level_component
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:13: ( compilation_unit top_level_component )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:14: compilation_unit top_level_component
             {
             pushFollow(FOLLOW_compilation_unit_in_top_level382);
             compilation_unit2=compilation_unit();
@@ -323,7 +323,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 66:52: -> ^( Top_Level compilation_unit top_level_component )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:66:55: ^( Top_Level compilation_unit top_level_component )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:66:55: ^( Top_Level compilation_unit top_level_component )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -376,7 +376,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "top_level_component"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:73:1: top_level_component : ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+ ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:73:1: top_level_component : ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+ ;
     public final BankParser.top_level_component_return top_level_component() throws RecognitionException {
         BankParser.top_level_component_return retval = new BankParser.top_level_component_return();
         retval.start = input.LT(1);
@@ -395,10 +395,10 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_declaration=new RewriteRuleSubtreeStream(adaptor,"rule declaration");
         RewriteRuleSubtreeStream stream_function_definition=new RewriteRuleSubtreeStream(adaptor,"rule function_definition");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:2: ( ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+ )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:4: ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:74:2: ( ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+ )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:74:4: ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:4: ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:74:4: ( function_definition -> ^( Top_Level_Component function_definition ) | class_definition -> ^( Top_Level_Component class_definition ) | declaration -> ^( Top_Level_Component declaration ) )+
             int cnt1=0;
             loop1:
             do {
@@ -406,7 +406,7 @@ public TreeAdaptor getTreeAdaptor() {
                 alt1 = dfa1.predict(input);
                 switch (alt1) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:6: function_definition
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:74:6: function_definition
             	    {
             	    pushFollow(FOLLOW_function_definition_in_top_level_component431);
             	    function_definition4=function_definition();
@@ -428,7 +428,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (Object)adaptor.nil();
             	    // 74:26: -> ^( Top_Level_Component function_definition )
             	    {
-            	        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:74:29: ^( Top_Level_Component function_definition )
+            	        // /home/philosan/Dev/antlr/407_project/Bank.g:74:29: ^( Top_Level_Component function_definition )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot(
@@ -448,7 +448,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 2 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:4: class_definition
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:75:4: class_definition
             	    {
             	    pushFollow(FOLLOW_class_definition_in_top_level_component445);
             	    class_definition5=class_definition();
@@ -470,7 +470,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (Object)adaptor.nil();
             	    // 75:21: -> ^( Top_Level_Component class_definition )
             	    {
-            	        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:75:24: ^( Top_Level_Component class_definition )
+            	        // /home/philosan/Dev/antlr/407_project/Bank.g:75:24: ^( Top_Level_Component class_definition )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot(
@@ -490,7 +490,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 3 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:76:4: declaration
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:76:4: declaration
             	    {
             	    pushFollow(FOLLOW_declaration_in_top_level_component459);
             	    declaration6=declaration();
@@ -512,7 +512,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (Object)adaptor.nil();
             	    // 76:16: -> ^( Top_Level_Component declaration )
             	    {
-            	        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:76:19: ^( Top_Level_Component declaration )
+            	        // /home/philosan/Dev/antlr/407_project/Bank.g:76:19: ^( Top_Level_Component declaration )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot(
@@ -576,7 +576,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "compilation_unit"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:87:1: compilation_unit : ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:87:1: compilation_unit : ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )* ;
     public final BankParser.compilation_unit_return compilation_unit() throws RecognitionException {
         BankParser.compilation_unit_return retval = new BankParser.compilation_unit_return();
         retval.start = input.LT(1);
@@ -592,10 +592,10 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_include=new RewriteRuleSubtreeStream(adaptor,"rule include");
         RewriteRuleSubtreeStream stream_name_space=new RewriteRuleSubtreeStream(adaptor,"rule name_space");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:88:2: ( ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:88:4: ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:88:2: ( ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:88:4: ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )*
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:88:4: ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:88:4: ( ( include ) -> ^( Compilition_Unit include ) | ( name_space ) -> ^( Compilition_Unit name_space ) )*
             loop2:
             do {
                 int alt2=3;
@@ -611,10 +611,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt2) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:88:6: ( include )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:88:6: ( include )
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:88:6: ( include )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:88:7: include
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:88:6: ( include )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:88:7: include
             	    {
             	    pushFollow(FOLLOW_include_in_compilation_unit512);
             	    include7=include();
@@ -639,7 +639,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (Object)adaptor.nil();
             	    // 88:16: -> ^( Compilition_Unit include )
             	    {
-            	        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:88:19: ^( Compilition_Unit include )
+            	        // /home/philosan/Dev/antlr/407_project/Bank.g:88:19: ^( Compilition_Unit include )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot(
@@ -659,10 +659,10 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 2 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:89:4: ( name_space )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:89:4: ( name_space )
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:89:4: ( name_space )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:89:5: name_space
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:89:4: ( name_space )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:89:5: name_space
             	    {
             	    pushFollow(FOLLOW_name_space_in_compilation_unit528);
             	    name_space8=name_space();
@@ -687,7 +687,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    root_0 = (Object)adaptor.nil();
             	    // 89:17: -> ^( Compilition_Unit name_space )
             	    {
-            	        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:89:20: ^( Compilition_Unit name_space )
+            	        // /home/philosan/Dev/antlr/407_project/Bank.g:89:20: ^( Compilition_Unit name_space )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot(
@@ -747,7 +747,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "include"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:97:1: include : '#include' ( lib -> ^( Include lib ) | header -> ^( Include header ) ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:97:1: include : '#include' ( lib -> ^( Include lib ) | header -> ^( Include header ) ) ;
     public final BankParser.include_return include() throws RecognitionException {
         BankParser.include_return retval = new BankParser.include_return();
         retval.start = input.LT(1);
@@ -766,14 +766,14 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_lib=new RewriteRuleSubtreeStream(adaptor,"rule lib");
         RewriteRuleSubtreeStream stream_header=new RewriteRuleSubtreeStream(adaptor,"rule header");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:97:9: ( '#include' ( lib -> ^( Include lib ) | header -> ^( Include header ) ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:97:11: '#include' ( lib -> ^( Include lib ) | header -> ^( Include header ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:97:9: ( '#include' ( lib -> ^( Include lib ) | header -> ^( Include header ) ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:97:11: '#include' ( lib -> ^( Include lib ) | header -> ^( Include header ) )
             {
             string_literal9=(Token)match(input,57,FOLLOW_57_in_include574);  
             stream_57.add(string_literal9);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:97:22: ( lib -> ^( Include lib ) | header -> ^( Include header ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:97:22: ( lib -> ^( Include lib ) | header -> ^( Include header ) )
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -792,7 +792,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt3) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:98:4: lib
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:98:4: lib
                     {
                     pushFollow(FOLLOW_lib_in_include581);
                     lib10=lib();
@@ -814,7 +814,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 98:8: -> ^( Include lib )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:98:11: ^( Include lib )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:98:11: ^( Include lib )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -834,7 +834,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:99:4: header
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:99:4: header
                     {
                     pushFollow(FOLLOW_header_in_include595);
                     header11=header();
@@ -856,7 +856,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 99:11: -> ^( Include header )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:99:14: ^( Include header )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:99:14: ^( Include header )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -913,7 +913,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "lib"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:107:1: lib : '<' (~ ( '\\r' | '\\n' | '>' ) )* '>' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:107:1: lib : '<' (~ ( '\\r' | '\\n' | '>' ) )* '>' ;
     public final BankParser.lib_return lib() throws RecognitionException {
         BankParser.lib_return retval = new BankParser.lib_return();
         retval.start = input.LT(1);
@@ -930,8 +930,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal14_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:107:5: ( '<' (~ ( '\\r' | '\\n' | '>' ) )* '>' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:107:7: '<' (~ ( '\\r' | '\\n' | '>' ) )* '>'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:107:5: ( '<' (~ ( '\\r' | '\\n' | '>' ) )* '>' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:107:7: '<' (~ ( '\\r' | '\\n' | '>' ) )* '>'
             {
             root_0 = (Object)adaptor.nil();
 
@@ -943,7 +943,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal12_tree);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:107:11: (~ ( '\\r' | '\\n' | '>' ) )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:107:11: (~ ( '\\r' | '\\n' | '>' ) )*
             loop4:
             do {
                 int alt4=2;
@@ -956,7 +956,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt4) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:
             	    {
             	    set13=(Token)input.LT(1);
 
@@ -1023,7 +1023,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "header"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:114:1: header : '\"' (~ ( '\\r' | '\\n' | '\"' ) )* '\"' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:114:1: header : '\"' (~ ( '\\r' | '\\n' | '\"' ) )* '\"' ;
     public final BankParser.header_return header() throws RecognitionException {
         BankParser.header_return retval = new BankParser.header_return();
         retval.start = input.LT(1);
@@ -1040,8 +1040,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal17_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:114:8: ( '\"' (~ ( '\\r' | '\\n' | '\"' ) )* '\"' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:114:10: '\"' (~ ( '\\r' | '\\n' | '\"' ) )* '\"'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:114:8: ( '\"' (~ ( '\\r' | '\\n' | '\"' ) )* '\"' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:114:10: '\"' (~ ( '\\r' | '\\n' | '\"' ) )* '\"'
             {
             root_0 = (Object)adaptor.nil();
 
@@ -1053,7 +1053,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal15_tree);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:114:14: (~ ( '\\r' | '\\n' | '\"' ) )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:114:14: (~ ( '\\r' | '\\n' | '\"' ) )*
             loop5:
             do {
                 int alt5=2;
@@ -1066,7 +1066,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt5) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:
             	    {
             	    set16=(Token)input.LT(1);
 
@@ -1133,7 +1133,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "name_space"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:1: name_space : 'using' 'namespace' ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) ) ';' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:121:1: name_space : 'using' 'namespace' ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) ) ';' ;
     public final BankParser.name_space_return name_space() throws RecognitionException {
         BankParser.name_space_return retval = new BankParser.name_space_return();
         retval.start = input.LT(1);
@@ -1161,8 +1161,8 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_76=new RewriteRuleTokenStream(adaptor,"token 76");
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:12: ( 'using' 'namespace' ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) ) ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:14: 'using' 'namespace' ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) ) ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:121:12: ( 'using' 'namespace' ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) ) ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:121:14: 'using' 'namespace' ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) ) ';'
             {
             string_literal18=(Token)match(input,119,FOLLOW_119_in_name_space737);  
             stream_119.add(string_literal18);
@@ -1172,17 +1172,17 @@ public TreeAdaptor getTreeAdaptor() {
             stream_107.add(string_literal19);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:34: ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:35: ( ID ( '::' ID )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:121:34: ( ( ID ( '::' ID )* ) -> ^( NameSpace ID ( '::' ID )* ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:121:35: ( ID ( '::' ID )* )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:35: ( ID ( '::' ID )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:36: ID ( '::' ID )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:121:35: ( ID ( '::' ID )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:121:36: ID ( '::' ID )*
             {
             ID20=(Token)match(input,ID,FOLLOW_ID_in_name_space743);  
             stream_ID.add(ID20);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:39: ( '::' ID )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:121:39: ( '::' ID )*
             loop6:
             do {
                 int alt6=2;
@@ -1195,7 +1195,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt6) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:40: '::' ID
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:121:40: '::' ID
             	    {
             	    string_literal21=(Token)match(input,75,FOLLOW_75_in_name_space746);  
             	    stream_75.add(string_literal21);
@@ -1230,7 +1230,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 121:51: -> ^( NameSpace ID ( '::' ID )* )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:54: ^( NameSpace ID ( '::' ID )* )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:121:54: ^( NameSpace ID ( '::' ID )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -1241,8 +1241,8 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_ID.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:121:69: ( '::' ID )*
-                while ( stream_ID.hasNext()||stream_75.hasNext() ) {
+                // /home/philosan/Dev/antlr/407_project/Bank.g:121:69: ( '::' ID )*
+                while ( stream_75.hasNext()||stream_ID.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_75.nextNode()
                     );
@@ -1252,8 +1252,8 @@ public TreeAdaptor getTreeAdaptor() {
                     );
 
                 }
-                stream_ID.reset();
                 stream_75.reset();
+                stream_ID.reset();
 
                 adaptor.addChild(root_0, root_1);
                 }
@@ -1304,7 +1304,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "function_definition"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:1: function_definition : ( return_type ID '(' ( parameters )? ')' body ) -> ^( Function return_type ID '(' ( parameters )? ')' body ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:133:1: function_definition : ( return_type ID '(' ( parameters )? ')' body ) -> ^( Function return_type ID '(' ( parameters )? ')' body ) ;
     public final BankParser.function_definition_return function_definition() throws RecognitionException {
         BankParser.function_definition_return retval = new BankParser.function_definition_return();
         retval.start = input.LT(1);
@@ -1332,11 +1332,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_body=new RewriteRuleSubtreeStream(adaptor,"rule body");
         RewriteRuleSubtreeStream stream_parameters=new RewriteRuleSubtreeStream(adaptor,"rule parameters");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:21: ( ( return_type ID '(' ( parameters )? ')' body ) -> ^( Function return_type ID '(' ( parameters )? ')' body ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:23: ( return_type ID '(' ( parameters )? ')' body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:133:21: ( ( return_type ID '(' ( parameters )? ')' body ) -> ^( Function return_type ID '(' ( parameters )? ')' body ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:133:23: ( return_type ID '(' ( parameters )? ')' body )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:23: ( return_type ID '(' ( parameters )? ')' body )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:24: return_type ID '(' ( parameters )? ')' body
+            // /home/philosan/Dev/antlr/407_project/Bank.g:133:23: ( return_type ID '(' ( parameters )? ')' body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:133:24: return_type ID '(' ( parameters )? ')' body
             {
             pushFollow(FOLLOW_return_type_in_function_definition807);
             return_type24=return_type();
@@ -1353,7 +1353,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_60.add(char_literal26);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:43: ( parameters )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:133:43: ( parameters )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1362,7 +1362,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt7) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:43: parameters
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:133:43: parameters
                     {
                     pushFollow(FOLLOW_parameters_in_function_definition813);
                     parameters27=parameters();
@@ -1392,7 +1392,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: ID, parameters, 60, 61, return_type, body
+            // elements: parameters, 60, body, ID, 61, return_type
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -1404,7 +1404,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 133:65: -> ^( Function return_type ID '(' ( parameters )? ')' body )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:68: ^( Function return_type ID '(' ( parameters )? ')' body )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:133:68: ^( Function return_type ID '(' ( parameters )? ')' body )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -1421,7 +1421,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_60.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:133:98: ( parameters )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:133:98: ( parameters )?
                 if ( stream_parameters.hasNext() ) {
                     adaptor.addChild(root_1, stream_parameters.nextTree());
 
@@ -1476,7 +1476,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "parameters"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:140:1: parameters : parameter ( ( ',' ) ^ parameter )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:140:1: parameters : parameter ( ( ',' ) ^ parameter )* ;
     public final BankParser.parameters_return parameters() throws RecognitionException {
         BankParser.parameters_return retval = new BankParser.parameters_return();
         retval.start = input.LT(1);
@@ -1493,8 +1493,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal31_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:140:12: ( parameter ( ( ',' ) ^ parameter )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:140:14: parameter ( ( ',' ) ^ parameter )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:140:12: ( parameter ( ( ',' ) ^ parameter )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:140:14: parameter ( ( ',' ) ^ parameter )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -1506,7 +1506,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, parameter30.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:140:24: ( ( ',' ) ^ parameter )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:140:24: ( ( ',' ) ^ parameter )*
             loop8:
             do {
                 int alt8=2;
@@ -1519,10 +1519,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt8) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:140:25: ( ',' ) ^ parameter
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:140:25: ( ',' ) ^ parameter
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:140:25: ( ',' )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:140:26: ','
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:140:25: ( ',' )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:140:26: ','
             	    {
             	    char_literal31=(Token)match(input,66,FOLLOW_66_in_parameters874); 
             	    char_literal31_tree = 
@@ -1584,7 +1584,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "parameter"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:147:1: parameter : ( type ID ) -> ^( Parameter type ID ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:147:1: parameter : ( type ID ) -> ^( Parameter type ID ) ;
     public final BankParser.parameter_return parameter() throws RecognitionException {
         BankParser.parameter_return retval = new BankParser.parameter_return();
         retval.start = input.LT(1);
@@ -1600,11 +1600,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_ID=new RewriteRuleTokenStream(adaptor,"token ID");
         RewriteRuleSubtreeStream stream_type=new RewriteRuleSubtreeStream(adaptor,"rule type");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:147:11: ( ( type ID ) -> ^( Parameter type ID ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:147:13: ( type ID )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:147:11: ( ( type ID ) -> ^( Parameter type ID ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:147:13: ( type ID )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:147:13: ( type ID )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:147:14: type ID
+            // /home/philosan/Dev/antlr/407_project/Bank.g:147:13: ( type ID )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:147:14: type ID
             {
             pushFollow(FOLLOW_type_in_parameter913);
             type33=type();
@@ -1621,7 +1621,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: ID, type
+            // elements: type, ID
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -1633,7 +1633,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 147:23: -> ^( Parameter type ID )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:147:26: ^( Parameter type ID )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:147:26: ^( Parameter type ID )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -1688,7 +1688,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "body"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:159:1: body : ( ( '{' statements '}' ) -> ^( Body '{' statements '}' ) | statement -> ^( Body statement ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:159:1: body : ( ( '{' statements '}' ) -> ^( Body '{' statements '}' ) | statement -> ^( Body statement ) );
     public final BankParser.body_return body() throws RecognitionException {
         BankParser.body_return retval = new BankParser.body_return();
         retval.start = input.LT(1);
@@ -1710,7 +1710,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_statement=new RewriteRuleSubtreeStream(adaptor,"rule statement");
         RewriteRuleSubtreeStream stream_statements=new RewriteRuleSubtreeStream(adaptor,"rule statements");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:160:2: ( ( '{' statements '}' ) -> ^( Body '{' statements '}' ) | statement -> ^( Body statement ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:160:2: ( ( '{' statements '}' ) -> ^( Body '{' statements '}' ) | statement -> ^( Body statement ) )
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -1729,10 +1729,10 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt9) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:160:4: ( '{' statements '}' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:160:4: ( '{' statements '}' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:160:4: ( '{' statements '}' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:160:5: '{' statements '}'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:160:4: ( '{' statements '}' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:160:5: '{' statements '}'
                     {
                     char_literal35=(Token)match(input,124,FOLLOW_124_in_body966);  
                     stream_124.add(char_literal35);
@@ -1753,7 +1753,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: 126, 124, statements
+                    // elements: statements, 124, 126
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -1765,7 +1765,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 160:25: -> ^( Body '{' statements '}' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:160:28: ^( Body '{' statements '}' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:160:28: ^( Body '{' statements '}' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1793,7 +1793,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:161:4: statement
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:161:4: statement
                     {
                     pushFollow(FOLLOW_statement_in_body989);
                     statement38=statement();
@@ -1815,7 +1815,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 161:14: -> ^( Body statement )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:161:17: ^( Body statement )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:161:17: ^( Body statement )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1868,7 +1868,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "statements"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:1: statements : ( ( statement )* ) -> ^( Statements ( statement )* ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:168:1: statements : ( ( statement )* ) -> ^( Statements ( statement )* ) ;
     public final BankParser.statements_return statements() throws RecognitionException {
         BankParser.statements_return retval = new BankParser.statements_return();
         retval.start = input.LT(1);
@@ -1881,13 +1881,13 @@ public TreeAdaptor getTreeAdaptor() {
 
         RewriteRuleSubtreeStream stream_statement=new RewriteRuleSubtreeStream(adaptor,"rule statement");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:12: ( ( ( statement )* ) -> ^( Statements ( statement )* ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:14: ( ( statement )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:168:12: ( ( ( statement )* ) -> ^( Statements ( statement )* ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:168:14: ( ( statement )* )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:14: ( ( statement )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:15: ( statement )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:168:14: ( ( statement )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:168:15: ( statement )*
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:15: ( statement )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:168:15: ( statement )*
             loop10:
             do {
                 int alt10=2;
@@ -1900,7 +1900,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt10) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:16: statement
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:168:16: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_statements1031);
             	    statement39=statement();
@@ -1934,14 +1934,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 168:29: -> ^( Statements ( statement )* )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:32: ^( Statements ( statement )* )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:168:32: ^( Statements ( statement )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(Statements, "Statements")
                 , root_1);
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:168:45: ( statement )*
+                // /home/philosan/Dev/antlr/407_project/Bank.g:168:45: ( statement )*
                 while ( stream_statement.hasNext() ) {
                     adaptor.addChild(root_1, stream_statement.nextTree());
 
@@ -1990,7 +1990,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "statement"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:175:1: statement : ( declaration -> ^( Statement declaration ) | ( assignment ';' ) -> ^( Statement assignment ';' ) | ( member_access ';' ) -> ^( Statement member_access ';' ) | control_structure -> ^( Statement control_structure ) | return_statement -> ^( Statement return_statement ) | output -> ^( Statement output ) | input -> ^( Statement input ) | delete_statement -> ^( Statement delete_statement ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:175:1: statement : ( declaration -> ^( Statement declaration ) | ( assignment ';' ) -> ^( Statement assignment ';' ) | ( member_access ';' ) -> ^( Statement member_access ';' ) | control_structure -> ^( Statement control_structure ) | return_statement -> ^( Statement return_statement ) | output -> ^( Statement output ) | input -> ^( Statement input ) | delete_statement -> ^( Statement delete_statement ) );
     public final BankParser.statement_return statement() throws RecognitionException {
         BankParser.statement_return retval = new BankParser.statement_return();
         retval.start = input.LT(1);
@@ -2029,7 +2029,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_declaration=new RewriteRuleSubtreeStream(adaptor,"rule declaration");
         RewriteRuleSubtreeStream stream_return_statement=new RewriteRuleSubtreeStream(adaptor,"rule return_statement");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:176:5: ( declaration -> ^( Statement declaration ) | ( assignment ';' ) -> ^( Statement assignment ';' ) | ( member_access ';' ) -> ^( Statement member_access ';' ) | control_structure -> ^( Statement control_structure ) | return_statement -> ^( Statement return_statement ) | output -> ^( Statement output ) | input -> ^( Statement input ) | delete_statement -> ^( Statement delete_statement ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:176:5: ( declaration -> ^( Statement declaration ) | ( assignment ';' ) -> ^( Statement assignment ';' ) | ( member_access ';' ) -> ^( Statement member_access ';' ) | control_structure -> ^( Statement control_structure ) | return_statement -> ^( Statement return_statement ) | output -> ^( Statement output ) | input -> ^( Statement input ) | delete_statement -> ^( Statement delete_statement ) )
             int alt11=8;
             switch ( input.LA(1) ) {
             case IFSTREAM:
@@ -2130,7 +2130,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt11) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:176:7: declaration
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:176:7: declaration
                     {
                     pushFollow(FOLLOW_declaration_in_statement1081);
                     declaration40=declaration();
@@ -2152,7 +2152,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 176:19: -> ^( Statement declaration )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:176:22: ^( Statement declaration )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:176:22: ^( Statement declaration )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2172,10 +2172,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:177:7: ( assignment ';' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:177:7: ( assignment ';' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:177:7: ( assignment ';' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:177:8: assignment ';'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:177:7: ( assignment ';' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:177:8: assignment ';'
                     {
                     pushFollow(FOLLOW_assignment_in_statement1098);
                     assignment41=assignment();
@@ -2192,7 +2192,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: 76, assignment
+                    // elements: assignment, 76
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -2204,7 +2204,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 177:24: -> ^( Statement assignment ';' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:177:27: ^( Statement assignment ';' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:177:27: ^( Statement assignment ';' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2228,10 +2228,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:178:7: ( member_access ';' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:178:7: ( member_access ';' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:178:7: ( member_access ';' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:178:8: member_access ';'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:178:7: ( member_access ';' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:178:8: member_access ';'
                     {
                     pushFollow(FOLLOW_member_access_in_statement1121);
                     member_access43=member_access();
@@ -2248,7 +2248,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: 76, member_access
+                    // elements: member_access, 76
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -2260,7 +2260,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 178:27: -> ^( Statement member_access ';' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:178:30: ^( Statement member_access ';' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:178:30: ^( Statement member_access ';' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2284,7 +2284,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:179:7: control_structure
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:179:7: control_structure
                     {
                     pushFollow(FOLLOW_control_structure_in_statement1142);
                     control_structure45=control_structure();
@@ -2306,7 +2306,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 179:25: -> ^( Statement control_structure )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:179:28: ^( Statement control_structure )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:179:28: ^( Statement control_structure )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2326,7 +2326,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:180:7: return_statement
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:180:7: return_statement
                     {
                     pushFollow(FOLLOW_return_statement_in_statement1158);
                     return_statement46=return_statement();
@@ -2348,7 +2348,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 180:24: -> ^( Statement return_statement )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:180:27: ^( Statement return_statement )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:180:27: ^( Statement return_statement )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2368,7 +2368,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:181:7: output
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:181:7: output
                     {
                     pushFollow(FOLLOW_output_in_statement1174);
                     output47=output();
@@ -2390,7 +2390,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 181:14: -> ^( Statement output )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:181:17: ^( Statement output )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:181:17: ^( Statement output )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2410,7 +2410,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:182:7: input
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:182:7: input
                     {
                     pushFollow(FOLLOW_input_in_statement1190);
                     input48=input();
@@ -2432,7 +2432,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 182:13: -> ^( Statement input )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:182:16: ^( Statement input )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:182:16: ^( Statement input )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2452,7 +2452,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:183:7: delete_statement
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:183:7: delete_statement
                     {
                     pushFollow(FOLLOW_delete_statement_in_statement1206);
                     delete_statement49=delete_statement();
@@ -2474,7 +2474,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 183:24: -> ^( Statement delete_statement )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:183:27: ^( Statement delete_statement )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:183:27: ^( Statement delete_statement )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2527,7 +2527,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "assignment"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:191:1: assignment : ID ( '=' | '+=' | '-=' ) ^ expression ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:191:1: assignment : ID ( '=' | '+=' | '-=' ) ^ expression ;
     public final BankParser.assignment_return assignment() throws RecognitionException {
         BankParser.assignment_return retval = new BankParser.assignment_return();
         retval.start = input.LT(1);
@@ -2544,8 +2544,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set51_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:191:12: ( ID ( '=' | '+=' | '-=' ) ^ expression )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:191:14: ID ( '=' | '+=' | '-=' ) ^ expression
+            // /home/philosan/Dev/antlr/407_project/Bank.g:191:12: ( ID ( '=' | '+=' | '-=' ) ^ expression )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:191:14: ID ( '=' | '+=' | '-=' ) ^ expression
             {
             root_0 = (Object)adaptor.nil();
 
@@ -2615,7 +2615,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "delete_statement"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:198:1: delete_statement : ( 'delete' expression ';' ) -> ^( Delete 'delete' expression ';' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:198:1: delete_statement : ( 'delete' expression ';' ) -> ^( Delete 'delete' expression ';' ) ;
     public final BankParser.delete_statement_return delete_statement() throws RecognitionException {
         BankParser.delete_statement_return retval = new BankParser.delete_statement_return();
         retval.start = input.LT(1);
@@ -2634,11 +2634,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_98=new RewriteRuleTokenStream(adaptor,"token 98");
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:198:18: ( ( 'delete' expression ';' ) -> ^( Delete 'delete' expression ';' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:198:20: ( 'delete' expression ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:198:18: ( ( 'delete' expression ';' ) -> ^( Delete 'delete' expression ';' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:198:20: ( 'delete' expression ';' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:198:20: ( 'delete' expression ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:198:21: 'delete' expression ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:198:20: ( 'delete' expression ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:198:21: 'delete' expression ';'
             {
             string_literal53=(Token)match(input,98,FOLLOW_98_in_delete_statement1308);  
             stream_98.add(string_literal53);
@@ -2671,7 +2671,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 198:46: -> ^( Delete 'delete' expression ';' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:198:49: ^( Delete 'delete' expression ';' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:198:49: ^( Delete 'delete' expression ';' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -2730,7 +2730,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "return_statement"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:1: return_statement : ( 'return' ( expression )? ';' ) -> ^( Return 'return' ( expression )? ';' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:205:1: return_statement : ( 'return' ( expression )? ';' ) -> ^( Return 'return' ( expression )? ';' ) ;
     public final BankParser.return_statement_return return_statement() throws RecognitionException {
         BankParser.return_statement_return retval = new BankParser.return_statement_return();
         retval.start = input.LT(1);
@@ -2749,17 +2749,17 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_76=new RewriteRuleTokenStream(adaptor,"token 76");
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:18: ( ( 'return' ( expression )? ';' ) -> ^( Return 'return' ( expression )? ';' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:20: ( 'return' ( expression )? ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:205:18: ( ( 'return' ( expression )? ';' ) -> ^( Return 'return' ( expression )? ';' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:205:20: ( 'return' ( expression )? ';' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:20: ( 'return' ( expression )? ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:21: 'return' ( expression )? ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:205:20: ( 'return' ( expression )? ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:205:21: 'return' ( expression )? ';'
             {
             string_literal56=(Token)match(input,112,FOLLOW_112_in_return_statement1358);  
             stream_112.add(string_literal56);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:30: ( expression )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:205:30: ( expression )?
             int alt12=2;
             int LA12_0 = input.LA(1);
 
@@ -2768,7 +2768,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt12) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:30: expression
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:205:30: expression
                     {
                     pushFollow(FOLLOW_expression_in_return_statement1360);
                     expression57=expression();
@@ -2803,7 +2803,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 205:47: -> ^( Return 'return' ( expression )? ';' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:50: ^( Return 'return' ( expression )? ';' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:205:50: ^( Return 'return' ( expression )? ';' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -2814,7 +2814,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_112.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:205:68: ( expression )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:205:68: ( expression )?
                 if ( stream_expression.hasNext() ) {
                     adaptor.addChild(root_1, stream_expression.nextTree());
 
@@ -2867,7 +2867,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "control_structure"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:217:1: control_structure : ( if_statement -> ^( Control_Structure if_statement ) | for_loop -> ^( Control_Structure for_loop ) | while_loop -> ^( Control_Structure while_loop ) | do_while_loop -> ^( Control_Structure do_while_loop ) | switch_statement -> ^( Control_Structure switch_statement ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:217:1: control_structure : ( if_statement -> ^( Control_Structure if_statement ) | for_loop -> ^( Control_Structure for_loop ) | while_loop -> ^( Control_Structure while_loop ) | do_while_loop -> ^( Control_Structure do_while_loop ) | switch_statement -> ^( Control_Structure switch_statement ) );
     public final BankParser.control_structure_return control_structure() throws RecognitionException {
         BankParser.control_structure_return retval = new BankParser.control_structure_return();
         retval.start = input.LT(1);
@@ -2892,7 +2892,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_for_loop=new RewriteRuleSubtreeStream(adaptor,"rule for_loop");
         RewriteRuleSubtreeStream stream_switch_statement=new RewriteRuleSubtreeStream(adaptor,"rule switch_statement");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:218:2: ( if_statement -> ^( Control_Structure if_statement ) | for_loop -> ^( Control_Structure for_loop ) | while_loop -> ^( Control_Structure while_loop ) | do_while_loop -> ^( Control_Structure do_while_loop ) | switch_statement -> ^( Control_Structure switch_statement ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:218:2: ( if_statement -> ^( Control_Structure if_statement ) | for_loop -> ^( Control_Structure for_loop ) | while_loop -> ^( Control_Structure while_loop ) | do_while_loop -> ^( Control_Structure do_while_loop ) | switch_statement -> ^( Control_Structure switch_statement ) )
             int alt13=5;
             switch ( input.LA(1) ) {
             case IF:
@@ -2930,7 +2930,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt13) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:218:4: if_statement
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:218:4: if_statement
                     {
                     pushFollow(FOLLOW_if_statement_in_control_structure1415);
                     if_statement59=if_statement();
@@ -2952,7 +2952,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 218:17: -> ^( Control_Structure if_statement )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:218:20: ^( Control_Structure if_statement )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:218:20: ^( Control_Structure if_statement )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -2972,7 +2972,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:219:4: for_loop
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:219:4: for_loop
                     {
                     pushFollow(FOLLOW_for_loop_in_control_structure1429);
                     for_loop60=for_loop();
@@ -2994,7 +2994,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 219:13: -> ^( Control_Structure for_loop )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:219:16: ^( Control_Structure for_loop )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:219:16: ^( Control_Structure for_loop )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -3014,7 +3014,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:220:4: while_loop
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:220:4: while_loop
                     {
                     pushFollow(FOLLOW_while_loop_in_control_structure1443);
                     while_loop61=while_loop();
@@ -3036,7 +3036,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 220:15: -> ^( Control_Structure while_loop )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:220:18: ^( Control_Structure while_loop )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:220:18: ^( Control_Structure while_loop )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -3056,7 +3056,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:221:4: do_while_loop
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:221:4: do_while_loop
                     {
                     pushFollow(FOLLOW_do_while_loop_in_control_structure1457);
                     do_while_loop62=do_while_loop();
@@ -3078,7 +3078,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 221:18: -> ^( Control_Structure do_while_loop )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:221:21: ^( Control_Structure do_while_loop )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:221:21: ^( Control_Structure do_while_loop )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -3098,7 +3098,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:222:4: switch_statement
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:222:4: switch_statement
                     {
                     pushFollow(FOLLOW_switch_statement_in_control_structure1471);
                     switch_statement63=switch_statement();
@@ -3120,7 +3120,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 222:21: -> ^( Control_Structure switch_statement )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:222:24: ^( Control_Structure switch_statement )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:222:24: ^( Control_Structure switch_statement )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -3173,7 +3173,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "if_statement"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:1: if_statement : ( IF '(' expression ')' body ( else_statement )? ) -> ^( If IF '(' expression ')' body ( else_statement )? ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:230:1: if_statement : ( IF '(' expression ')' body ( else_statement )? ) -> ^( If IF '(' expression ')' body ( else_statement )? ) ;
     public final BankParser.if_statement_return if_statement() throws RecognitionException {
         BankParser.if_statement_return retval = new BankParser.if_statement_return();
         retval.start = input.LT(1);
@@ -3201,11 +3201,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_body=new RewriteRuleSubtreeStream(adaptor,"rule body");
         RewriteRuleSubtreeStream stream_else_statement=new RewriteRuleSubtreeStream(adaptor,"rule else_statement");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:14: ( ( IF '(' expression ')' body ( else_statement )? ) -> ^( If IF '(' expression ')' body ( else_statement )? ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:16: ( IF '(' expression ')' body ( else_statement )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:230:14: ( ( IF '(' expression ')' body ( else_statement )? ) -> ^( If IF '(' expression ')' body ( else_statement )? ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:230:16: ( IF '(' expression ')' body ( else_statement )? )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:16: ( IF '(' expression ')' body ( else_statement )? )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:17: IF '(' expression ')' body ( else_statement )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:230:16: ( IF '(' expression ')' body ( else_statement )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:230:17: IF '(' expression ')' body ( else_statement )?
             {
             IF64=(Token)match(input,IF,FOLLOW_IF_in_if_statement1514);  
             stream_IF.add(IF64);
@@ -3233,7 +3233,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             stream_body.add(body68.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:44: ( else_statement )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:230:44: ( else_statement )?
             int alt14=2;
             int LA14_0 = input.LA(1);
 
@@ -3242,7 +3242,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt14) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:44: else_statement
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:230:44: else_statement
                     {
                     pushFollow(FOLLOW_else_statement_in_if_statement1524);
                     else_statement69=else_statement();
@@ -3261,7 +3261,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 60, else_statement, IF, expression, 61, body
+            // elements: body, 60, 61, else_statement, IF, expression
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -3273,7 +3273,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 230:61: -> ^( If IF '(' expression ')' body ( else_statement )? )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:64: ^( If IF '(' expression ')' body ( else_statement )? )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:230:64: ^( If IF '(' expression ')' body ( else_statement )? )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -3296,7 +3296,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_body.nextTree());
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:230:96: ( else_statement )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:230:96: ( else_statement )?
                 if ( stream_else_statement.hasNext() ) {
                     adaptor.addChild(root_1, stream_else_statement.nextTree());
 
@@ -3345,7 +3345,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "else_statement"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:237:1: else_statement : ( ELSE body ) -> ^( Else ELSE body ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:237:1: else_statement : ( ELSE body ) -> ^( Else ELSE body ) ;
     public final BankParser.else_statement_return else_statement() throws RecognitionException {
         BankParser.else_statement_return retval = new BankParser.else_statement_return();
         retval.start = input.LT(1);
@@ -3361,11 +3361,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_ELSE=new RewriteRuleTokenStream(adaptor,"token ELSE");
         RewriteRuleSubtreeStream stream_body=new RewriteRuleSubtreeStream(adaptor,"rule body");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:237:16: ( ( ELSE body ) -> ^( Else ELSE body ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:237:18: ( ELSE body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:237:16: ( ( ELSE body ) -> ^( Else ELSE body ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:237:18: ( ELSE body )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:237:18: ( ELSE body )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:237:19: ELSE body
+            // /home/philosan/Dev/antlr/407_project/Bank.g:237:18: ( ELSE body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:237:19: ELSE body
             {
             ELSE70=(Token)match(input,ELSE,FOLLOW_ELSE_in_else_statement1578);  
             stream_ELSE.add(ELSE70);
@@ -3382,7 +3382,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: body, ELSE
+            // elements: ELSE, body
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -3394,7 +3394,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 237:30: -> ^( Else ELSE body )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:237:33: ^( Else ELSE body )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:237:33: ^( Else ELSE body )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -3449,7 +3449,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "for_loop"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:1: for_loop : ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) -> ^( For FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:244:1: for_loop : ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) -> ^( For FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) ;
     public final BankParser.for_loop_return for_loop() throws RecognitionException {
         BankParser.for_loop_return retval = new BankParser.for_loop_return();
         retval.start = input.LT(1);
@@ -3489,11 +3489,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_body=new RewriteRuleSubtreeStream(adaptor,"rule body");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:10: ( ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) -> ^( For FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:12: ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:244:10: ( ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) -> ^( For FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:244:12: ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:12: ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:13: FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body
+            // /home/philosan/Dev/antlr/407_project/Bank.g:244:12: ( FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:244:13: FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body
             {
             FOR72=(Token)match(input,FOR,FOLLOW_FOR_in_for_loop1624);  
             stream_FOR.add(FOR72);
@@ -3503,7 +3503,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_60.add(char_literal73);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:21: ( 'const' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:244:21: ( 'const' )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -3512,7 +3512,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt15) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:21: 'const'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:244:21: 'const'
                     {
                     string_literal74=(Token)match(input,95,FOLLOW_95_in_for_loop1628);  
                     stream_95.add(string_literal74);
@@ -3528,7 +3528,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_89.add(string_literal75);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:37: ( '&' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:244:37: ( '&' )?
             int alt16=2;
             int LA16_0 = input.LA(1);
 
@@ -3537,7 +3537,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt16) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:37: '&'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:244:37: '&'
                     {
                     char_literal76=(Token)match(input,59,FOLLOW_59_in_for_loop1633);  
                     stream_59.add(char_literal76);
@@ -3579,7 +3579,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 61, 95, 74, body, expression, FOR, 60, ID, 89, 59
+            // elements: 61, 60, body, 74, 89, 95, ID, expression, FOR, 59
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -3591,7 +3591,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 244:70: -> ^( For FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:73: ^( For FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:244:73: ^( For FOR '(' ( 'const' )? 'auto' ( '&' )? ID ':' expression ')' body )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -3606,7 +3606,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_60.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:87: ( 'const' )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:244:87: ( 'const' )?
                 if ( stream_95.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_95.nextNode()
@@ -3619,7 +3619,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_89.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:244:103: ( '&' )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:244:103: ( '&' )?
                 if ( stream_59.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_59.nextNode()
@@ -3686,7 +3686,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "while_loop"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:251:1: while_loop : ( 'while' '(' while_exp ')' body ) -> ^( While 'while' '(' while_exp ')' body ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:251:1: while_loop : ( 'while' '(' while_exp ')' body ) -> ^( While 'while' '(' while_exp ')' body ) ;
     public final BankParser.while_loop_return while_loop() throws RecognitionException {
         BankParser.while_loop_return retval = new BankParser.while_loop_return();
         retval.start = input.LT(1);
@@ -3711,11 +3711,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_while_exp=new RewriteRuleSubtreeStream(adaptor,"rule while_exp");
         RewriteRuleSubtreeStream stream_body=new RewriteRuleSubtreeStream(adaptor,"rule body");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:251:12: ( ( 'while' '(' while_exp ')' body ) -> ^( While 'while' '(' while_exp ')' body ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:251:14: ( 'while' '(' while_exp ')' body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:251:12: ( ( 'while' '(' while_exp ')' body ) -> ^( While 'while' '(' while_exp ')' body ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:251:14: ( 'while' '(' while_exp ')' body )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:251:14: ( 'while' '(' while_exp ')' body )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:251:15: 'while' '(' while_exp ')' body
+            // /home/philosan/Dev/antlr/407_project/Bank.g:251:14: ( 'while' '(' while_exp ')' body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:251:15: 'while' '(' while_exp ')' body
             {
             string_literal82=(Token)match(input,123,FOLLOW_123_in_while_loop1706);  
             stream_123.add(string_literal82);
@@ -3747,7 +3747,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: while_exp, 61, 123, body, 60
+            // elements: 61, body, 123, while_exp, 60
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -3759,7 +3759,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 251:47: -> ^( While 'while' '(' while_exp ')' body )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:251:50: ^( While 'while' '(' while_exp ')' body )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:251:50: ^( While 'while' '(' while_exp ')' body )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -3824,7 +3824,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "while_exp"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:258:1: while_exp : ( expression -> ^( While_EXP expression ) | file_input -> ^( While_EXP file_input ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:258:1: while_exp : ( expression -> ^( While_EXP expression ) | file_input -> ^( While_EXP file_input ) );
     public final BankParser.while_exp_return while_exp() throws RecognitionException {
         BankParser.while_exp_return retval = new BankParser.while_exp_return();
         retval.start = input.LT(1);
@@ -3840,7 +3840,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_file_input=new RewriteRuleSubtreeStream(adaptor,"rule file_input");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:259:2: ( expression -> ^( While_EXP expression ) | file_input -> ^( While_EXP file_input ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:259:2: ( expression -> ^( While_EXP expression ) | file_input -> ^( While_EXP file_input ) )
             int alt17=2;
             switch ( input.LA(1) ) {
             case BOOLEAN:
@@ -3890,7 +3890,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt17) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:259:4: expression
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:259:4: expression
                     {
                     pushFollow(FOLLOW_expression_in_while_exp1767);
                     expression87=expression();
@@ -3912,7 +3912,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 259:15: -> ^( While_EXP expression )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:259:18: ^( While_EXP expression )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:259:18: ^( While_EXP expression )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -3932,7 +3932,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:260:4: file_input
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:260:4: file_input
                     {
                     pushFollow(FOLLOW_file_input_in_while_exp1781);
                     file_input88=file_input();
@@ -3954,7 +3954,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 260:15: -> ^( While_EXP file_input )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:260:18: ^( While_EXP file_input )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:260:18: ^( While_EXP file_input )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -4007,7 +4007,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "do_while_loop"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:267:1: do_while_loop : ( 'do' body 'while' '(' expression ')' ';' ) -> ^( Do_While 'do' body 'while' '(' expression ')' ';' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:267:1: do_while_loop : ( 'do' body 'while' '(' expression ')' ';' ) -> ^( Do_While 'do' body 'while' '(' expression ')' ';' ) ;
     public final BankParser.do_while_loop_return do_while_loop() throws RecognitionException {
         BankParser.do_while_loop_return retval = new BankParser.do_while_loop_return();
         retval.start = input.LT(1);
@@ -4038,11 +4038,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_body=new RewriteRuleSubtreeStream(adaptor,"rule body");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:267:15: ( ( 'do' body 'while' '(' expression ')' ';' ) -> ^( Do_While 'do' body 'while' '(' expression ')' ';' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:267:17: ( 'do' body 'while' '(' expression ')' ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:267:15: ( ( 'do' body 'while' '(' expression ')' ';' ) -> ^( Do_While 'do' body 'while' '(' expression ')' ';' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:267:17: ( 'do' body 'while' '(' expression ')' ';' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:267:17: ( 'do' body 'while' '(' expression ')' ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:267:18: 'do' body 'while' '(' expression ')' ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:267:17: ( 'do' body 'while' '(' expression ')' ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:267:18: 'do' body 'while' '(' expression ')' ';'
             {
             string_literal89=(Token)match(input,99,FOLLOW_99_in_do_while_loop1821);  
             stream_99.add(string_literal89);
@@ -4082,7 +4082,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 123, 61, body, 99, expression, 60, 76
+            // elements: 60, 123, expression, 76, 99, 61, body
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -4094,7 +4094,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 267:60: -> ^( Do_While 'do' body 'while' '(' expression ')' ';' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:267:63: ^( Do_While 'do' body 'while' '(' expression ')' ';' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:267:63: ^( Do_While 'do' body 'while' '(' expression ')' ';' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -4167,7 +4167,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_statement"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:1: switch_statement : ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) -> ^( Switch 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:274:1: switch_statement : ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) -> ^( Switch 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) ;
     public final BankParser.switch_statement_return switch_statement() throws RecognitionException {
         BankParser.switch_statement_return retval = new BankParser.switch_statement_return();
         retval.start = input.LT(1);
@@ -4201,11 +4201,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_switch_case=new RewriteRuleSubtreeStream(adaptor,"rule switch_case");
         RewriteRuleSubtreeStream stream_default_case=new RewriteRuleSubtreeStream(adaptor,"rule default_case");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:18: ( ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) -> ^( Switch 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:20: ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:274:18: ( ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) -> ^( Switch 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:274:20: ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:20: ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:21: 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:274:20: ( 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:274:21: 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}'
             {
             string_literal96=(Token)match(input,118,FOLLOW_118_in_switch_statement1887);  
             stream_118.add(string_literal96);
@@ -4230,7 +4230,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_124.add(char_literal100);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:53: ( switch_case )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:274:53: ( switch_case )+
             int cnt18=0;
             loop18:
             do {
@@ -4244,7 +4244,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt18) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:53: switch_case
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:274:53: switch_case
             	    {
             	    pushFollow(FOLLOW_switch_case_in_switch_statement1897);
             	    switch_case101=switch_case();
@@ -4266,7 +4266,7 @@ public TreeAdaptor getTreeAdaptor() {
             } while (true);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:66: ( default_case )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:274:66: ( default_case )?
             int alt19=2;
             int LA19_0 = input.LA(1);
 
@@ -4275,7 +4275,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt19) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:66: default_case
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:274:66: default_case
                     {
                     pushFollow(FOLLOW_default_case_in_switch_statement1900);
                     default_case102=default_case();
@@ -4298,7 +4298,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: switch_case, expression, 118, 60, 61, 124, default_case, 126
+            // elements: default_case, 124, switch_case, 61, 118, 126, 60, expression
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -4310,7 +4310,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 274:85: -> ^( Switch 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:88: ^( Switch 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:274:88: ^( Switch 'switch' '(' expression ')' '{' ( switch_case )+ ( default_case )? '}' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -4344,7 +4344,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 stream_switch_case.reset();
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:274:142: ( default_case )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:274:142: ( default_case )?
                 if ( stream_default_case.hasNext() ) {
                     adaptor.addChild(root_1, stream_default_case.nextTree());
 
@@ -4397,7 +4397,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_case"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:1: switch_case : ( 'case' expression ':' statements ( break_statement )? ) -> ^( Switch_Case 'case' expression ':' statements ( break_statement )? ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:281:1: switch_case : ( 'case' expression ':' statements ( break_statement )? ) -> ^( Switch_Case 'case' expression ':' statements ( break_statement )? ) ;
     public final BankParser.switch_case_return switch_case() throws RecognitionException {
         BankParser.switch_case_return retval = new BankParser.switch_case_return();
         retval.start = input.LT(1);
@@ -4422,11 +4422,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_statements=new RewriteRuleSubtreeStream(adaptor,"rule statements");
         RewriteRuleSubtreeStream stream_break_statement=new RewriteRuleSubtreeStream(adaptor,"rule break_statement");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:13: ( ( 'case' expression ':' statements ( break_statement )? ) -> ^( Switch_Case 'case' expression ':' statements ( break_statement )? ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:15: ( 'case' expression ':' statements ( break_statement )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:281:13: ( ( 'case' expression ':' statements ( break_statement )? ) -> ^( Switch_Case 'case' expression ':' statements ( break_statement )? ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:281:15: ( 'case' expression ':' statements ( break_statement )? )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:15: ( 'case' expression ':' statements ( break_statement )? )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:16: 'case' expression ':' statements ( break_statement )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:281:15: ( 'case' expression ':' statements ( break_statement )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:281:16: 'case' expression ':' statements ( break_statement )?
             {
             string_literal104=(Token)match(input,92,FOLLOW_92_in_switch_case1961);  
             stream_92.add(string_literal104);
@@ -4450,7 +4450,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             stream_statements.add(statements107.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:49: ( break_statement )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:281:49: ( break_statement )?
             int alt20=2;
             int LA20_0 = input.LA(1);
 
@@ -4459,7 +4459,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt20) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:49: break_statement
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:281:49: break_statement
                     {
                     pushFollow(FOLLOW_break_statement_in_switch_case1969);
                     break_statement108=break_statement();
@@ -4478,7 +4478,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: break_statement, 92, expression, 74, statements
+            // elements: 92, break_statement, expression, statements, 74
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -4490,7 +4490,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 281:67: -> ^( Switch_Case 'case' expression ':' statements ( break_statement )? )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:70: ^( Switch_Case 'case' expression ':' statements ( break_statement )? )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:281:70: ^( Switch_Case 'case' expression ':' statements ( break_statement )? )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -4509,7 +4509,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_statements.nextTree());
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:281:117: ( break_statement )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:281:117: ( break_statement )?
                 if ( stream_break_statement.hasNext() ) {
                     adaptor.addChild(root_1, stream_break_statement.nextTree());
 
@@ -4558,7 +4558,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "default_case"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:288:1: default_case : ( 'default' ':' statements ) -> ^( Default_Case 'default' ':' statements ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:288:1: default_case : ( 'default' ':' statements ) -> ^( Default_Case 'default' ':' statements ) ;
     public final BankParser.default_case_return default_case() throws RecognitionException {
         BankParser.default_case_return retval = new BankParser.default_case_return();
         retval.start = input.LT(1);
@@ -4577,11 +4577,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_97=new RewriteRuleTokenStream(adaptor,"token 97");
         RewriteRuleSubtreeStream stream_statements=new RewriteRuleSubtreeStream(adaptor,"rule statements");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:288:14: ( ( 'default' ':' statements ) -> ^( Default_Case 'default' ':' statements ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:288:16: ( 'default' ':' statements )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:288:14: ( ( 'default' ':' statements ) -> ^( Default_Case 'default' ':' statements ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:288:16: ( 'default' ':' statements )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:288:16: ( 'default' ':' statements )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:288:17: 'default' ':' statements
+            // /home/philosan/Dev/antlr/407_project/Bank.g:288:16: ( 'default' ':' statements )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:288:17: 'default' ':' statements
             {
             string_literal109=(Token)match(input,97,FOLLOW_97_in_default_case2021);  
             stream_97.add(string_literal109);
@@ -4602,7 +4602,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 97, 74, statements
+            // elements: 74, statements, 97
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -4614,7 +4614,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 288:43: -> ^( Default_Case 'default' ':' statements )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:288:46: ^( Default_Case 'default' ':' statements )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:288:46: ^( Default_Case 'default' ':' statements )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -4673,7 +4673,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "break_statement"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:295:1: break_statement : ( 'break' ';' ) -> ^( Break 'break' ';' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:295:1: break_statement : ( 'break' ';' ) -> ^( Break 'break' ';' ) ;
     public final BankParser.break_statement_return break_statement() throws RecognitionException {
         BankParser.break_statement_return retval = new BankParser.break_statement_return();
         retval.start = input.LT(1);
@@ -4690,11 +4690,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_76=new RewriteRuleTokenStream(adaptor,"token 76");
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:295:17: ( ( 'break' ';' ) -> ^( Break 'break' ';' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:295:19: ( 'break' ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:295:17: ( ( 'break' ';' ) -> ^( Break 'break' ';' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:295:19: ( 'break' ';' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:295:19: ( 'break' ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:295:20: 'break' ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:295:19: ( 'break' ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:295:20: 'break' ';'
             {
             string_literal112=(Token)match(input,91,FOLLOW_91_in_break_statement2071);  
             stream_91.add(string_literal112);
@@ -4720,7 +4720,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 295:33: -> ^( Break 'break' ';' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:295:36: ^( Break 'break' ';' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:295:36: ^( Break 'break' ';' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -4777,7 +4777,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:307:1: type : ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) ) ( '*' )? ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:307:1: type : ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) ) ( '*' )? ;
     public final BankParser.type_return type() throws RecognitionException {
         BankParser.type_return retval = new BankParser.type_return();
         retval.start = input.LT(1);
@@ -4799,10 +4799,10 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_base_type=new RewriteRuleSubtreeStream(adaptor,"rule base_type");
         RewriteRuleSubtreeStream stream_vector_type=new RewriteRuleSubtreeStream(adaptor,"rule vector_type");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:307:6: ( ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) ) ( '*' )? )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:307:8: ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) ) ( '*' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:307:6: ( ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) ) ( '*' )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:307:8: ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) ) ( '*' )?
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:307:8: ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:307:8: ( base_type -> ^( Type base_type ) | vector_type -> ^( Type vector_type ) | ID -> ^( Type ID ) )
             int alt21=3;
             switch ( input.LA(1) ) {
             case 90:
@@ -4837,7 +4837,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt21) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:308:2: base_type
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:308:2: base_type
                     {
                     pushFollow(FOLLOW_base_type_in_type2124);
                     base_type114=base_type();
@@ -4859,7 +4859,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 308:12: -> ^( Type base_type )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:308:15: ^( Type base_type )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:308:15: ^( Type base_type )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -4879,7 +4879,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:309:4: vector_type
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:309:4: vector_type
                     {
                     pushFollow(FOLLOW_vector_type_in_type2138);
                     vector_type115=vector_type();
@@ -4901,7 +4901,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 309:16: -> ^( Type vector_type )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:309:19: ^( Type vector_type )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:309:19: ^( Type vector_type )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -4921,7 +4921,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:310:4: ID
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:310:4: ID
                     {
                     ID116=(Token)match(input,ID,FOLLOW_ID_in_type2152);  
                     stream_ID.add(ID116);
@@ -4940,7 +4940,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 310:7: -> ^( Type ID )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:310:10: ^( Type ID )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:310:10: ^( Type ID )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -4965,7 +4965,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:311:4: ( '*' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:311:4: ( '*' )?
             int alt22=2;
             int LA22_0 = input.LA(1);
 
@@ -4974,7 +4974,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt22) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:311:5: '*'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:311:5: '*'
                     {
                     char_literal117=(Token)match(input,62,FOLLOW_62_in_type2166);  
                     stream_62.add(char_literal117);
@@ -5020,7 +5020,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "return_type"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:318:1: return_type : ( base_type -> ^( Return_Type base_type ) | 'void' -> ^( Return_Type 'void' ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:318:1: return_type : ( base_type -> ^( Return_Type base_type ) | 'void' -> ^( Return_Type 'void' ) );
     public final BankParser.return_type_return return_type() throws RecognitionException {
         BankParser.return_type_return retval = new BankParser.return_type_return();
         retval.start = input.LT(1);
@@ -5036,7 +5036,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_122=new RewriteRuleTokenStream(adaptor,"token 122");
         RewriteRuleSubtreeStream stream_base_type=new RewriteRuleSubtreeStream(adaptor,"rule base_type");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:318:13: ( base_type -> ^( Return_Type base_type ) | 'void' -> ^( Return_Type 'void' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:318:13: ( base_type -> ^( Return_Type base_type ) | 'void' -> ^( Return_Type 'void' ) )
             int alt23=2;
             int LA23_0 = input.LA(1);
 
@@ -5055,7 +5055,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt23) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:319:4: base_type
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:319:4: base_type
                     {
                     pushFollow(FOLLOW_base_type_in_return_type2204);
                     base_type118=base_type();
@@ -5077,7 +5077,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 319:14: -> ^( Return_Type base_type )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:319:17: ^( Return_Type base_type )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:319:17: ^( Return_Type base_type )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -5097,7 +5097,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:320:4: 'void'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:320:4: 'void'
                     {
                     string_literal119=(Token)match(input,122,FOLLOW_122_in_return_type2217);  
                     stream_122.add(string_literal119);
@@ -5116,7 +5116,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 320:11: -> ^( Return_Type 'void' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:320:14: ^( Return_Type 'void' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:320:14: ^( Return_Type 'void' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -5171,7 +5171,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "base_type"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:328:1: base_type : ( 'int' | 'double' | 'string' | 'bool' | 'char' | 'long' | 'short' | 'float' );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:328:1: base_type : ( 'int' | 'double' | 'string' | 'bool' | 'char' | 'long' | 'short' | 'float' );
     public final BankParser.base_type_return base_type() throws RecognitionException {
         BankParser.base_type_return retval = new BankParser.base_type_return();
         retval.start = input.LT(1);
@@ -5184,8 +5184,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set120_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:328:11: ( 'int' | 'double' | 'string' | 'bool' | 'char' | 'long' | 'short' | 'float' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            // /home/philosan/Dev/antlr/407_project/Bank.g:328:11: ( 'int' | 'double' | 'string' | 'bool' | 'char' | 'long' | 'short' | 'float' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -5239,7 +5239,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "vector_type"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:335:1: vector_type : 'vector' '<' type '>' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:335:1: vector_type : 'vector' '<' type '>' ;
     public final BankParser.vector_type_return vector_type() throws RecognitionException {
         BankParser.vector_type_return retval = new BankParser.vector_type_return();
         retval.start = input.LT(1);
@@ -5258,8 +5258,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal124_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:335:13: ( 'vector' '<' type '>' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:335:15: 'vector' '<' type '>'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:335:13: ( 'vector' '<' type '>' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:335:15: 'vector' '<' type '>'
             {
             root_0 = (Object)adaptor.nil();
 
@@ -5326,7 +5326,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "declaration"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:347:1: declaration : ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) ) ';' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:347:1: declaration : ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) ) ';' ;
     public final BankParser.declaration_return declaration() throws RecognitionException {
         BankParser.declaration_return retval = new BankParser.declaration_return();
         retval.start = input.LT(1);
@@ -5345,10 +5345,10 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_variable_declaration=new RewriteRuleSubtreeStream(adaptor,"rule variable_declaration");
         RewriteRuleSubtreeStream stream_file_declaration=new RewriteRuleSubtreeStream(adaptor,"rule file_declaration");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:348:2: ( ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) ) ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:348:4: ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) ) ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:348:2: ( ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) ) ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:348:4: ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) ) ';'
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:348:4: ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:348:4: ( variable_declaration -> ^( Declaration variable_declaration ) | file_declaration -> ^( Declaration file_declaration ) )
             int alt24=2;
             int LA24_0 = input.LA(1);
 
@@ -5367,7 +5367,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt24) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:348:6: variable_declaration
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:348:6: variable_declaration
                     {
                     pushFollow(FOLLOW_variable_declaration_in_declaration2364);
                     variable_declaration125=variable_declaration();
@@ -5389,7 +5389,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 348:27: -> ^( Declaration variable_declaration )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:348:30: ^( Declaration variable_declaration )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:348:30: ^( Declaration variable_declaration )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -5409,7 +5409,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:349:4: file_declaration
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:349:4: file_declaration
                     {
                     pushFollow(FOLLOW_file_declaration_in_declaration2379);
                     file_declaration126=file_declaration();
@@ -5431,7 +5431,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 349:21: -> ^( Declaration file_declaration )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:349:24: ^( Declaration file_declaration )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:349:24: ^( Declaration file_declaration )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -5492,7 +5492,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variable_declaration"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:357:1: variable_declaration : type variables ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:357:1: variable_declaration : type variables ;
     public final BankParser.variable_declaration_return variable_declaration() throws RecognitionException {
         BankParser.variable_declaration_return retval = new BankParser.variable_declaration_return();
         retval.start = input.LT(1);
@@ -5507,8 +5507,8 @@ public TreeAdaptor getTreeAdaptor() {
 
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:357:22: ( type variables )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:357:24: type variables
+            // /home/philosan/Dev/antlr/407_project/Bank.g:357:22: ( type variables )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:357:24: type variables
             {
             root_0 = (Object)adaptor.nil();
 
@@ -5561,7 +5561,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variables"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:364:1: variables : declarator ( ( ',' ) ^ declarator )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:364:1: variables : declarator ( ( ',' ) ^ declarator )* ;
     public final BankParser.variables_return variables() throws RecognitionException {
         BankParser.variables_return retval = new BankParser.variables_return();
         retval.start = input.LT(1);
@@ -5578,8 +5578,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal131_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:364:11: ( declarator ( ( ',' ) ^ declarator )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:364:13: declarator ( ( ',' ) ^ declarator )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:364:11: ( declarator ( ( ',' ) ^ declarator )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:364:13: declarator ( ( ',' ) ^ declarator )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -5591,7 +5591,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, declarator130.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:364:24: ( ( ',' ) ^ declarator )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:364:24: ( ( ',' ) ^ declarator )*
             loop25:
             do {
                 int alt25=2;
@@ -5604,10 +5604,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt25) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:364:26: ( ',' ) ^ declarator
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:364:26: ( ',' ) ^ declarator
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:364:26: ( ',' )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:364:27: ','
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:364:26: ( ',' )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:364:27: ','
             	    {
             	    char_literal131=(Token)match(input,66,FOLLOW_66_in_variables2463); 
             	    char_literal131_tree = 
@@ -5669,7 +5669,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "declarator"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:371:1: declarator : qualified_id ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )? ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:371:1: declarator : qualified_id ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )? ;
     public final BankParser.declarator_return declarator() throws RecognitionException {
         BankParser.declarator_return retval = new BankParser.declarator_return();
         retval.start = input.LT(1);
@@ -5697,8 +5697,8 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_qualified_id=new RewriteRuleSubtreeStream(adaptor,"rule qualified_id");
         RewriteRuleSubtreeStream stream_arguments=new RewriteRuleSubtreeStream(adaptor,"rule arguments");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:371:12: ( qualified_id ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )? )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:371:14: qualified_id ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:371:12: ( qualified_id ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:371:14: qualified_id ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )?
             {
             pushFollow(FOLLOW_qualified_id_in_declarator2501);
             qualified_id133=qualified_id();
@@ -5707,7 +5707,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             stream_qualified_id.add(qualified_id133.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:372:2: ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:372:2: ( ( '=' expression ) -> ^( Assign '=' expression ) | ( '(' ( arguments )? ')' ) -> ^( Call '(' ( arguments )? ')' ) )?
             int alt27=3;
             int LA27_0 = input.LA(1);
 
@@ -5719,10 +5719,10 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt27) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:372:4: ( '=' expression )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:372:4: ( '=' expression )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:372:4: ( '=' expression )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:372:6: '=' expression
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:372:4: ( '=' expression )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:372:6: '=' expression
                     {
                     char_literal134=(Token)match(input,80,FOLLOW_80_in_declarator2509);  
                     stream_80.add(char_literal134);
@@ -5751,7 +5751,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 372:23: -> ^( Assign '=' expression )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:372:26: ^( Assign '=' expression )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:372:26: ^( Assign '=' expression )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -5775,16 +5775,16 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:373:4: ( '(' ( arguments )? ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:373:4: ( '(' ( arguments )? ')' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:373:4: ( '(' ( arguments )? ')' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:373:6: '(' ( arguments )? ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:373:4: ( '(' ( arguments )? ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:373:6: '(' ( arguments )? ')'
                     {
                     char_literal136=(Token)match(input,60,FOLLOW_60_in_declarator2531);  
                     stream_60.add(char_literal136);
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:373:10: ( arguments )?
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:373:10: ( arguments )?
                     int alt26=2;
                     int LA26_0 = input.LA(1);
 
@@ -5793,7 +5793,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt26) {
                         case 1 :
-                            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:373:10: arguments
+                            // /home/philosan/Dev/antlr/407_project/Bank.g:373:10: arguments
                             {
                             pushFollow(FOLLOW_arguments_in_declarator2533);
                             arguments137=arguments();
@@ -5816,7 +5816,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: 61, 60, arguments
+                    // elements: arguments, 60, 61
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -5828,7 +5828,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 373:27: -> ^( Call '(' ( arguments )? ')' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:373:30: ^( Call '(' ( arguments )? ')' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:373:30: ^( Call '(' ( arguments )? ')' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -5839,7 +5839,7 @@ public TreeAdaptor getTreeAdaptor() {
                         stream_60.nextNode()
                         );
 
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:373:41: ( arguments )?
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:373:41: ( arguments )?
                         if ( stream_arguments.hasNext() ) {
                             adaptor.addChild(root_1, stream_arguments.nextTree());
 
@@ -5898,7 +5898,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "qualified_id"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:381:1: qualified_id : ID ( '::' ID )? -> ^( Qualified ID ( '::' ID )? ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:381:1: qualified_id : ID ( '::' ID )? -> ^( Qualified ID ( '::' ID )? ) ;
     public final BankParser.qualified_id_return qualified_id() throws RecognitionException {
         BankParser.qualified_id_return retval = new BankParser.qualified_id_return();
         retval.start = input.LT(1);
@@ -5917,14 +5917,14 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_75=new RewriteRuleTokenStream(adaptor,"token 75");
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:382:5: ( ID ( '::' ID )? -> ^( Qualified ID ( '::' ID )? ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:382:7: ID ( '::' ID )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:382:5: ( ID ( '::' ID )? -> ^( Qualified ID ( '::' ID )? ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:382:7: ID ( '::' ID )?
             {
             ID139=(Token)match(input,ID,FOLLOW_ID_in_qualified_id2593);  
             stream_ID.add(ID139);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:382:10: ( '::' ID )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:382:10: ( '::' ID )?
             int alt28=2;
             int LA28_0 = input.LA(1);
 
@@ -5933,7 +5933,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt28) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:382:12: '::' ID
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:382:12: '::' ID
                     {
                     string_literal140=(Token)match(input,75,FOLLOW_75_in_qualified_id2597);  
                     stream_75.add(string_literal140);
@@ -5950,7 +5950,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 75, ID, ID
+            // elements: ID, 75, ID
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -5962,7 +5962,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 383:7: -> ^( Qualified ID ( '::' ID )? )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:383:10: ^( Qualified ID ( '::' ID )? )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:383:10: ^( Qualified ID ( '::' ID )? )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -5973,7 +5973,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_ID.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:383:25: ( '::' ID )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:383:25: ( '::' ID )?
                 if ( stream_75.hasNext()||stream_ID.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_75.nextNode()
@@ -6029,7 +6029,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "file_declaration"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:391:1: file_declaration : IFSTREAM ID '(' string_literal ')' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:391:1: file_declaration : IFSTREAM ID '(' string_literal ')' ;
     public final BankParser.file_declaration_return file_declaration() throws RecognitionException {
         BankParser.file_declaration_return retval = new BankParser.file_declaration_return();
         retval.start = input.LT(1);
@@ -6050,8 +6050,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal146_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:391:18: ( IFSTREAM ID '(' string_literal ')' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:391:20: IFSTREAM ID '(' string_literal ')'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:391:18: ( IFSTREAM ID '(' string_literal ')' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:391:20: IFSTREAM ID '(' string_literal ')'
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6125,7 +6125,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "arguments"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:398:1: arguments : expression ( ( ',' ) ^ expression )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:398:1: arguments : expression ( ( ',' ) ^ expression )* ;
     public final BankParser.arguments_return arguments() throws RecognitionException {
         BankParser.arguments_return retval = new BankParser.arguments_return();
         retval.start = input.LT(1);
@@ -6142,8 +6142,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal148_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:398:11: ( expression ( ( ',' ) ^ expression )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:398:13: expression ( ( ',' ) ^ expression )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:398:11: ( expression ( ( ',' ) ^ expression )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:398:13: expression ( ( ',' ) ^ expression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6155,7 +6155,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, expression147.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:398:24: ( ( ',' ) ^ expression )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:398:24: ( ( ',' ) ^ expression )*
             loop29:
             do {
                 int alt29=2;
@@ -6168,10 +6168,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt29) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:398:25: ( ',' ) ^ expression
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:398:25: ( ',' ) ^ expression
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:398:25: ( ',' )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:398:26: ','
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:398:25: ( ',' )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:398:26: ','
             	    {
             	    char_literal148=(Token)match(input,66,FOLLOW_66_in_arguments2710); 
             	    char_literal148_tree = 
@@ -6233,7 +6233,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_definition"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:1: class_definition : ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) -> ^( Class CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:410:1: class_definition : ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) -> ^( Class CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) ;
     public final BankParser.class_definition_return class_definition() throws RecognitionException {
         BankParser.class_definition_return retval = new BankParser.class_definition_return();
         retval.start = input.LT(1);
@@ -6269,11 +6269,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_class_visibility=new RewriteRuleSubtreeStream(adaptor,"rule class_visibility");
         RewriteRuleSubtreeStream stream_class_members=new RewriteRuleSubtreeStream(adaptor,"rule class_members");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:18: ( ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) -> ^( Class CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:20: ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:410:18: ( ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) -> ^( Class CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:410:20: ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:20: ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:21: CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:410:20: ( CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:410:21: CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';'
             {
             CLASS150=(Token)match(input,CLASS,FOLLOW_CLASS_in_class_definition2754);  
             stream_CLASS.add(CLASS150);
@@ -6283,7 +6283,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_ID.add(ID151);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:30: ( ':' class_visibility ID )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:410:30: ( ':' class_visibility ID )?
             int alt30=2;
             int LA30_0 = input.LA(1);
 
@@ -6292,7 +6292,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt30) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:31: ':' class_visibility ID
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:410:31: ':' class_visibility ID
                     {
                     char_literal152=(Token)match(input,74,FOLLOW_74_in_class_definition2759);  
                     stream_74.add(char_literal152);
@@ -6338,7 +6338,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: ID, ID, class_members, 76, CLASS, 74, 124, class_visibility, 126
+            // elements: class_visibility, ID, ID, 74, 124, 126, 76, class_members, CLASS
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -6350,7 +6350,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 410:84: -> ^( Class CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:87: ^( Class CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:410:87: ^( Class CLASS ID ( ':' class_visibility ID )? '{' class_members '}' ';' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -6365,8 +6365,8 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_ID.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:410:104: ( ':' class_visibility ID )?
-                if ( stream_ID.hasNext()||stream_74.hasNext()||stream_class_visibility.hasNext() ) {
+                // /home/philosan/Dev/antlr/407_project/Bank.g:410:104: ( ':' class_visibility ID )?
+                if ( stream_class_visibility.hasNext()||stream_ID.hasNext()||stream_74.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_74.nextNode()
                     );
@@ -6378,9 +6378,9 @@ public TreeAdaptor getTreeAdaptor() {
                     );
 
                 }
+                stream_class_visibility.reset();
                 stream_ID.reset();
                 stream_74.reset();
-                stream_class_visibility.reset();
 
                 adaptor.addChild(root_1, 
                 stream_124.nextNode()
@@ -6438,7 +6438,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_members"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:1: class_members : ( ( class_member )* ) -> ^( Class_Members ( class_member )* ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:417:1: class_members : ( ( class_member )* ) -> ^( Class_Members ( class_member )* ) ;
     public final BankParser.class_members_return class_members() throws RecognitionException {
         BankParser.class_members_return retval = new BankParser.class_members_return();
         retval.start = input.LT(1);
@@ -6451,13 +6451,13 @@ public TreeAdaptor getTreeAdaptor() {
 
         RewriteRuleSubtreeStream stream_class_member=new RewriteRuleSubtreeStream(adaptor,"rule class_member");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:15: ( ( ( class_member )* ) -> ^( Class_Members ( class_member )* ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:17: ( ( class_member )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:417:15: ( ( ( class_member )* ) -> ^( Class_Members ( class_member )* ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:417:17: ( ( class_member )* )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:17: ( ( class_member )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:18: ( class_member )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:417:17: ( ( class_member )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:417:18: ( class_member )*
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:18: ( class_member )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:417:18: ( class_member )*
             loop31:
             do {
                 int alt31=2;
@@ -6470,7 +6470,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt31) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:19: class_member
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:417:19: class_member
             	    {
             	    pushFollow(FOLLOW_class_member_in_class_members2834);
             	    class_member159=class_member();
@@ -6504,14 +6504,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 417:35: -> ^( Class_Members ( class_member )* )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:38: ^( Class_Members ( class_member )* )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:417:38: ^( Class_Members ( class_member )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(Class_Members, "Class_Members")
                 , root_1);
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:417:54: ( class_member )*
+                // /home/philosan/Dev/antlr/407_project/Bank.g:417:54: ( class_member )*
                 while ( stream_class_member.hasNext() ) {
                     adaptor.addChild(root_1, stream_class_member.nextTree());
 
@@ -6560,7 +6560,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_member"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:424:1: class_member : ( class_visibility ':' )? ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:424:1: class_member : ( class_visibility ':' )? ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) ) ;
     public final BankParser.class_member_return class_member() throws RecognitionException {
         BankParser.class_member_return retval = new BankParser.class_member_return();
         retval.start = input.LT(1);
@@ -6588,10 +6588,10 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_class_declaration=new RewriteRuleSubtreeStream(adaptor,"rule class_declaration");
         RewriteRuleSubtreeStream stream_class_function_definition=new RewriteRuleSubtreeStream(adaptor,"rule class_function_definition");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:424:14: ( ( class_visibility ':' )? ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:424:16: ( class_visibility ':' )? ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:424:14: ( ( class_visibility ':' )? ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:424:16: ( class_visibility ':' )? ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:424:16: ( class_visibility ':' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:424:16: ( class_visibility ':' )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -6600,7 +6600,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt32) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:424:17: class_visibility ':'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:424:17: class_visibility ':'
                     {
                     pushFollow(FOLLOW_class_visibility_in_class_member2881);
                     class_visibility160=class_visibility();
@@ -6619,12 +6619,12 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:425:2: ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:425:2: ( class_declaration -> ^( Class_Member class_declaration ) | constructor -> ^( Class_Member constructor ) | class_function_definition -> ^( Class_Member class_function_definition ) | destructor -> ^( Class_Member destructor ) )
             int alt33=4;
             alt33 = dfa33.predict(input);
             switch (alt33) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:425:4: class_declaration
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:425:4: class_declaration
                     {
                     pushFollow(FOLLOW_class_declaration_in_class_member2891);
                     class_declaration162=class_declaration();
@@ -6646,7 +6646,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 425:22: -> ^( Class_Member class_declaration )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:425:25: ^( Class_Member class_declaration )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:425:25: ^( Class_Member class_declaration )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6666,7 +6666,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:426:4: constructor
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:426:4: constructor
                     {
                     pushFollow(FOLLOW_constructor_in_class_member2905);
                     constructor163=constructor();
@@ -6688,7 +6688,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 426:16: -> ^( Class_Member constructor )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:426:19: ^( Class_Member constructor )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:426:19: ^( Class_Member constructor )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6708,7 +6708,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:427:4: class_function_definition
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:427:4: class_function_definition
                     {
                     pushFollow(FOLLOW_class_function_definition_in_class_member2919);
                     class_function_definition164=class_function_definition();
@@ -6730,7 +6730,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 427:30: -> ^( Class_Member class_function_definition )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:427:33: ^( Class_Member class_function_definition )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:427:33: ^( Class_Member class_function_definition )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6750,7 +6750,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:428:4: destructor
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:428:4: destructor
                     {
                     pushFollow(FOLLOW_destructor_in_class_member2933);
                     destructor165=destructor();
@@ -6772,7 +6772,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 428:15: -> ^( Class_Member destructor )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:428:18: ^( Class_Member destructor )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:428:18: ^( Class_Member destructor )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6829,7 +6829,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_declaration"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:436:1: class_declaration : ( 'static' )? declaration ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:436:1: class_declaration : ( 'static' )? declaration ;
     public final BankParser.class_declaration_return class_declaration() throws RecognitionException {
         BankParser.class_declaration_return retval = new BankParser.class_declaration_return();
         retval.start = input.LT(1);
@@ -6844,13 +6844,13 @@ public TreeAdaptor getTreeAdaptor() {
         Object string_literal166_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:436:19: ( ( 'static' )? declaration )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:436:21: ( 'static' )? declaration
+            // /home/philosan/Dev/antlr/407_project/Bank.g:436:19: ( ( 'static' )? declaration )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:436:21: ( 'static' )? declaration
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:436:21: ( 'static' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:436:21: ( 'static' )?
             int alt34=2;
             int LA34_0 = input.LA(1);
 
@@ -6859,7 +6859,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt34) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:436:21: 'static'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:436:21: 'static'
                     {
                     string_literal166=(Token)match(input,116,FOLLOW_116_in_class_declaration2976); 
                     string_literal166_tree = 
@@ -6915,7 +6915,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_visibility"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:443:1: class_visibility : ( 'public' | 'private' | 'protected' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:443:1: class_visibility : ( 'public' | 'private' | 'protected' ) ;
     public final BankParser.class_visibility_return class_visibility() throws RecognitionException {
         BankParser.class_visibility_return retval = new BankParser.class_visibility_return();
         retval.start = input.LT(1);
@@ -6928,8 +6928,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set168_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:443:18: ( ( 'public' | 'private' | 'protected' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            // /home/philosan/Dev/antlr/407_project/Bank.g:443:18: ( ( 'public' | 'private' | 'protected' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6983,7 +6983,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constructor"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:1: constructor : ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Constructor ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:450:1: constructor : ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Constructor ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) ;
     public final BankParser.constructor_return constructor() throws RecognitionException {
         BankParser.constructor_return retval = new BankParser.constructor_return();
         retval.start = input.LT(1);
@@ -7017,13 +7017,13 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_member_init_list=new RewriteRuleSubtreeStream(adaptor,"rule member_init_list");
         RewriteRuleSubtreeStream stream_parameters=new RewriteRuleSubtreeStream(adaptor,"rule parameters");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:13: ( ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Constructor ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:15: ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:450:13: ( ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Constructor ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:450:15: ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:15: ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:16: ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body
+            // /home/philosan/Dev/antlr/407_project/Bank.g:450:15: ( ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:450:16: ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:16: ( 'virtual' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:450:16: ( 'virtual' )?
             int alt35=2;
             int LA35_0 = input.LA(1);
 
@@ -7032,7 +7032,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt35) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:16: 'virtual'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:450:16: 'virtual'
                     {
                     string_literal169=(Token)match(input,121,FOLLOW_121_in_constructor3053);  
                     stream_121.add(string_literal169);
@@ -7052,7 +7052,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_60.add(char_literal171);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:34: ( parameters )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:450:34: ( parameters )?
             int alt36=2;
             int LA36_0 = input.LA(1);
 
@@ -7061,7 +7061,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt36) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:34: parameters
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:450:34: parameters
                     {
                     pushFollow(FOLLOW_parameters_in_constructor3060);
                     parameters172=parameters();
@@ -7080,7 +7080,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_61.add(char_literal173);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:50: ( ':' member_init_list )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:450:50: ( ':' member_init_list )?
             int alt37=2;
             int LA37_0 = input.LA(1);
 
@@ -7089,7 +7089,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt37) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:450:52: ':' member_init_list
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:450:52: ':' member_init_list
                     {
                     char_literal174=(Token)match(input,74,FOLLOW_74_in_constructor3067);  
                     stream_74.add(char_literal174);
@@ -7119,7 +7119,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 121, 60, ID, parameters, 74, member_init_list, class_function_body, 61
+            // elements: 61, class_function_body, 60, 74, member_init_list, ID, parameters, 121
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -7131,14 +7131,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 451:3: -> ^( Constructor ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:451:6: ^( Constructor ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:451:6: ^( Constructor ( 'virtual' )? ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(Constructor, "Constructor")
                 , root_1);
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:451:20: ( 'virtual' )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:451:20: ( 'virtual' )?
                 if ( stream_121.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_121.nextNode()
@@ -7155,7 +7155,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_60.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:451:38: ( parameters )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:451:38: ( parameters )?
                 if ( stream_parameters.hasNext() ) {
                     adaptor.addChild(root_1, stream_parameters.nextTree());
 
@@ -7166,7 +7166,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_61.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:451:54: ( ':' member_init_list )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:451:54: ( ':' member_init_list )?
                 if ( stream_74.hasNext()||stream_member_init_list.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_74.nextNode()
@@ -7222,7 +7222,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "destructor"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:1: destructor : ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Destructor ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:459:1: destructor : ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Destructor ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) ;
     public final BankParser.destructor_return destructor() throws RecognitionException {
         BankParser.destructor_return retval = new BankParser.destructor_return();
         retval.start = input.LT(1);
@@ -7259,13 +7259,13 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_member_init_list=new RewriteRuleSubtreeStream(adaptor,"rule member_init_list");
         RewriteRuleSubtreeStream stream_parameters=new RewriteRuleSubtreeStream(adaptor,"rule parameters");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:12: ( ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Destructor ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:14: ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:459:12: ( ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) -> ^( Destructor ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:459:14: ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:14: ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:15: ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body
+            // /home/philosan/Dev/antlr/407_project/Bank.g:459:14: ( ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:459:15: ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:15: ( 'virtual' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:459:15: ( 'virtual' )?
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -7274,7 +7274,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt38) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:15: 'virtual'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:459:15: 'virtual'
                     {
                     string_literal177=(Token)match(input,121,FOLLOW_121_in_destructor3143);  
                     stream_121.add(string_literal177);
@@ -7298,7 +7298,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_60.add(char_literal180);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:37: ( parameters )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:459:37: ( parameters )?
             int alt39=2;
             int LA39_0 = input.LA(1);
 
@@ -7307,7 +7307,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt39) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:37: parameters
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:459:37: parameters
                     {
                     pushFollow(FOLLOW_parameters_in_destructor3152);
                     parameters181=parameters();
@@ -7326,7 +7326,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_61.add(char_literal182);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:53: ( ':' member_init_list )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:459:53: ( ':' member_init_list )?
             int alt40=2;
             int LA40_0 = input.LA(1);
 
@@ -7335,7 +7335,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt40) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:459:55: ':' member_init_list
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:459:55: ':' member_init_list
                     {
                     char_literal183=(Token)match(input,74,FOLLOW_74_in_destructor3159);  
                     stream_74.add(char_literal183);
@@ -7365,7 +7365,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: member_init_list, 121, class_function_body, 74, 61, 60, 127, parameters, ID
+            // elements: member_init_list, class_function_body, 127, 60, 74, 121, ID, parameters, 61
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -7377,14 +7377,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 460:3: -> ^( Destructor ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:460:6: ^( Destructor ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:460:6: ^( Destructor ( 'virtual' )? '~' ID '(' ( parameters )? ')' ( ':' member_init_list )? class_function_body )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(Destructor, "Destructor")
                 , root_1);
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:460:19: ( 'virtual' )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:460:19: ( 'virtual' )?
                 if ( stream_121.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_121.nextNode()
@@ -7405,7 +7405,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_60.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:460:41: ( parameters )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:460:41: ( parameters )?
                 if ( stream_parameters.hasNext() ) {
                     adaptor.addChild(root_1, stream_parameters.nextTree());
 
@@ -7416,7 +7416,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_61.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:460:57: ( ':' member_init_list )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:460:57: ( ':' member_init_list )?
                 if ( stream_member_init_list.hasNext()||stream_74.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_74.nextNode()
@@ -7472,7 +7472,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "member_init_list"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:467:1: member_init_list : function_call ( ( ',' ) ^ function_call )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:467:1: member_init_list : function_call ( ( ',' ) ^ function_call )* ;
     public final BankParser.member_init_list_return member_init_list() throws RecognitionException {
         BankParser.member_init_list_return retval = new BankParser.member_init_list_return();
         retval.start = input.LT(1);
@@ -7489,8 +7489,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal187_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:467:18: ( function_call ( ( ',' ) ^ function_call )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:467:20: function_call ( ( ',' ) ^ function_call )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:467:18: ( function_call ( ( ',' ) ^ function_call )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:467:20: function_call ( ( ',' ) ^ function_call )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -7502,7 +7502,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, function_call186.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:467:34: ( ( ',' ) ^ function_call )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:467:34: ( ( ',' ) ^ function_call )*
             loop41:
             do {
                 int alt41=2;
@@ -7515,10 +7515,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt41) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:467:36: ( ',' ) ^ function_call
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:467:36: ( ',' ) ^ function_call
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:467:36: ( ',' )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:467:37: ','
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:467:36: ( ',' )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:467:37: ','
             	    {
             	    char_literal187=(Token)match(input,66,FOLLOW_66_in_member_init_list3241); 
             	    char_literal187_tree = 
@@ -7580,7 +7580,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_function_definition"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:1: class_function_definition : ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) -> ^( Function ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:474:1: class_function_definition : ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) -> ^( Function ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) ;
     public final BankParser.class_function_definition_return class_function_definition() throws RecognitionException {
         BankParser.class_function_definition_return retval = new BankParser.class_function_definition_return();
         retval.start = input.LT(1);
@@ -7614,13 +7614,13 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_class_function_body=new RewriteRuleSubtreeStream(adaptor,"rule class_function_body");
         RewriteRuleSubtreeStream stream_parameters=new RewriteRuleSubtreeStream(adaptor,"rule parameters");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:27: ( ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) -> ^( Function ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:29: ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:474:27: ( ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) -> ^( Function ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:474:29: ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:29: ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:30: ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body
+            // /home/philosan/Dev/antlr/407_project/Bank.g:474:29: ( ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:474:30: ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:30: ( 'virtual' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:474:30: ( 'virtual' )?
             int alt42=2;
             int LA42_0 = input.LA(1);
 
@@ -7629,7 +7629,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt42) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:30: 'virtual'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:474:30: 'virtual'
                     {
                     string_literal189=(Token)match(input,121,FOLLOW_121_in_class_function_definition3280);  
                     stream_121.add(string_literal189);
@@ -7656,7 +7656,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_60.add(char_literal192);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:60: ( parameters )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:474:60: ( parameters )?
             int alt43=2;
             int LA43_0 = input.LA(1);
 
@@ -7665,7 +7665,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt43) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:60: parameters
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:474:60: parameters
                     {
                     pushFollow(FOLLOW_parameters_in_class_function_definition3289);
                     parameters193=parameters();
@@ -7684,7 +7684,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_61.add(char_literal194);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:76: ( 'const' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:474:76: ( 'const' )?
             int alt44=2;
             int LA44_0 = input.LA(1);
 
@@ -7693,7 +7693,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt44) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:474:76: 'const'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:474:76: 'const'
                     {
                     string_literal195=(Token)match(input,95,FOLLOW_95_in_class_function_definition3294);  
                     stream_95.add(string_literal195);
@@ -7716,7 +7716,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 95, 60, 61, ID, return_type, class_function_body, 121, parameters
+            // elements: 121, parameters, 95, class_function_body, 60, return_type, ID, 61
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -7728,14 +7728,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 475:3: -> ^( Function ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:475:6: ^( Function ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:475:6: ^( Function ( 'virtual' )? return_type ID '(' ( parameters )? ')' ( 'const' )? class_function_body )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(Function, "Function")
                 , root_1);
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:475:17: ( 'virtual' )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:475:17: ( 'virtual' )?
                 if ( stream_121.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_121.nextNode()
@@ -7754,7 +7754,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_60.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:475:47: ( parameters )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:475:47: ( parameters )?
                 if ( stream_parameters.hasNext() ) {
                     adaptor.addChild(root_1, stream_parameters.nextTree());
 
@@ -7765,7 +7765,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_61.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:475:63: ( 'const' )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:475:63: ( 'const' )?
                 if ( stream_95.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_95.nextNode()
@@ -7818,7 +7818,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_function_body"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:482:1: class_function_body : ( '{' statements '}' ) -> ^( Body '{' statements '}' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:482:1: class_function_body : ( '{' statements '}' ) -> ^( Body '{' statements '}' ) ;
     public final BankParser.class_function_body_return class_function_body() throws RecognitionException {
         BankParser.class_function_body_return retval = new BankParser.class_function_body_return();
         retval.start = input.LT(1);
@@ -7837,11 +7837,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_126=new RewriteRuleTokenStream(adaptor,"token 126");
         RewriteRuleSubtreeStream stream_statements=new RewriteRuleSubtreeStream(adaptor,"rule statements");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:482:20: ( ( '{' statements '}' ) -> ^( Body '{' statements '}' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:482:22: ( '{' statements '}' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:482:20: ( ( '{' statements '}' ) -> ^( Body '{' statements '}' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:482:22: ( '{' statements '}' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:482:22: ( '{' statements '}' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:482:23: '{' statements '}'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:482:22: ( '{' statements '}' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:482:23: '{' statements '}'
             {
             char_literal197=(Token)match(input,124,FOLLOW_124_in_class_function_body3360);  
             stream_124.add(char_literal197);
@@ -7874,7 +7874,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 482:43: -> ^( Body '{' statements '}' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:482:46: ^( Body '{' statements '}' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:482:46: ^( Body '{' statements '}' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -7933,7 +7933,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "expression"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:494:1: expression : and_exp ( ( '||' ) ^ and_exp )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:494:1: expression : and_exp ( ( '||' ) ^ and_exp )* ;
     public final BankParser.expression_return expression() throws RecognitionException {
         BankParser.expression_return retval = new BankParser.expression_return();
         retval.start = input.LT(1);
@@ -7950,8 +7950,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object string_literal201_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:494:11: ( and_exp ( ( '||' ) ^ and_exp )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:494:14: and_exp ( ( '||' ) ^ and_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:494:11: ( and_exp ( ( '||' ) ^ and_exp )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:494:14: and_exp ( ( '||' ) ^ and_exp )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -7963,7 +7963,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, and_exp200.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:494:22: ( ( '||' ) ^ and_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:494:22: ( ( '||' ) ^ and_exp )*
             loop45:
             do {
                 int alt45=2;
@@ -7976,10 +7976,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt45) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:494:23: ( '||' ) ^ and_exp
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:494:23: ( '||' ) ^ and_exp
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:494:23: ( '||' )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:494:24: '||'
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:494:23: ( '||' )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:494:24: '||'
             	    {
             	    string_literal201=(Token)match(input,125,FOLLOW_125_in_expression3417); 
             	    string_literal201_tree = 
@@ -8041,7 +8041,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "and_exp"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:501:1: and_exp : equality_exp ( ( '&&' ) ^ equality_exp )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:501:1: and_exp : equality_exp ( ( '&&' ) ^ equality_exp )* ;
     public final BankParser.and_exp_return and_exp() throws RecognitionException {
         BankParser.and_exp_return retval = new BankParser.and_exp_return();
         retval.start = input.LT(1);
@@ -8058,8 +8058,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object string_literal204_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:501:9: ( equality_exp ( ( '&&' ) ^ equality_exp )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:501:11: equality_exp ( ( '&&' ) ^ equality_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:501:9: ( equality_exp ( ( '&&' ) ^ equality_exp )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:501:11: equality_exp ( ( '&&' ) ^ equality_exp )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8071,7 +8071,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, equality_exp203.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:501:24: ( ( '&&' ) ^ equality_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:501:24: ( ( '&&' ) ^ equality_exp )*
             loop46:
             do {
                 int alt46=2;
@@ -8084,10 +8084,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt46) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:501:25: ( '&&' ) ^ equality_exp
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:501:25: ( '&&' ) ^ equality_exp
             	    {
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:501:25: ( '&&' )
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:501:26: '&&'
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:501:25: ( '&&' )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:501:26: '&&'
             	    {
             	    string_literal204=(Token)match(input,58,FOLLOW_58_in_and_exp3458); 
             	    string_literal204_tree = 
@@ -8149,7 +8149,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equality_exp"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:508:1: equality_exp : relational_exp ( ( '==' | '!=' ) ^ relational_exp )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:508:1: equality_exp : relational_exp ( ( '==' | '!=' ) ^ relational_exp )* ;
     public final BankParser.equality_exp_return equality_exp() throws RecognitionException {
         BankParser.equality_exp_return retval = new BankParser.equality_exp_return();
         retval.start = input.LT(1);
@@ -8166,8 +8166,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set207_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:508:14: ( relational_exp ( ( '==' | '!=' ) ^ relational_exp )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:508:16: relational_exp ( ( '==' | '!=' ) ^ relational_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:508:14: ( relational_exp ( ( '==' | '!=' ) ^ relational_exp )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:508:16: relational_exp ( ( '==' | '!=' ) ^ relational_exp )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8179,7 +8179,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, relational_exp206.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:508:31: ( ( '==' | '!=' ) ^ relational_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:508:31: ( ( '==' | '!=' ) ^ relational_exp )*
             loop47:
             do {
                 int alt47=2;
@@ -8192,7 +8192,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt47) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:508:32: ( '==' | '!=' ) ^ relational_exp
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:508:32: ( '==' | '!=' ) ^ relational_exp
             	    {
             	    set207=(Token)input.LT(1);
 
@@ -8261,7 +8261,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "relational_exp"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:515:1: relational_exp : unary_exp ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:515:1: relational_exp : unary_exp ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )* ;
     public final BankParser.relational_exp_return relational_exp() throws RecognitionException {
         BankParser.relational_exp_return retval = new BankParser.relational_exp_return();
         retval.start = input.LT(1);
@@ -8278,8 +8278,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set210_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:515:16: ( unary_exp ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:515:18: unary_exp ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:515:16: ( unary_exp ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:515:18: unary_exp ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8291,7 +8291,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, unary_exp209.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:515:28: ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:515:28: ( ( '<' | '>' | '<=' | '>=' ) ^ unary_exp )*
             loop48:
             do {
                 int alt48=2;
@@ -8304,7 +8304,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt48) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:515:29: ( '<' | '>' | '<=' | '>=' ) ^ unary_exp
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:515:29: ( '<' | '>' | '<=' | '>=' ) ^ unary_exp
             	    {
             	    set210=(Token)input.LT(1);
 
@@ -8373,7 +8373,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unary_exp"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:522:1: unary_exp : ( arithmetic_expression -> ^( Arithmetic_Expression arithmetic_expression ) | ( '!' unary_exp ) -> ^( Not '!' unary_exp ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:522:1: unary_exp : ( arithmetic_expression -> ^( Arithmetic_Expression arithmetic_expression ) | ( '!' unary_exp ) -> ^( Not '!' unary_exp ) );
     public final BankParser.unary_exp_return unary_exp() throws RecognitionException {
         BankParser.unary_exp_return retval = new BankParser.unary_exp_return();
         retval.start = input.LT(1);
@@ -8392,7 +8392,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_arithmetic_expression=new RewriteRuleSubtreeStream(adaptor,"rule arithmetic_expression");
         RewriteRuleSubtreeStream stream_unary_exp=new RewriteRuleSubtreeStream(adaptor,"rule unary_exp");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:523:2: ( arithmetic_expression -> ^( Arithmetic_Expression arithmetic_expression ) | ( '!' unary_exp ) -> ^( Not '!' unary_exp ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:523:2: ( arithmetic_expression -> ^( Arithmetic_Expression arithmetic_expression ) | ( '!' unary_exp ) -> ^( Not '!' unary_exp ) )
             int alt49=2;
             int LA49_0 = input.LA(1);
 
@@ -8411,7 +8411,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt49) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:524:2: arithmetic_expression
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:524:2: arithmetic_expression
                     {
                     pushFollow(FOLLOW_arithmetic_expression_in_unary_exp3600);
                     arithmetic_expression212=arithmetic_expression();
@@ -8433,7 +8433,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 524:24: -> ^( Arithmetic_Expression arithmetic_expression )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:524:27: ^( Arithmetic_Expression arithmetic_expression )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:524:27: ^( Arithmetic_Expression arithmetic_expression )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -8453,10 +8453,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:525:4: ( '!' unary_exp )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:525:4: ( '!' unary_exp )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:525:4: ( '!' unary_exp )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:525:5: '!' unary_exp
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:525:4: ( '!' unary_exp )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:525:5: '!' unary_exp
                     {
                     char_literal213=(Token)match(input,54,FOLLOW_54_in_unary_exp3615);  
                     stream_54.add(char_literal213);
@@ -8473,7 +8473,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: 54, unary_exp
+                    // elements: unary_exp, 54
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -8485,7 +8485,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 525:20: -> ^( Not '!' unary_exp )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:525:23: ^( Not '!' unary_exp )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:525:23: ^( Not '!' unary_exp )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -8542,7 +8542,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "arithmetic_expression"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:532:1: arithmetic_expression : term ( ( '+' | '-' ) ^ term )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:532:1: arithmetic_expression : term ( ( '+' | '-' ) ^ term )* ;
     public final BankParser.arithmetic_expression_return arithmetic_expression() throws RecognitionException {
         BankParser.arithmetic_expression_return retval = new BankParser.arithmetic_expression_return();
         retval.start = input.LT(1);
@@ -8559,8 +8559,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set216_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:532:23: ( term ( ( '+' | '-' ) ^ term )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:532:25: term ( ( '+' | '-' ) ^ term )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:532:23: ( term ( ( '+' | '-' ) ^ term )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:532:25: term ( ( '+' | '-' ) ^ term )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8572,7 +8572,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, term215.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:532:30: ( ( '+' | '-' ) ^ term )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:532:30: ( ( '+' | '-' ) ^ term )*
             loop50:
             do {
                 int alt50=2;
@@ -8585,7 +8585,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt50) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:532:31: ( '+' | '-' ) ^ term
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:532:31: ( '+' | '-' ) ^ term
             	    {
             	    set216=(Token)input.LT(1);
 
@@ -8654,7 +8654,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "term"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:539:1: term : factor ( ( '*' | '/' ) ^ factor )* ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:539:1: term : factor ( ( '*' | '/' ) ^ factor )* ;
     public final BankParser.term_return term() throws RecognitionException {
         BankParser.term_return retval = new BankParser.term_return();
         retval.start = input.LT(1);
@@ -8671,8 +8671,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set219_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:539:6: ( factor ( ( '*' | '/' ) ^ factor )* )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:539:8: factor ( ( '*' | '/' ) ^ factor )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:539:6: ( factor ( ( '*' | '/' ) ^ factor )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:539:8: factor ( ( '*' | '/' ) ^ factor )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8684,7 +8684,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             adaptor.addChild(root_0, factor218.getTree());
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:539:15: ( ( '*' | '/' ) ^ factor )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:539:15: ( ( '*' | '/' ) ^ factor )*
             loop51:
             do {
                 int alt51=2;
@@ -8697,7 +8697,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt51) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:539:16: ( '*' | '/' ) ^ factor
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:539:16: ( '*' | '/' ) ^ factor
             	    {
             	    set219=(Token)input.LT(1);
 
@@ -8766,7 +8766,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "factor"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:546:1: factor : ( ( '(' arithmetic_expression ')' ) -> ^( Factor '(' arithmetic_expression ')' ) | ID -> ^( Factor ID ) | change -> ^( Factor change ) | true_false -> ^( Factor true_false ) | integer_literal -> ^( Factor integer_literal ) | string_literal -> ^( Factor string_literal ) | object_decleration -> ^( Factor object_decleration ) | member_access -> ^( Factor member_access ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:546:1: factor : ( ( '(' arithmetic_expression ')' ) -> ^( Factor '(' arithmetic_expression ')' ) | ID -> ^( Factor ID ) | change -> ^( Factor change ) | true_false -> ^( Factor true_false ) | integer_literal -> ^( Factor integer_literal ) | string_literal -> ^( Factor string_literal ) | object_decleration -> ^( Factor object_decleration ) | member_access -> ^( Factor member_access ) );
     public final BankParser.factor_return factor() throws RecognitionException {
         BankParser.factor_return retval = new BankParser.factor_return();
         retval.start = input.LT(1);
@@ -8806,7 +8806,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_change=new RewriteRuleSubtreeStream(adaptor,"rule change");
         RewriteRuleSubtreeStream stream_integer_literal=new RewriteRuleSubtreeStream(adaptor,"rule integer_literal");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:547:2: ( ( '(' arithmetic_expression ')' ) -> ^( Factor '(' arithmetic_expression ')' ) | ID -> ^( Factor ID ) | change -> ^( Factor change ) | true_false -> ^( Factor true_false ) | integer_literal -> ^( Factor integer_literal ) | string_literal -> ^( Factor string_literal ) | object_decleration -> ^( Factor object_decleration ) | member_access -> ^( Factor member_access ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:547:2: ( ( '(' arithmetic_expression ')' ) -> ^( Factor '(' arithmetic_expression ')' ) | ID -> ^( Factor ID ) | change -> ^( Factor change ) | true_false -> ^( Factor true_false ) | integer_literal -> ^( Factor integer_literal ) | string_literal -> ^( Factor string_literal ) | object_decleration -> ^( Factor object_decleration ) | member_access -> ^( Factor member_access ) )
             int alt52=8;
             switch ( input.LA(1) ) {
             case 60:
@@ -8897,10 +8897,10 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt52) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:547:4: ( '(' arithmetic_expression ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:547:4: ( '(' arithmetic_expression ')' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:547:4: ( '(' arithmetic_expression ')' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:547:5: '(' arithmetic_expression ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:547:4: ( '(' arithmetic_expression ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:547:5: '(' arithmetic_expression ')'
                     {
                     char_literal221=(Token)match(input,60,FOLLOW_60_in_factor3758);  
                     stream_60.add(char_literal221);
@@ -8921,7 +8921,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: arithmetic_expression, 61, 60
+                    // elements: 60, arithmetic_expression, 61
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -8933,7 +8933,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 547:36: -> ^( Factor '(' arithmetic_expression ')' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:547:39: ^( Factor '(' arithmetic_expression ')' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:547:39: ^( Factor '(' arithmetic_expression ')' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -8961,7 +8961,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:548:4: ID
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:548:4: ID
                     {
                     ID224=(Token)match(input,ID,FOLLOW_ID_in_factor3781);  
                     stream_ID.add(ID224);
@@ -8980,7 +8980,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 548:7: -> ^( Factor ID )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:548:10: ^( Factor ID )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:548:10: ^( Factor ID )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9002,7 +9002,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:549:4: change
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:549:4: change
                     {
                     pushFollow(FOLLOW_change_in_factor3795);
                     change225=change();
@@ -9024,7 +9024,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 549:11: -> ^( Factor change )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:549:14: ^( Factor change )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:549:14: ^( Factor change )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9044,7 +9044,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:550:4: true_false
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:550:4: true_false
                     {
                     pushFollow(FOLLOW_true_false_in_factor3809);
                     true_false226=true_false();
@@ -9066,7 +9066,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 550:15: -> ^( Factor true_false )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:550:18: ^( Factor true_false )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:550:18: ^( Factor true_false )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9086,7 +9086,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:551:4: integer_literal
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:551:4: integer_literal
                     {
                     pushFollow(FOLLOW_integer_literal_in_factor3823);
                     integer_literal227=integer_literal();
@@ -9108,7 +9108,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 551:20: -> ^( Factor integer_literal )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:551:23: ^( Factor integer_literal )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:551:23: ^( Factor integer_literal )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9128,7 +9128,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:552:4: string_literal
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:552:4: string_literal
                     {
                     pushFollow(FOLLOW_string_literal_in_factor3837);
                     string_literal228=string_literal();
@@ -9150,7 +9150,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 552:19: -> ^( Factor string_literal )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:552:22: ^( Factor string_literal )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:552:22: ^( Factor string_literal )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9170,7 +9170,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:553:4: object_decleration
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:553:4: object_decleration
                     {
                     pushFollow(FOLLOW_object_decleration_in_factor3851);
                     object_decleration229=object_decleration();
@@ -9192,7 +9192,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 553:23: -> ^( Factor object_decleration )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:553:26: ^( Factor object_decleration )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:553:26: ^( Factor object_decleration )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9212,7 +9212,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:554:4: member_access
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:554:4: member_access
                     {
                     pushFollow(FOLLOW_member_access_in_factor3865);
                     member_access230=member_access();
@@ -9234,7 +9234,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 554:18: -> ^( Factor member_access )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:554:21: ^( Factor member_access )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:554:21: ^( Factor member_access )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9287,7 +9287,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "true_false"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:562:1: true_false : BOOLEAN ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:562:1: true_false : BOOLEAN ;
     public final BankParser.true_false_return true_false() throws RecognitionException {
         BankParser.true_false_return retval = new BankParser.true_false_return();
         retval.start = input.LT(1);
@@ -9300,8 +9300,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object BOOLEAN231_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:562:12: ( BOOLEAN )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:562:14: BOOLEAN
+            // /home/philosan/Dev/antlr/407_project/Bank.g:562:12: ( BOOLEAN )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:562:14: BOOLEAN
             {
             root_0 = (Object)adaptor.nil();
 
@@ -9347,7 +9347,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "member_access"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:569:1: member_access : ( function_access -> ^( Member_Access function_access ) | pointer_access -> ^( Member_Access pointer_access ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:569:1: member_access : ( function_access -> ^( Member_Access function_access ) | pointer_access -> ^( Member_Access pointer_access ) );
     public final BankParser.member_access_return member_access() throws RecognitionException {
         BankParser.member_access_return retval = new BankParser.member_access_return();
         retval.start = input.LT(1);
@@ -9363,7 +9363,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_function_access=new RewriteRuleSubtreeStream(adaptor,"rule function_access");
         RewriteRuleSubtreeStream stream_pointer_access=new RewriteRuleSubtreeStream(adaptor,"rule pointer_access");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:570:2: ( function_access -> ^( Member_Access function_access ) | pointer_access -> ^( Member_Access pointer_access ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:570:2: ( function_access -> ^( Member_Access function_access ) | pointer_access -> ^( Member_Access pointer_access ) )
             int alt53=2;
             int LA53_0 = input.LA(1);
 
@@ -9404,7 +9404,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt53) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:571:2: function_access
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:571:2: function_access
                     {
                     pushFollow(FOLLOW_function_access_in_member_access3942);
                     function_access232=function_access();
@@ -9426,7 +9426,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 571:18: -> ^( Member_Access function_access )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:571:21: ^( Member_Access function_access )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:571:21: ^( Member_Access function_access )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9446,7 +9446,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:572:4: pointer_access
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:572:4: pointer_access
                     {
                     pushFollow(FOLLOW_pointer_access_in_member_access3956);
                     pointer_access233=pointer_access();
@@ -9468,7 +9468,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 572:19: -> ^( Member_Access pointer_access )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:572:22: ^( Member_Access pointer_access )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:572:22: ^( Member_Access pointer_access )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -9521,7 +9521,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "function_access"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:580:1: function_access : ID '.' ID ( '(' ( arguments )? ')' )? ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:580:1: function_access : ID '.' ID ( '(' ( arguments )? ')' )? ;
     public final BankParser.function_access_return function_access() throws RecognitionException {
         BankParser.function_access_return retval = new BankParser.function_access_return();
         retval.start = input.LT(1);
@@ -9544,8 +9544,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal239_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:580:17: ( ID '.' ID ( '(' ( arguments )? ')' )? )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:580:19: ID '.' ID ( '(' ( arguments )? ')' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:580:17: ( ID '.' ID ( '(' ( arguments )? ')' )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:580:19: ID '.' ID ( '(' ( arguments )? ')' )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -9571,7 +9571,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, ID236_tree);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:580:30: ( '(' ( arguments )? ')' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:580:30: ( '(' ( arguments )? ')' )?
             int alt55=2;
             int LA55_0 = input.LA(1);
 
@@ -9580,7 +9580,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt55) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:580:32: '(' ( arguments )? ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:580:32: '(' ( arguments )? ')'
                     {
                     char_literal237=(Token)match(input,60,FOLLOW_60_in_function_access4007); 
                     char_literal237_tree = 
@@ -9589,7 +9589,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal237_tree);
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:580:36: ( arguments )?
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:580:36: ( arguments )?
                     int alt54=2;
                     int LA54_0 = input.LA(1);
 
@@ -9598,7 +9598,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt54) {
                         case 1 :
-                            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:580:36: arguments
+                            // /home/philosan/Dev/antlr/407_project/Bank.g:580:36: arguments
                             {
                             pushFollow(FOLLOW_arguments_in_function_access4009);
                             arguments238=arguments();
@@ -9660,7 +9660,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "pointer_access"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:587:1: pointer_access : ID ( '->' | '.' ) ID ( '(' ( arguments )? ')' )? ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:587:1: pointer_access : ID ( '->' | '.' ) ID ( '(' ( arguments )? ')' )? ;
     public final BankParser.pointer_access_return pointer_access() throws RecognitionException {
         BankParser.pointer_access_return retval = new BankParser.pointer_access_return();
         retval.start = input.LT(1);
@@ -9683,8 +9683,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal245_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:587:16: ( ID ( '->' | '.' ) ID ( '(' ( arguments )? ')' )? )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:587:18: ID ( '->' | '.' ) ID ( '(' ( arguments )? ')' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:587:16: ( ID ( '->' | '.' ) ID ( '(' ( arguments )? ')' )? )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:587:18: ID ( '->' | '.' ) ID ( '(' ( arguments )? ')' )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -9718,7 +9718,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, ID242_tree);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:587:37: ( '(' ( arguments )? ')' )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:587:37: ( '(' ( arguments )? ')' )?
             int alt57=2;
             int LA57_0 = input.LA(1);
 
@@ -9727,7 +9727,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt57) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:587:38: '(' ( arguments )? ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:587:38: '(' ( arguments )? ')'
                     {
                     char_literal243=(Token)match(input,60,FOLLOW_60_in_pointer_access4060); 
                     char_literal243_tree = 
@@ -9736,7 +9736,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal243_tree);
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:587:42: ( arguments )?
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:587:42: ( arguments )?
                     int alt56=2;
                     int LA56_0 = input.LA(1);
 
@@ -9745,7 +9745,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt56) {
                         case 1 :
-                            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:587:42: arguments
+                            // /home/philosan/Dev/antlr/407_project/Bank.g:587:42: arguments
                             {
                             pushFollow(FOLLOW_arguments_in_pointer_access4062);
                             arguments244=arguments();
@@ -9807,7 +9807,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "function_call"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:1: function_call : ( ID '(' ( arguments )? ')' ) -> ^( Call ID '(' ( arguments )? ')' ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:594:1: function_call : ( ID '(' ( arguments )? ')' ) -> ^( Call ID '(' ( arguments )? ')' ) ;
     public final BankParser.function_call_return function_call() throws RecognitionException {
         BankParser.function_call_return retval = new BankParser.function_call_return();
         retval.start = input.LT(1);
@@ -9829,11 +9829,11 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_ID=new RewriteRuleTokenStream(adaptor,"token ID");
         RewriteRuleSubtreeStream stream_arguments=new RewriteRuleSubtreeStream(adaptor,"rule arguments");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:15: ( ( ID '(' ( arguments )? ')' ) -> ^( Call ID '(' ( arguments )? ')' ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:17: ( ID '(' ( arguments )? ')' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:594:15: ( ( ID '(' ( arguments )? ')' ) -> ^( Call ID '(' ( arguments )? ')' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:594:17: ( ID '(' ( arguments )? ')' )
             {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:17: ( ID '(' ( arguments )? ')' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:18: ID '(' ( arguments )? ')'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:594:17: ( ID '(' ( arguments )? ')' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:594:18: ID '(' ( arguments )? ')'
             {
             ID246=(Token)match(input,ID,FOLLOW_ID_in_function_call4100);  
             stream_ID.add(ID246);
@@ -9843,7 +9843,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_60.add(char_literal247);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:25: ( arguments )?
+            // /home/philosan/Dev/antlr/407_project/Bank.g:594:25: ( arguments )?
             int alt58=2;
             int LA58_0 = input.LA(1);
 
@@ -9852,7 +9852,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt58) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:25: arguments
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:594:25: arguments
                     {
                     pushFollow(FOLLOW_arguments_in_function_call4104);
                     arguments248=arguments();
@@ -9875,7 +9875,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 61, ID, arguments, 60
+            // elements: 60, arguments, ID, 61
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -9887,7 +9887,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 594:41: -> ^( Call ID '(' ( arguments )? ')' )
             {
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:44: ^( Call ID '(' ( arguments )? ')' )
+                // /home/philosan/Dev/antlr/407_project/Bank.g:594:44: ^( Call ID '(' ( arguments )? ')' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -9902,7 +9902,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_60.nextNode()
                 );
 
-                // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:594:58: ( arguments )?
+                // /home/philosan/Dev/antlr/407_project/Bank.g:594:58: ( arguments )?
                 if ( stream_arguments.hasNext() ) {
                     adaptor.addChild(root_1, stream_arguments.nextTree());
 
@@ -9955,7 +9955,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "object_decleration"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:601:1: object_decleration : 'new' function_call ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:601:1: object_decleration : 'new' function_call ;
     public final BankParser.object_decleration_return object_decleration() throws RecognitionException {
         BankParser.object_decleration_return retval = new BankParser.object_decleration_return();
         retval.start = input.LT(1);
@@ -9970,8 +9970,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object string_literal250_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:601:20: ( 'new' function_call )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:601:22: 'new' function_call
+            // /home/philosan/Dev/antlr/407_project/Bank.g:601:20: ( 'new' function_call )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:601:22: 'new' function_call
             {
             root_0 = (Object)adaptor.nil();
 
@@ -10024,7 +10024,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "change"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:608:1: change : ( ( '++' | '--' ) ID | ID ( '++' | '--' ) ) ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:608:1: change : ( ( '++' | '--' ) ID | ID ( '++' | '--' ) ) ;
     public final BankParser.change_return change() throws RecognitionException {
         BankParser.change_return retval = new BankParser.change_return();
         retval.start = input.LT(1);
@@ -10043,13 +10043,13 @@ public TreeAdaptor getTreeAdaptor() {
         Object set255_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:608:8: ( ( ( '++' | '--' ) ID | ID ( '++' | '--' ) ) )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:608:10: ( ( '++' | '--' ) ID | ID ( '++' | '--' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:608:8: ( ( ( '++' | '--' ) ID | ID ( '++' | '--' ) ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:608:10: ( ( '++' | '--' ) ID | ID ( '++' | '--' ) )
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:608:10: ( ( '++' | '--' ) ID | ID ( '++' | '--' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:608:10: ( ( '++' | '--' ) ID | ID ( '++' | '--' ) )
             int alt59=2;
             int LA59_0 = input.LA(1);
 
@@ -10068,7 +10068,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt59) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:608:12: ( '++' | '--' ) ID
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:608:12: ( '++' | '--' ) ID
                     {
                     set252=(Token)input.LT(1);
 
@@ -10095,7 +10095,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:608:31: ID ( '++' | '--' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:608:31: ID ( '++' | '--' )
                     {
                     ID254=(Token)match(input,ID,FOLLOW_ID_in_change4201); 
                     ID254_tree = 
@@ -10159,7 +10159,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "integer_literal"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:620:1: integer_literal : ( DIGIT )+ ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:620:1: integer_literal : ( DIGIT )+ ;
     public final BankParser.integer_literal_return integer_literal() throws RecognitionException {
         BankParser.integer_literal_return retval = new BankParser.integer_literal_return();
         retval.start = input.LT(1);
@@ -10172,13 +10172,13 @@ public TreeAdaptor getTreeAdaptor() {
         Object DIGIT256_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:620:17: ( ( DIGIT )+ )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:620:19: ( DIGIT )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:620:17: ( ( DIGIT )+ )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:620:19: ( DIGIT )+
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:620:19: ( DIGIT )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:620:19: ( DIGIT )+
             int cnt60=0;
             loop60:
             do {
@@ -10192,7 +10192,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt60) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:620:19: DIGIT
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:620:19: DIGIT
             	    {
             	    DIGIT256=(Token)match(input,DIGIT,FOLLOW_DIGIT_in_integer_literal4248); 
             	    DIGIT256_tree = 
@@ -10248,7 +10248,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "float_literal"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:627:1: float_literal : ( DIGIT )+ '.' ( DIGIT )+ ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:627:1: float_literal : ( DIGIT )+ '.' ( DIGIT )+ ;
     public final BankParser.float_literal_return float_literal() throws RecognitionException {
         BankParser.float_literal_return retval = new BankParser.float_literal_return();
         retval.start = input.LT(1);
@@ -10265,13 +10265,13 @@ public TreeAdaptor getTreeAdaptor() {
         Object DIGIT259_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:627:15: ( ( DIGIT )+ '.' ( DIGIT )+ )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:627:17: ( DIGIT )+ '.' ( DIGIT )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:627:15: ( ( DIGIT )+ '.' ( DIGIT )+ )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:627:17: ( DIGIT )+ '.' ( DIGIT )+
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:627:17: ( DIGIT )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:627:17: ( DIGIT )+
             int cnt61=0;
             loop61:
             do {
@@ -10285,7 +10285,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt61) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:627:17: DIGIT
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:627:17: DIGIT
             	    {
             	    DIGIT257=(Token)match(input,DIGIT,FOLLOW_DIGIT_in_float_literal4281); 
             	    DIGIT257_tree = 
@@ -10314,7 +10314,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal258_tree);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:627:28: ( DIGIT )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:627:28: ( DIGIT )+
             int cnt62=0;
             loop62:
             do {
@@ -10328,7 +10328,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt62) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:627:28: DIGIT
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:627:28: DIGIT
             	    {
             	    DIGIT259=(Token)match(input,DIGIT,FOLLOW_DIGIT_in_float_literal4286); 
             	    DIGIT259_tree = 
@@ -10384,7 +10384,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "string_literal"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:634:1: string_literal : '\"' (~ '\"' )* '\"' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:634:1: string_literal : '\"' (~ '\"' )* '\"' ;
     public final BankParser.string_literal_return string_literal() throws RecognitionException {
         BankParser.string_literal_return retval = new BankParser.string_literal_return();
         retval.start = input.LT(1);
@@ -10401,8 +10401,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal262_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:634:16: ( '\"' (~ '\"' )* '\"' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:634:18: '\"' (~ '\"' )* '\"'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:634:16: ( '\"' (~ '\"' )* '\"' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:634:18: '\"' (~ '\"' )* '\"'
             {
             root_0 = (Object)adaptor.nil();
 
@@ -10414,7 +10414,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal260_tree);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:634:22: (~ '\"' )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:634:22: (~ '\"' )*
             loop63:
             do {
                 int alt63=2;
@@ -10427,7 +10427,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt63) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:
             	    {
             	    set261=(Token)input.LT(1);
 
@@ -10494,7 +10494,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "character_literal"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:641:1: character_literal : '\\'' (~ ( '\\'' | '\\\\' ) )* '\\'' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:641:1: character_literal : '\\'' (~ ( '\\'' | '\\\\' ) )* '\\'' ;
     public final BankParser.character_literal_return character_literal() throws RecognitionException {
         BankParser.character_literal_return retval = new BankParser.character_literal_return();
         retval.start = input.LT(1);
@@ -10511,8 +10511,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal265_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:641:19: ( '\\'' (~ ( '\\'' | '\\\\' ) )* '\\'' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:641:21: '\\'' (~ ( '\\'' | '\\\\' ) )* '\\''
+            // /home/philosan/Dev/antlr/407_project/Bank.g:641:19: ( '\\'' (~ ( '\\'' | '\\\\' ) )* '\\'' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:641:21: '\\'' (~ ( '\\'' | '\\\\' ) )* '\\''
             {
             root_0 = (Object)adaptor.nil();
 
@@ -10524,7 +10524,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal263_tree);
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:641:26: (~ ( '\\'' | '\\\\' ) )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:641:26: (~ ( '\\'' | '\\\\' ) )*
             loop64:
             do {
                 int alt64=2;
@@ -10537,7 +10537,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt64) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:
             	    {
             	    set264=(Token)input.LT(1);
 
@@ -10604,7 +10604,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "output"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:1: output : ( 'cout' | ID ) ( '<<' ( expression | 'endl' | manipulators ) )* ';' ;
+    // /home/philosan/Dev/antlr/407_project/Bank.g:653:1: output : ( 'cout' | ID ) ( '<<' ( expression | 'endl' | manipulators ) )* ';' ;
     public final BankParser.output_return output() throws RecognitionException {
         BankParser.output_return retval = new BankParser.output_return();
         retval.start = input.LT(1);
@@ -10627,8 +10627,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal271_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:8: ( ( 'cout' | ID ) ( '<<' ( expression | 'endl' | manipulators ) )* ';' )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:11: ( 'cout' | ID ) ( '<<' ( expression | 'endl' | manipulators ) )* ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:653:8: ( ( 'cout' | ID ) ( '<<' ( expression | 'endl' | manipulators ) )* ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:653:11: ( 'cout' | ID ) ( '<<' ( expression | 'endl' | manipulators ) )* ';'
             {
             root_0 = (Object)adaptor.nil();
 
@@ -10648,7 +10648,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:25: ( '<<' ( expression | 'endl' | manipulators ) )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:653:25: ( '<<' ( expression | 'endl' | manipulators ) )*
             loop66:
             do {
                 int alt66=2;
@@ -10661,7 +10661,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt66) {
             	case 1 :
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:26: '<<' ( expression | 'endl' | manipulators )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:653:26: '<<' ( expression | 'endl' | manipulators )
             	    {
             	    string_literal267=(Token)match(input,78,FOLLOW_78_in_output4420); 
             	    string_literal267_tree = 
@@ -10670,7 +10670,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    adaptor.addChild(root_0, string_literal267_tree);
 
 
-            	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:31: ( expression | 'endl' | manipulators )
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:653:31: ( expression | 'endl' | manipulators )
             	    int alt65=3;
             	    switch ( input.LA(1) ) {
             	    case BOOLEAN:
@@ -10709,7 +10709,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             	    switch (alt65) {
             	        case 1 :
-            	            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:32: expression
+            	            // /home/philosan/Dev/antlr/407_project/Bank.g:653:32: expression
             	            {
             	            pushFollow(FOLLOW_expression_in_output4423);
             	            expression268=expression();
@@ -10721,7 +10721,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:45: 'endl'
+            	            // /home/philosan/Dev/antlr/407_project/Bank.g:653:45: 'endl'
             	            {
             	            string_literal269=(Token)match(input,101,FOLLOW_101_in_output4427); 
             	            string_literal269_tree = 
@@ -10733,7 +10733,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 3 :
-            	            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:653:54: manipulators
+            	            // /home/philosan/Dev/antlr/407_project/Bank.g:653:54: manipulators
             	            {
             	            pushFollow(FOLLOW_manipulators_in_output4431);
             	            manipulators270=manipulators();
@@ -10798,7 +10798,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "manipulators"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:660:1: manipulators : ( 'left' -> ^( Manipulator 'left' ) | 'right' -> ^( Manipulator 'right' ) | ( 'setw' '(' expression ')' ) -> ^( Manipulator 'setw' '(' expression ')' ) | ( 'string' '(' expression ',' character_literal ')' ) -> ^( Manipulator 'string' '(' expression ',' character_literal ')' ) );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:660:1: manipulators : ( 'left' -> ^( Manipulator 'left' ) | 'right' -> ^( Manipulator 'right' ) | ( 'setw' '(' expression ')' ) -> ^( Manipulator 'setw' '(' expression ')' ) | ( 'string' '(' expression ',' character_literal ')' ) -> ^( Manipulator 'string' '(' expression ',' character_literal ')' ) );
     public final BankParser.manipulators_return manipulators() throws RecognitionException {
         BankParser.manipulators_return retval = new BankParser.manipulators_return();
         retval.start = input.LT(1);
@@ -10841,7 +10841,7 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_character_literal=new RewriteRuleSubtreeStream(adaptor,"rule character_literal");
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:661:2: ( 'left' -> ^( Manipulator 'left' ) | 'right' -> ^( Manipulator 'right' ) | ( 'setw' '(' expression ')' ) -> ^( Manipulator 'setw' '(' expression ')' ) | ( 'string' '(' expression ',' character_literal ')' ) -> ^( Manipulator 'string' '(' expression ',' character_literal ')' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:661:2: ( 'left' -> ^( Manipulator 'left' ) | 'right' -> ^( Manipulator 'right' ) | ( 'setw' '(' expression ')' ) -> ^( Manipulator 'setw' '(' expression ')' ) | ( 'string' '(' expression ',' character_literal ')' ) -> ^( Manipulator 'string' '(' expression ',' character_literal ')' ) )
             int alt67=4;
             switch ( input.LA(1) ) {
             case 105:
@@ -10874,7 +10874,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt67) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:661:4: 'left'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:661:4: 'left'
                     {
                     string_literal272=(Token)match(input,105,FOLLOW_105_in_manipulators4470);  
                     stream_105.add(string_literal272);
@@ -10893,7 +10893,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 661:11: -> ^( Manipulator 'left' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:661:14: ^( Manipulator 'left' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:661:14: ^( Manipulator 'left' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -10915,7 +10915,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:662:4: 'right'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:662:4: 'right'
                     {
                     string_literal273=(Token)match(input,113,FOLLOW_113_in_manipulators4484);  
                     stream_113.add(string_literal273);
@@ -10934,7 +10934,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 662:12: -> ^( Manipulator 'right' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:662:15: ^( Manipulator 'right' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:662:15: ^( Manipulator 'right' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -10956,10 +10956,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:663:4: ( 'setw' '(' expression ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:663:4: ( 'setw' '(' expression ')' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:663:4: ( 'setw' '(' expression ')' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:663:5: 'setw' '(' expression ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:663:4: ( 'setw' '(' expression ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:663:5: 'setw' '(' expression ')'
                     {
                     string_literal274=(Token)match(input,114,FOLLOW_114_in_manipulators4500);  
                     stream_114.add(string_literal274);
@@ -10984,7 +10984,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: 114, 61, 60, expression
+                    // elements: expression, 61, 60, 114
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -10996,7 +10996,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 663:32: -> ^( Manipulator 'setw' '(' expression ')' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:663:35: ^( Manipulator 'setw' '(' expression ')' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:663:35: ^( Manipulator 'setw' '(' expression ')' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -11028,10 +11028,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:664:4: ( 'string' '(' expression ',' character_literal ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:664:4: ( 'string' '(' expression ',' character_literal ')' )
                     {
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:664:4: ( 'string' '(' expression ',' character_literal ')' )
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:664:5: 'string' '(' expression ',' character_literal ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:664:4: ( 'string' '(' expression ',' character_literal ')' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:664:5: 'string' '(' expression ',' character_literal ')'
                     {
                     string_literal278=(Token)match(input,117,FOLLOW_117_in_manipulators4528);  
                     stream_117.add(string_literal278);
@@ -11067,7 +11067,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
                     // AST REWRITE
-                    // elements: 66, character_literal, 117, 60, expression, 61
+                    // elements: 60, 61, expression, character_literal, 66, 117
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -11079,7 +11079,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 664:56: -> ^( Manipulator 'string' '(' expression ',' character_literal ')' )
                     {
-                        // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:664:59: ^( Manipulator 'string' '(' expression ',' character_literal ')' )
+                        // /home/philosan/Dev/antlr/407_project/Bank.g:664:59: ^( Manipulator 'string' '(' expression ',' character_literal ')' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -11150,7 +11150,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "input"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:676:1: input : ( stream ( '>>' expression )+ ';' | 'getline' '(' stream ',' ID ( ',' character_literal )? ')' ';' | stream '.ignore' '(' ')' ';' );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:676:1: input : ( stream ( '>>' expression )+ ';' | 'getline' '(' stream ',' ID ( ',' character_literal )? ')' ';' | stream '.ignore' '(' ')' ';' );
     public final BankParser.input_return input() throws RecognitionException {
         BankParser.input_return retval = new BankParser.input_return();
         retval.start = input.LT(1);
@@ -11197,7 +11197,7 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal301_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:677:3: ( stream ( '>>' expression )+ ';' | 'getline' '(' stream ',' ID ( ',' character_literal )? ')' ';' | stream '.ignore' '(' ')' ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:677:3: ( stream ( '>>' expression )+ ';' | 'getline' '(' stream ',' ID ( ',' character_literal )? ')' ';' | stream '.ignore' '(' ')' ';' )
             int alt70=3;
             int LA70_0 = input.LA(1);
 
@@ -11230,7 +11230,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt70) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:677:3: stream ( '>>' expression )+ ';'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:677:3: stream ( '>>' expression )+ ';'
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -11242,7 +11242,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     adaptor.addChild(root_0, stream284.getTree());
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:677:10: ( '>>' expression )+
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:677:10: ( '>>' expression )+
                     int cnt68=0;
                     loop68:
                     do {
@@ -11256,7 +11256,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt68) {
                     	case 1 :
-                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:677:11: '>>' expression
+                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:677:11: '>>' expression
                     	    {
                     	    string_literal285=(Token)match(input,84,FOLLOW_84_in_input4597); 
                     	    string_literal285_tree = 
@@ -11295,7 +11295,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:678:3: 'getline' '(' stream ',' ID ( ',' character_literal )? ')' ';'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:678:3: 'getline' '(' stream ',' ID ( ',' character_literal )? ')' ';'
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -11335,7 +11335,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, ID292_tree);
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:678:31: ( ',' character_literal )?
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:678:31: ( ',' character_literal )?
                     int alt69=2;
                     int LA69_0 = input.LA(1);
 
@@ -11344,7 +11344,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt69) {
                         case 1 :
-                            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:678:32: ',' character_literal
+                            // /home/philosan/Dev/antlr/407_project/Bank.g:678:32: ',' character_literal
                             {
                             char_literal293=(Token)match(input,66,FOLLOW_66_in_input4618); 
                             char_literal293_tree = 
@@ -11383,7 +11383,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:679:5: stream '.ignore' '(' ')' ';'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:679:5: stream '.ignore' '(' ')' ';'
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -11459,7 +11459,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "file_input"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:687:1: file_input : ( ID ( '>>' expression )+ | 'getline' '(' stream ',' ID ')' | stream '.ignore' '(' ')' );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:687:1: file_input : ( ID ( '>>' expression )+ | 'getline' '(' stream ',' ID ')' | stream '.ignore' '(' ')' );
     public final BankParser.file_input_return file_input() throws RecognitionException {
         BankParser.file_input_return retval = new BankParser.file_input_return();
         retval.start = input.LT(1);
@@ -11496,7 +11496,7 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal314_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:687:12: ( ID ( '>>' expression )+ | 'getline' '(' stream ',' ID ')' | stream '.ignore' '(' ')' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:687:12: ( ID ( '>>' expression )+ | 'getline' '(' stream ',' ID ')' | stream '.ignore' '(' ')' )
             int alt72=3;
             switch ( input.LA(1) ) {
             case ID:
@@ -11538,7 +11538,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt72) {
                 case 1 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:687:14: ID ( '>>' expression )+
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:687:14: ID ( '>>' expression )+
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -11550,7 +11550,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, ID302_tree);
 
 
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:687:17: ( '>>' expression )+
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:687:17: ( '>>' expression )+
                     int cnt71=0;
                     loop71:
                     do {
@@ -11564,7 +11564,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt71) {
                     	case 1 :
-                    	    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:687:18: '>>' expression
+                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:687:18: '>>' expression
                     	    {
                     	    string_literal303=(Token)match(input,84,FOLLOW_84_in_file_input4675); 
                     	    string_literal303_tree = 
@@ -11596,7 +11596,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:688:3: 'getline' '(' stream ',' ID ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:688:3: 'getline' '(' stream ',' ID ')'
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -11646,7 +11646,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:689:5: stream '.ignore' '(' ')'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:689:5: stream '.ignore' '(' ')'
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -11715,7 +11715,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "stream"
-    // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:696:1: stream : ( 'cin' | ID );
+    // /home/philosan/Dev/antlr/407_project/Bank.g:696:1: stream : ( 'cin' | ID );
     public final BankParser.stream_return stream() throws RecognitionException {
         BankParser.stream_return retval = new BankParser.stream_return();
         retval.start = input.LT(1);
@@ -11728,8 +11728,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set315_tree=null;
 
         try {
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:696:8: ( 'cin' | ID )
-            // E:\\Matrial\\2'nd semester\\Compiler\\Lab\\project\\407_project\\Bank.g:
+            // /home/philosan/Dev/antlr/407_project/Bank.g:696:8: ( 'cin' | ID )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:
             {
             root_0 = (Object)adaptor.nil();
 
