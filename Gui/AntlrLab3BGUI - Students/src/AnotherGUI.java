@@ -7,6 +7,8 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -53,7 +55,7 @@ public class AnotherGUI extends JFrame {
 
 
 
-	private ArithmeticExpressionsParser parser;
+	private BankParser parser;
 
 	public AnotherGUI() {
 		this.dotRunner = new DotRunner();
@@ -865,11 +867,11 @@ public class AnotherGUI extends JFrame {
 			// Parse the code
 			String code = codeEditor.getText();
 			ANTLRStringStream input = new ANTLRStringStream(code);
-			ArithmeticExpressionsLexer lexer = new ArithmeticExpressionsLexer(input);
+			BankLexer lexer = new BankLexer(input);
 			CommonTokenStream tokens = new CommonTokenStream(lexer);
-			parser = new ArithmeticExpressionsParser(tokens);
+			parser = new BankParser(tokens);
 
-			ArithmeticExpressionsParser.startgeneralArithExpr_return r = parser.startgeneralArithExpr();
+			BankParser.start_return r = parser.start();
 			CommonTree t = (CommonTree) r.getTree();
 
 			// Generate DOT representation
@@ -877,30 +879,63 @@ public class AnotherGUI extends JFrame {
 			StringTemplate st = gen.toDOT(t);
 
 			// Apply theme colors
-			String bgColor;
+			String bgColor, nodeStyle, graphStyle;
 			switch (currentThemeType) {
-				case DARK: bgColor = "bgcolor=\"0.2 0.2 0.2\""; break;
-				case DRACULA: bgColor = "bgcolor=\"0.16 0.16 0.21\""; break;
-				case MONOKAI: bgColor = "bgcolor=\"0.15 0.16 0.13\""; break;
-				case SOLARIZED_DARK: bgColor = "bgcolor=\"0.0 0.17 0.21\""; break;
-				case SOLARIZED_LIGHT: bgColor = "bgcolor=\"0.99 0.96 0.89\""; break;
-				default: bgColor = "bgcolor=\"0.94 0.94 0.94\""; break;
-			}
-
-			String fontColor;
-			switch (currentThemeType) {
-				case LIGHT:
+				case DARK:
+					bgColor = "bgcolor=\"#323232\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#424242\", color=\"#FFFFFF\", fontcolor=\"#FFFFFF\"]";
+					graphStyle = "graph [fontcolor=\"#FFFFFF\", color=\"#FFFFFF\"]";
+					break;
+				case DRACULA:
+					bgColor = "bgcolor=\"#282a36\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#44475a\", color=\"#f8f8f2\", fontcolor=\"#f8f8f2\"]";
+					graphStyle = "graph [fontcolor=\"#f8f8f2\", color=\"#f8f8f2\"]";
+					break;
+				case MONOKAI:
+					bgColor = "bgcolor=\"#272822\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#3e3d32\", color=\"#f8f8f2\", fontcolor=\"#f8f8f2\"]";
+					graphStyle = "graph [fontcolor=\"#f8f8f2\", color=\"#f8f8f2\"]";
+					break;
+				case SOLARIZED_DARK:
+					bgColor = "bgcolor=\"#002b36\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#073642\", color=\"#93a1a1\", fontcolor=\"#93a1a1\"]";
+					graphStyle = "graph [fontcolor=\"#93a1a1\", color=\"#93a1a1\"]";
+					break;
 				case SOLARIZED_LIGHT:
-					fontColor = "fontcolor=\"black\"";
+					bgColor = "bgcolor=\"#fdf6e3\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#eee8d5\", color=\"#657b83\", fontcolor=\"#657b83\"]";
+					graphStyle = "graph [fontcolor=\"#657b83\", color=\"#657b83\"]";
+					break;
+				case GITHUB_DARK:
+					bgColor = "bgcolor=\"#0d1117\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#21262d\", color=\"#c9d1d9\", fontcolor=\"#c9d1d9\"]";
+					graphStyle = "graph [fontcolor=\"#c9d1d9\", color=\"#c9d1d9\"]";
+					break;
+				case NORD:
+					bgColor = "bgcolor=\"#2e3440\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#3b4252\", color=\"#d8dee9\", fontcolor=\"#d8dee9\"]";
+					graphStyle = "graph [fontcolor=\"#d8dee9\", color=\"#d8dee9\"]";
+					break;
+				case GRUVBOX_DARK:
+					bgColor = "bgcolor=\"#282828\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#3c3836\", color=\"#ebdbb2\", fontcolor=\"#ebdbb2\"]";
+					graphStyle = "graph [fontcolor=\"#ebdbb2\", color=\"#ebdbb2\"]";
 					break;
 				default:
-					fontColor = "fontcolor=\"white\"";
+					bgColor = "bgcolor=\"#ffffff\"";
+					nodeStyle = "node [style=filled, fillcolor=\"#f8f9fa\", color=\"#000000\", fontcolor=\"#000000\"]";
+					graphStyle = "graph [fontcolor=\"#000000\", color=\"#000000\"]";
 					break;
 			}
 
+// Add edge styling based on theme
+			String edgeStyle = "edge [" + nodeStyle.substring(nodeStyle.indexOf("color=\""), nodeStyle.indexOf("\", fontcolor")) + "\"]";
+
+// Format the DOT content with all styles
 			String formattedDot = st.toString()
-					.replaceFirst("bgcolor=\"lightgrey\"", bgColor)
-					.replaceFirst("fontcolor=\"blue\"", fontColor);
+					.replaceFirst("digraph \\{", String.format("digraph {\n  %s\n  %s\n  %s\n  %s",
+							bgColor, graphStyle, nodeStyle, edgeStyle));
+
 
 			// Save DOT file (using platform-independent path)
 			Path dotFilePath = outputDirectory.resolve("Dot.dot");
@@ -951,6 +986,60 @@ public class AnotherGUI extends JFrame {
 			statusLabel.setText(" Error during compilation");
 			compileStatusIcon.setIcon(new ImageIcon("False.JPG"));
 		}
+	}
+	private String ensureProperFontSettings(String dotContent) {
+		// Add default font family if not present
+		if (!dotContent.contains("fontname=")) {
+			dotContent = dotContent.replaceFirst("digraph \\{", "digraph {\n  fontname=\"Arial\";");
+		}
+
+		// Add node font settings if not present
+		if (!dotContent.contains("node [")) {
+			dotContent = dotContent.replaceFirst("digraph \\{", "digraph {\n  node [fontname=\"Arial\", shape=\"box\"];");
+		} else if (!dotContent.contains("fontname=")) {
+			dotContent = dotContent.replaceFirst("node \\[", "node [fontname=\"Arial\", ");
+		}
+
+		// Ensure encoding is UTF-8 for proper character display
+		dotContent = "// -*- coding: utf-8 -*-\n" + dotContent;
+
+		// Fix empty label issue
+		dotContent = dotContent
+				.replaceAll("label=\"\"", "label=\"(empty)\"")
+				.replaceAll("\\[\\s*shape=record\\s*\\]", "[shape=box]");
+
+		// Fix ANTLR-specific issues with node labels
+		dotContent = fixAntlrNodeLabels(dotContent);
+
+		return dotContent;
+	}
+
+	private String fixAntlrNodeLabels(String dotContent) {
+		// Pattern to find nodes with potentially problematic labels
+		Pattern nodePattern = Pattern.compile("(n\\d+)\\s*\\[\\s*label\\s*=\\s*([^\\]]+)\\]");
+		Matcher matcher = nodePattern.matcher(dotContent);
+
+		StringBuffer sb = new StringBuffer();
+		while (matcher.find()) {
+			String nodeId = matcher.group(1);
+			String label = matcher.group(2);
+
+			// Fix common issues with ANTLR node labels
+			if (label.equals("\"\"") || label.trim().isEmpty()) {
+				// Replace empty labels with node ID
+				matcher.appendReplacement(sb, nodeId + " [label=\"" + nodeId + "\"]");
+			} else if (label.contains("\\\\")) {
+				// Fix escaped characters
+				String fixedLabel = label.replace("\\\\", "\\").replace("\\\"", "\"");
+				matcher.appendReplacement(sb, nodeId + " [label=" + fixedLabel + "]");
+			} else {
+				// Keep as is
+				matcher.appendReplacement(sb, matcher.group(0));
+			}
+		}
+		matcher.appendTail(sb);
+
+		return sb.toString();
 	}
 
 	private void showParseTree() {
