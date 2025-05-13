@@ -860,7 +860,9 @@ public class AnotherGUI extends JFrame {
 		}
 	}
 	private void compileCode() {
+		PrintWriter out = null;
 		try {
+			// Parse the code
 			String code = codeEditor.getText();
 			ANTLRStringStream input = new ANTLRStringStream(code);
 			ArithmeticExpressionsLexer lexer = new ArithmeticExpressionsLexer(input);
@@ -870,8 +872,11 @@ public class AnotherGUI extends JFrame {
 			ArithmeticExpressionsParser.startgeneralArithExpr_return r = parser.startgeneralArithExpr();
 			CommonTree t = (CommonTree) r.getTree();
 
+			// Generate DOT representation
 			DOTTreeGenerator gen = new DOTTreeGenerator();
 			StringTemplate st = gen.toDOT(t);
+
+			// Apply theme colors
 			String bgColor;
 			switch (currentThemeType) {
 				case DARK: bgColor = "bgcolor=\"0.2 0.2 0.2\""; break;
@@ -897,28 +902,52 @@ public class AnotherGUI extends JFrame {
 					.replaceFirst("bgcolor=\"lightgrey\"", bgColor)
 					.replaceFirst("fontcolor=\"blue\"", fontColor);
 
-
-			try (PrintWriter out = new PrintWriter("Dot.dot")) {
+			// Save DOT file (using platform-independent path)
+			Path dotFilePath = outputDirectory.resolve("Dot.dot");
+			try {
+				out = new PrintWriter(dotFilePath.toFile());
 				out.print(formattedDot);
+				out.flush();
+			} catch (FileNotFoundException e) {
+				throw new IOException("Error writing DOT file: " + e.getMessage(), e);
+			} finally {
+				if (out != null) {
+					out.close();
+				}
 			}
-			generateGraphVisualization(formattedDot);
 
+			// Generate graph visualization
+			try {
+				generateGraphVisualization(formattedDot);
+			} catch (Exception e) {
+				throw new IOException("Error generating graph: " + e.getMessage(), e);
+			}
+
+			// Process and display results
 			String msg = parser.s;
-			if (msg.contains("line")) {
+			if (msg != null && msg.contains("line")) {
 				outputConsole.setForeground(Color.RED);
 				outputConsole.setText("Compilation Errors:\n" + msg);
 				statusLabel.setText(" Compilation failed");
 				compileStatusIcon.setIcon(new ImageIcon("False.JPG"));
 			} else {
 				outputConsole.setForeground(new Color(0, 102, 10));
-				outputConsole.setText("Compilation Successful!\n" + msg);
+				outputConsole.setText("Compilation Successful!\n" + (msg != null ? msg : ""));
 				statusLabel.setText(" Compilation successful");
 				compileStatusIcon.setIcon(new ImageIcon("Correct.JPG"));
 			}
 
-		} catch (Exception ex) {
+		} catch (IOException e) {
 			outputConsole.setForeground(Color.RED);
-			outputConsole.setText("Error during compilation:\n" + ex.getMessage());
+			outputConsole.setText("I/O Error: " + e.getMessage());
+			statusLabel.setText(" I/O Error");
+		} catch (RecognitionException e) {
+			outputConsole.setForeground(Color.RED);
+			outputConsole.setText("Syntax error at line " + e.line + ", position " + e.charPositionInLine + ":\n" + e.getMessage());
+			statusLabel.setText(" Syntax error");
+		} catch (Exception e) {
+			outputConsole.setForeground(Color.RED);
+			outputConsole.setText("Error during compilation:\n" + e.getMessage());
 			statusLabel.setText(" Error during compilation");
 			compileStatusIcon.setIcon(new ImageIcon("False.JPG"));
 		}
@@ -926,22 +955,22 @@ public class AnotherGUI extends JFrame {
 
 	private void showParseTree() {
 		try {
-			File treeImage = new File("Parse.png");
+			File treeImage = outputDirectory.resolve("Parse.png").toFile();
 			if (treeImage.exists()) {
 				Dimension panelSize = treePanel.getSize();
 				int availableWidth = panelSize.width - 20;
 				int availableHeight = panelSize.height - 50;
 
 				Image originalImage = ImageIO.read(treeImage);
-				double aspectRatio = (double)originalImage.getWidth(null)/originalImage.getHeight(null);
+				double aspectRatio = (double) originalImage.getWidth(null) / originalImage.getHeight(null);
 
 				int scaledWidth, scaledHeight;
-				if (availableWidth/aspectRatio <= availableHeight) {
+				if (availableWidth / aspectRatio <= availableHeight) {
 					scaledWidth = availableWidth;
-					scaledHeight = (int)(availableWidth/aspectRatio);
+					scaledHeight = (int) (availableWidth / aspectRatio);
 				} else {
 					scaledHeight = availableHeight;
-					scaledWidth = (int)(availableHeight*aspectRatio);
+					scaledWidth = (int) (availableHeight * aspectRatio);
 				}
 
 				Image scaledImage = originalImage.getScaledInstance(scaledWidth, scaledHeight, Image.SCALE_SMOOTH);
@@ -952,8 +981,8 @@ public class AnotherGUI extends JFrame {
 				treeLabel.setHorizontalAlignment(JLabel.CENTER);
 				treeLabel.setVerticalAlignment(JLabel.CENTER);
 
-				JScrollPane scrollPane = (JScrollPane)treePanel.getComponent(0);
-				scrollPane.getViewport().setViewPosition(new Point(0,0));
+				JScrollPane scrollPane = (JScrollPane) treePanel.getComponent(0);
+				scrollPane.getViewport().setViewPosition(new Point(0, 0));
 
 				mainTabs.setSelectedIndex(1);
 				statusLabel.setText(" Parse tree displayed");
