@@ -2,8 +2,18 @@ digraph {
 
 	ordering=out;
 	ranksep=.4;
-	bgcolor="0 .4 .7"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="black"
+	bgcolor="0.16 0.16 0.21"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="white"
 		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
 	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label="Startgen...rithExpr"];
+  n1 [label="Factor"];
+  n1 [label="Factor"];
+  n2 [label="ttt"];
+  n3 [label="<missing ';'>"];
+
+  n0 -> n1 // "Startgen...rithExpr" -> "Factor"
+  n1 -> n2 // "Factor" -> "ttt"
+  n0 -> n3 // "Startgen...rithExpr" -> "<missing ';'>"
 
 }
