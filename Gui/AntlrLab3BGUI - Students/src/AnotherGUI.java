@@ -1,8 +1,5 @@
 import java.awt.*;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.*;
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -1046,32 +1043,51 @@ public class AnotherGUI extends JFrame {
 		try {
 			File treeImage = outputDirectory.resolve("Parse.png").toFile();
 			if (treeImage.exists()) {
-				Dimension panelSize = treePanel.getSize();
-				int availableWidth = panelSize.width - 20;
-				int availableHeight = panelSize.height - 50;
-
 				Image originalImage = ImageIO.read(treeImage);
-				double aspectRatio = (double) originalImage.getWidth(null) / originalImage.getHeight(null);
+				ImageIcon icon = new ImageIcon(originalImage);
 
-				int scaledWidth, scaledHeight;
-				if (availableWidth / aspectRatio <= availableHeight) {
-					scaledWidth = availableWidth;
-					scaledHeight = (int) (availableWidth / aspectRatio);
-				} else {
-					scaledHeight = availableHeight;
-					scaledWidth = (int) (availableHeight * aspectRatio);
-				}
-
-				Image scaledImage = originalImage.getScaledInstance(scaledWidth, scaledHeight, Image.SCALE_SMOOTH);
-				ImageIcon icon = new ImageIcon(scaledImage);
-
-				treeLabel.setIcon(icon);
-				treeLabel.setText("");
-				treeLabel.setHorizontalAlignment(JLabel.CENTER);
-				treeLabel.setVerticalAlignment(JLabel.CENTER);
+				JLabel zoomableLabel = new JLabel(icon);
+				zoomableLabel.setHorizontalAlignment(JLabel.CENTER);
+				zoomableLabel.setVerticalAlignment(JLabel.CENTER);
 
 				JScrollPane scrollPane = (JScrollPane) treePanel.getComponent(0);
-				scrollPane.getViewport().setViewPosition(new Point(0, 0));
+				scrollPane.setViewportView(zoomableLabel);
+
+				// Add mouse wheel listener for zooming with scale
+				final double[] scale = {1.0}; // Initial scale
+				scrollPane.addMouseWheelListener(e -> {
+					if (e.isControlDown()) {
+						int notches = e.getWheelRotation();
+						scale[0] += (notches < 0) ? 0.1 : -0.1; // Adjust scale incrementally
+						scale[0] = Math.max(0.1, scale[0]); // Prevent scale from going below 0.1
+						int newWidth = (int) (icon.getIconWidth() * scale[0]);
+						int newHeight = (int) (icon.getIconHeight() * scale[0]);
+						Image scaledImage = originalImage.getScaledInstance(newWidth, newHeight, Image.SCALE_SMOOTH);
+						zoomableLabel.setIcon(new ImageIcon(scaledImage));
+					}
+				});
+
+				// Add mouse motion listener for dragging
+				final Point[] dragStart = {null};
+				zoomableLabel.addMouseListener(new MouseAdapter() {
+					@Override
+					public void mousePressed(MouseEvent e) {
+						dragStart[0] = e.getPoint();
+					}
+				});
+				zoomableLabel.addMouseMotionListener(new MouseMotionAdapter() {
+					@Override
+					public void mouseDragged(MouseEvent e) {
+						if (dragStart[0] != null) {
+							JViewport viewport = scrollPane.getViewport();
+							Point viewPosition = viewport.getViewPosition();
+							int deltaX = dragStart[0].x - e.getPoint().x;
+							int deltaY = dragStart[0].y - e.getPoint().y;
+							viewPosition.translate(deltaX, deltaY);
+							zoomableLabel.scrollRectToVisible(new Rectangle(viewPosition, viewport.getSize()));
+						}
+					}
+				});
 
 				mainTabs.setSelectedIndex(1);
 				statusLabel.setText(" Parse tree displayed");
