@@ -9,11 +9,16 @@ digraph {
   n0 [label="Startgen...rithExpr"];
   n1 [label="Factor"];
   n1 [label="Factor"];
-  n2 [label="ttt"];
-  n3 [label="<missing ';'>"];
+  n2 [label="int"];
+  n3 [label="Factor"];
+  n3 [label="Factor"];
+  n4 [label="x"];
+  n5 [label=";"];
 
   n0 -> n1 // "Startgen...rithExpr" -> "Factor"
-  n1 -> n2 // "Factor" -> "ttt"
-  n0 -> n3 // "Startgen...rithExpr" -> "<missing ';'>"
+  n1 -> n2 // "Factor" -> "int"
+  n0 -> n3 // "Startgen...rithExpr" -> "Factor"
+  n3 -> n4 // "Factor" -> "x"
+  n0 -> n5 // "Startgen...rithExpr" -> ";"
 
 }
