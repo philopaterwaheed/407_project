@@ -4,6 +4,8 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -18,6 +20,11 @@ import org.antlr.runtime.tree.*;
 import org.antlr.stringtemplate.*;
 
 public class AnotherGUI extends JFrame {
+
+	private final DotRunner dotRunner;
+	private Path outputDirectory;
+
+	private static final String DEFAULT_OUTPUT_DIR = "graphs";
 
 	// UI Components
 	private JSplitPane editorSplitPane;
@@ -49,14 +56,23 @@ public class AnotherGUI extends JFrame {
 	private ArithmeticExpressionsParser parser;
 
 	public AnotherGUI() {
-		// Initialize with Dark theme
+		this.dotRunner = new DotRunner();
+		this.outputDirectory = Paths.get(DEFAULT_OUTPUT_DIR);
+		try {
+			PathUtils.ensureDirectoryExists(this.outputDirectory);
+		} catch (IOException e) {
+			throw new RuntimeException("Failed to create output directory: " + e.getMessage(), e);
+		}
+		// Initialize with dracula theme
 		currentTheme = ThemeColors.draculaTheme();
 		initUI();
 		switchTheme(currentThemeType);
 		setExtendedState(JFrame.MAXIMIZED_BOTH);
 		setTitle("CS407 Compiler");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-	}
+
+
+    }
 
 	private void createMenuBar() {
 		JMenuBar menuBar = new JMenuBar() {
@@ -182,7 +198,7 @@ public class AnotherGUI extends JFrame {
 		mainTabs.setBackground(currentTheme.tabBackground);
 		mainTabs.setForeground(currentTheme.tabForeground);
 
-		mainTabs.setUI(new javax.swing.plaf.basic.BasicTabbedPaneUI() {
+		mainTabs.setUI(new BasicTabbedPaneUI() {
 			@Override
 			protected void paintTabBackground(Graphics g, int tabPlacement, int tabIndex, int x, int y, int w, int h, boolean isSelected) {
 				if (isSelected) {
@@ -430,20 +446,20 @@ public class AnotherGUI extends JFrame {
 			button.setBorder(BorderFactory.createRaisedBevelBorder());
 
 			// Remove existing listeners to avoid duplicates
-			for (java.awt.event.MouseListener listener : button.getMouseListeners()) {
-				if (listener instanceof java.awt.event.MouseAdapter) {
+			for (MouseListener listener : button.getMouseListeners()) {
+				if (listener instanceof MouseAdapter) {
 					button.removeMouseListener(listener);
 				}
 			}
 
 			// Add hover effect
-			button.addMouseListener(new java.awt.event.MouseAdapter() {
+			button.addMouseListener(new MouseAdapter() {
 				@Override
-				public void mouseEntered(java.awt.event.MouseEvent evt) {
+				public void mouseEntered(MouseEvent evt) {
 					button.setBackground(currentTheme.buttonHoverBackground);
 				}
 				@Override
-				public void mouseExited(java.awt.event.MouseEvent evt) {
+				public void mouseExited(MouseEvent evt) {
 					button.setBackground(currentTheme.buttonBackground);
 				}
 			});
@@ -774,13 +790,13 @@ public class AnotherGUI extends JFrame {
 			}
 		}
 
-		button.addMouseListener(new java.awt.event.MouseAdapter() {
+		button.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(java.awt.event.MouseEvent evt) {
+			public void mouseEntered(MouseEvent evt) {
 				button.setBackground(currentTheme.buttonHoverBackground);
 			}
 			@Override
-			public void mouseExited(java.awt.event.MouseEvent evt) {
+			public void mouseExited(MouseEvent evt) {
 				button.setBackground(currentTheme.buttonBackground);
 			}
 		});
@@ -832,6 +848,17 @@ public class AnotherGUI extends JFrame {
 		}
 	}
 
+	private void generateGraphVisualization(String dotInput) {
+		try {
+			Path outputPath = outputDirectory.resolve("Parse.png");
+			dotRunner.generateGraph(dotInput, outputPath, "png");
+			statusLabel.setText("Graph generated successfully: " + outputPath);
+			outputConsole.setText("Graph visualization saved to: " + outputPath);
+		} catch (IOException | InterruptedException e) {
+			statusLabel.setText("Error generating graph");
+			outputConsole.setText("Error: " + e.getMessage());
+		}
+	}
 	private void compileCode() {
 		try {
 			String code = codeEditor.getText();
@@ -874,9 +901,7 @@ public class AnotherGUI extends JFrame {
 			try (PrintWriter out = new PrintWriter("Dot.dot")) {
 				out.print(formattedDot);
 			}
-
-			Process process = new ProcessBuilder("DOT.BAT").start();
-			process.waitFor();
+			generateGraphVisualization(formattedDot);
 
 			String msg = parser.s;
 			if (msg.contains("line")) {
