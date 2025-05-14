@@ -1,6 +1,7 @@
 import java.awt.*;
 
-public class ThemeColors {		Color background;
+public class ThemeColors {
+    Color background;
     Color foreground;
     Color accent;
     Color editorBackground;
