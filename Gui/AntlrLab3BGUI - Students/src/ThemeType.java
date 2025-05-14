@@ -7,7 +7,6 @@ public enum ThemeType {
     SOLARIZED_LIGHT("Solarized Light"),
     NORD("Nord Theme"),
     GRUVBOX_DARK("Gruvbox Dark"),
-    GRUVBOX_LIGHT("Gruvbox Light"),
     ONE_DARK("One Dark"),
     GITHUB_DARK("GitHub Dark"),
     CATPPUCCIN_MOCHA("Catppuccin Mocha"),

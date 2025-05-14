@@ -30,7 +30,7 @@ public class AnotherGUI extends JFrame {
 	private final DotRunner dotRunner;
 	private Path outputDirectory;
 
-	private SyntaxHighlighter syntaxHighlighter ;
+	private SyntaxHighlighter highlighter ;
 
 	private DefaultHighlighter.DefaultHighlightPainter searchHighlightPainter;
 	private DefaultHighlighter.DefaultHighlightPainter currentMatchPainter;
@@ -336,6 +336,7 @@ public class AnotherGUI extends JFrame {
 
 			}
 			applyTheme();
+			highlighter.updateSyntaxHighlighterTheme(currentThemeType);
 		});
 	}
 
@@ -391,6 +392,7 @@ public class AnotherGUI extends JFrame {
 
 		// Update tree components
 		updateTreeComponents();
+
 
 		// Update status bar
 		Component[] statusComponents = ((Container) getContentPane().getComponent(1)).getComponents();
@@ -788,7 +790,7 @@ public class AnotherGUI extends JFrame {
 				toggleSearchPanel();
 			}
 		});
-		SyntaxHighlighter highlighter = new SyntaxHighlighter(codeEditor);
+		highlighter = new SyntaxHighlighter(codeEditor);
 		codeEditor.getDocument().addDocumentListener(new DocumentListener() {
 			public void insertUpdate(DocumentEvent e) {
 				highlighter.highlight(codeEditor.getText());
@@ -1134,31 +1136,6 @@ public class AnotherGUI extends JFrame {
 					JOptionPane.showMessageDialog(this, "Error loading file: " + ex.getMessage(),
 							"Error", JOptionPane.ERROR_MESSAGE);
 				}
-			}
-		}
-	}
-
-	private void updateSyntaxHighlighterTheme(ThemeType theme) {
-		if (syntaxHighlighter != null) {
-			switch (theme) {
-				case DRACULA:
-					syntaxHighlighter.updateColors(
-							new Color(189, 147, 249), // keywords
-							new Color(248, 248, 242), // identifiers
-							new Color(255, 121, 198), // strings
-							new Color(139, 233, 253), // numbers
-							new Color(98, 114, 164)   // comments
-					);
-					break;
-				case LIGHT:
-					syntaxHighlighter.updateColors(
-							new Color(147, 199, 99),  // keywords
-							new Color(103, 140, 177), // identifiers
-							new Color(214, 157, 133), // strings
-							new Color(104, 151, 187), // numbers
-							new Color(128, 128, 128)  // comments
-					);
-					break;
 			}
 		}
 	}
