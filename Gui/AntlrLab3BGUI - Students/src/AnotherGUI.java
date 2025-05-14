@@ -4,6 +4,7 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.Timer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.imageio.ImageIO;
@@ -29,6 +30,8 @@ public class AnotherGUI extends JFrame {
 	private final DotRunner dotRunner;
 	private Path outputDirectory;
 
+	private SyntaxHighlighter syntaxHighlighter ;
+
 	private DefaultHighlighter.DefaultHighlightPainter searchHighlightPainter;
 	private DefaultHighlighter.DefaultHighlightPainter currentMatchPainter;
 	private Object currentMatchHighlight;
@@ -41,7 +44,7 @@ public class AnotherGUI extends JFrame {
 	private JPanel treePanel;
 	private JPanel searchPanel;
 	private JTextField searchField;
-	private JTextArea codeEditor;
+	private JTextPane codeEditor;
 	private JTextArea outputConsole;
 	private JLabel treeLabel;
 	private JButton compileBtn;
@@ -726,7 +729,10 @@ public class AnotherGUI extends JFrame {
 		sidebarPanel.add(listScroll, BorderLayout.CENTER);
 		sidebarPanel.add(buttonPanel, BorderLayout.SOUTH);
 
-		codeEditor = new JTextArea();
+		codeEditor = new JTextPane();
+		StyledDocument styledDoc = codeEditor.getStyledDocument();
+		codeEditor.setDocument(styledDoc);
+
 		codeEditor.setFont(new Font("Courier New", Font.PLAIN, 18));
 		codeEditor.setBackground(currentTheme.editorBackground);
 		codeEditor.setForeground(currentTheme.editorForeground);
@@ -780,6 +786,20 @@ public class AnotherGUI extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				toggleSearchPanel();
+			}
+		});
+		SyntaxHighlighter highlighter = new SyntaxHighlighter(codeEditor);
+		codeEditor.getDocument().addDocumentListener(new DocumentListener() {
+			public void insertUpdate(DocumentEvent e) {
+				highlighter.highlight(codeEditor.getText());
+			}
+
+			public void removeUpdate(DocumentEvent e) {
+				highlighter.highlight(codeEditor.getText());
+			}
+
+			public void changedUpdate(DocumentEvent e) {
+				highlighter.highlight(codeEditor.getText());
 			}
 		});
 
@@ -1114,6 +1134,31 @@ public class AnotherGUI extends JFrame {
 					JOptionPane.showMessageDialog(this, "Error loading file: " + ex.getMessage(),
 							"Error", JOptionPane.ERROR_MESSAGE);
 				}
+			}
+		}
+	}
+
+	private void updateSyntaxHighlighterTheme(ThemeType theme) {
+		if (syntaxHighlighter != null) {
+			switch (theme) {
+				case DRACULA:
+					syntaxHighlighter.updateColors(
+							new Color(189, 147, 249), // keywords
+							new Color(248, 248, 242), // identifiers
+							new Color(255, 121, 198), // strings
+							new Color(139, 233, 253), // numbers
+							new Color(98, 114, 164)   // comments
+					);
+					break;
+				case LIGHT:
+					syntaxHighlighter.updateColors(
+							new Color(147, 199, 99),  // keywords
+							new Color(103, 140, 177), // identifiers
+							new Color(214, 157, 133), // strings
+							new Color(104, 151, 187), // numbers
+							new Color(128, 128, 128)  // comments
+					);
+					break;
 			}
 		}
 	}
