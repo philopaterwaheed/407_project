@@ -1058,7 +1058,7 @@ public class AnotherGUI extends JFrame {
 				scrollPane.addMouseWheelListener(e -> {
 					if (e.isControlDown()) {
 						int notches = e.getWheelRotation();
-						scale[0] += (notches < 0) ? 0.1 : -0.1; // Adjust scale incrementally
+						scale[0] += (notches < 0) ? 0.05 : -0.05; // Adjust scale incrementally
 						scale[0] = Math.max(0.1, scale[0]); // Prevent scale from going below 0.1
 						int newWidth = (int) (icon.getIconWidth() * scale[0]);
 						int newHeight = (int) (icon.getIconHeight() * scale[0]);

@@ -1,4 +1,4 @@
-// $ANTLR 3.4 /home/philosan/Dev/antlr/407_project/Bank.g 2025-05-14 15:34:24
+// $ANTLR 3.4 /home/philosan/Dev/antlr/407_project/Bank.g 2025-05-14 18:58:41
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -80,8 +80,6 @@ public class BankLexer extends Lexer {
     public static final int T__123=123;
     public static final int T__124=124;
     public static final int T__125=125;
-    public static final int T__126=126;
-    public static final int T__127=127;
     public static final int Arithmetic_Expression=4;
     public static final int Assign=5;
     public static final int BOOLEAN=6;
@@ -93,7 +91,7 @@ public class BankLexer extends Lexer {
     public static final int Class=12;
     public static final int Class_Member=13;
     public static final int Class_Members=14;
-    public static final int Compilation_Unit=15;
+    public static final int Compilition_Unit=15;
     public static final int Constructor=16;
     public static final int Control_Structure=17;
     public static final int DIGIT=18;
@@ -153,8 +151,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:7:7: ( '!' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:7:9: '!'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:2:7: ( '!' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:2:9: '!'
             {
             match('!'); 
 
@@ -174,8 +172,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:8:7: ( '!=' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:8:9: '!='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:3:7: ( '!=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:3:9: '!='
             {
             match("!="); 
 
@@ -197,8 +195,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:9:7: ( '\"' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:9:9: '\"'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:4:7: ( '\"' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:4:9: '\"'
             {
             match('\"'); 
 
@@ -218,8 +216,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:10:7: ( '#include' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:10:9: '#include'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:5:7: ( '#include' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:5:9: '#include'
             {
             match("#include"); 
 
@@ -241,8 +239,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:11:7: ( '&&' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:11:9: '&&'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:6:7: ( '&&' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:6:9: '&&'
             {
             match("&&"); 
 
@@ -264,8 +262,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:12:7: ( '&' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:12:9: '&'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:7:7: ( '&' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:7:9: '&'
             {
             match('&'); 
 
@@ -285,8 +283,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:13:7: ( '(' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:13:9: '('
+            // /home/philosan/Dev/antlr/407_project/Bank.g:8:7: ( '(' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:8:9: '('
             {
             match('('); 
 
@@ -306,8 +304,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:14:7: ( ')' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:14:9: ')'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:9:7: ( ')' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:9:9: ')'
             {
             match(')'); 
 
@@ -327,8 +325,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:15:7: ( '*' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:15:9: '*'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:10:7: ( '*' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:10:9: '*'
             {
             match('*'); 
 
@@ -348,8 +346,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:16:7: ( '+' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:16:9: '+'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:11:7: ( '+' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:11:9: '+'
             {
             match('+'); 
 
@@ -369,8 +367,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:17:7: ( '++' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:17:9: '++'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:12:7: ( '++' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:12:9: '++'
             {
             match("++"); 
 
@@ -392,8 +390,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:18:7: ( '+=' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:18:9: '+='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:13:7: ( '+=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:13:9: '+='
             {
             match("+="); 
 
@@ -415,8 +413,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:19:7: ( ',' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:19:9: ','
+            // /home/philosan/Dev/antlr/407_project/Bank.g:14:7: ( ',' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:14:9: ','
             {
             match(','); 
 
@@ -436,8 +434,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:20:7: ( '-' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:20:9: '-'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:15:7: ( '-' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:15:9: '-'
             {
             match('-'); 
 
@@ -457,8 +455,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:21:7: ( '--' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:21:9: '--'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:16:7: ( '--' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:16:9: '--'
             {
             match("--"); 
 
@@ -480,8 +478,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:22:7: ( '-=' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:22:9: '-='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:17:7: ( '-=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:17:9: '-='
             {
             match("-="); 
 
@@ -503,8 +501,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:23:7: ( '->' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:23:9: '->'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:18:7: ( '->' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:18:9: '->'
             {
             match("->"); 
 
@@ -526,8 +524,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:24:7: ( '.' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:24:9: '.'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:19:7: ( '.' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:19:9: '.'
             {
             match('.'); 
 
@@ -547,8 +545,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:25:7: ( '.ignore' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:25:9: '.ignore'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:20:7: ( '.ignore' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:20:9: '.ignore'
             {
             match(".ignore"); 
 
@@ -570,8 +568,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:26:7: ( '/' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:26:9: '/'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:21:7: ( '/' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:21:9: '/'
             {
             match('/'); 
 
@@ -591,8 +589,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:27:7: ( ':' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:27:9: ':'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:22:7: ( ':' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:22:9: ':'
             {
             match(':'); 
 
@@ -612,8 +610,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:28:7: ( '::' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:28:9: '::'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:23:7: ( '::' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:23:9: '::'
             {
             match("::"); 
 
@@ -635,8 +633,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:29:7: ( ';' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:29:9: ';'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:24:7: ( ';' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:24:9: ';'
             {
             match(';'); 
 
@@ -656,8 +654,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:30:7: ( '<' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:30:9: '<'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:25:7: ( '<' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:25:9: '<'
             {
             match('<'); 
 
@@ -677,8 +675,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:31:7: ( '<<' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:31:9: '<<'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:26:7: ( '<<' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:26:9: '<<'
             {
             match("<<"); 
 
@@ -700,8 +698,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:32:7: ( '<=' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:32:9: '<='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:27:7: ( '<=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:27:9: '<='
             {
             match("<="); 
 
@@ -723,8 +721,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:33:7: ( '=' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:33:9: '='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:28:7: ( '=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:28:9: '='
             {
             match('='); 
 
@@ -744,8 +742,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:34:7: ( '==' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:34:9: '=='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:29:7: ( '==' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:29:9: '=='
             {
             match("=="); 
 
@@ -767,8 +765,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:35:7: ( '>' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:35:9: '>'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:30:7: ( '>' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:30:9: '>'
             {
             match('>'); 
 
@@ -788,8 +786,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:36:7: ( '>=' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:36:9: '>='
+            // /home/philosan/Dev/antlr/407_project/Bank.g:31:7: ( '>=' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:31:9: '>='
             {
             match(">="); 
 
@@ -811,8 +809,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:37:7: ( '>>' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:37:9: '>>'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:32:7: ( '>>' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:32:9: '>>'
             {
             match(">>"); 
 
@@ -834,8 +832,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:38:7: ( '\\'' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:38:9: '\\''
+            // /home/philosan/Dev/antlr/407_project/Bank.g:33:7: ( '\\'' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:33:9: '\\''
             {
             match('\''); 
 
@@ -855,8 +853,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:39:7: ( '\\\\' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:39:9: '\\\\'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:34:7: ( '\\\\' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:34:9: '\\\\'
             {
             match('\\'); 
 
@@ -876,10 +874,12 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:40:7: ( '\\n' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:40:9: '\\n'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:35:7: ( 'auto' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:35:9: 'auto'
             {
-            match('\n'); 
+            match("auto"); 
+
+
 
             }
 
@@ -897,10 +897,12 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:41:7: ( '\\r' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:41:9: '\\r'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:36:7: ( 'bool' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:36:9: 'bool'
             {
-            match('\r'); 
+            match("bool"); 
+
+
 
             }
 
@@ -918,10 +920,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:42:7: ( 'auto' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:42:9: 'auto'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:37:7: ( 'break' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:37:9: 'break'
             {
-            match("auto"); 
+            match("break"); 
 
 
 
@@ -941,10 +943,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:43:7: ( 'bool' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:43:9: 'bool'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:38:7: ( 'case' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:38:9: 'case'
             {
-            match("bool"); 
+            match("case"); 
 
 
 
@@ -964,10 +966,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:44:7: ( 'break' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:44:9: 'break'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:39:7: ( 'char' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:39:9: 'char'
             {
-            match("break"); 
+            match("char"); 
 
 
 
@@ -987,10 +989,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:45:7: ( 'case' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:45:9: 'case'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:40:7: ( 'cin' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:40:9: 'cin'
             {
-            match("case"); 
+            match("cin"); 
 
 
 
@@ -1010,10 +1012,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:46:7: ( 'char' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:46:9: 'char'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:41:7: ( 'const' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:41:9: 'const'
             {
-            match("char"); 
+            match("const"); 
 
 
 
@@ -1033,10 +1035,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:47:7: ( 'cin' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:47:9: 'cin'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:42:7: ( 'cout' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:42:9: 'cout'
             {
-            match("cin"); 
+            match("cout"); 
 
 
 
@@ -1056,10 +1058,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:48:7: ( 'const' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:48:9: 'const'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:43:7: ( 'default' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:43:9: 'default'
             {
-            match("const"); 
+            match("default"); 
 
 
 
@@ -1079,10 +1081,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:49:7: ( 'cout' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:49:9: 'cout'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:44:7: ( 'delete' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:44:9: 'delete'
             {
-            match("cout"); 
+            match("delete"); 
 
 
 
@@ -1102,10 +1104,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:50:7: ( 'default' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:50:9: 'default'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:45:7: ( 'do' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:45:9: 'do'
             {
-            match("default"); 
+            match("do"); 
 
 
 
@@ -1125,10 +1127,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:51:7: ( 'delete' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:51:9: 'delete'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:46:7: ( 'double' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:46:9: 'double'
             {
-            match("delete"); 
+            match("double"); 
 
 
 
@@ -1148,10 +1150,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:52:7: ( 'do' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:52:9: 'do'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:47:7: ( 'endl' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:47:9: 'endl'
             {
-            match("do"); 
+            match("endl"); 
 
 
 
@@ -1171,10 +1173,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:53:8: ( 'double' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:53:10: 'double'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:48:8: ( 'float' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:48:10: 'float'
             {
-            match("double"); 
+            match("float"); 
 
 
 
@@ -1194,10 +1196,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:54:8: ( 'endl' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:54:10: 'endl'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:49:8: ( 'getline' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:49:10: 'getline'
             {
-            match("endl"); 
+            match("getline"); 
 
 
 
@@ -1217,10 +1219,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:55:8: ( 'float' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:55:10: 'float'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:50:8: ( 'int' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:50:10: 'int'
             {
-            match("float"); 
+            match("int"); 
 
 
 
@@ -1240,10 +1242,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:56:8: ( 'getline' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:56:10: 'getline'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:51:8: ( 'left' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:51:10: 'left'
             {
-            match("getline"); 
+            match("left"); 
 
 
 
@@ -1263,10 +1265,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:57:8: ( 'int' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:57:10: 'int'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:52:8: ( 'long' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:52:10: 'long'
             {
-            match("int"); 
+            match("long"); 
 
 
 
@@ -1286,10 +1288,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__105;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:58:8: ( 'left' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:58:10: 'left'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:53:8: ( 'namespace' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:53:10: 'namespace'
             {
-            match("left"); 
+            match("namespace"); 
 
 
 
@@ -1309,10 +1311,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__106;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:59:8: ( 'long' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:59:10: 'long'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:54:8: ( 'new' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:54:10: 'new'
             {
-            match("long"); 
+            match("new"); 
 
 
 
@@ -1332,10 +1334,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__107;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:60:8: ( 'namespace' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:60:10: 'namespace'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:55:8: ( 'private' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:55:10: 'private'
             {
-            match("namespace"); 
+            match("private"); 
 
 
 
@@ -1355,10 +1357,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__108;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:61:8: ( 'new' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:61:10: 'new'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:8: ( 'protected' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:56:10: 'protected'
             {
-            match("new"); 
+            match("protected"); 
 
 
 
@@ -1378,10 +1380,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__109;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:62:8: ( 'private' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:62:10: 'private'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:57:8: ( 'public' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:57:10: 'public'
             {
-            match("private"); 
+            match("public"); 
 
 
 
@@ -1401,10 +1403,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__110;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:63:8: ( 'protected' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:63:10: 'protected'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:58:8: ( 'return' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:58:10: 'return'
             {
-            match("protected"); 
+            match("return"); 
 
 
 
@@ -1424,10 +1426,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__111;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:64:8: ( 'public' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:64:10: 'public'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:59:8: ( 'right' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:59:10: 'right'
             {
-            match("public"); 
+            match("right"); 
 
 
 
@@ -1447,10 +1449,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__112;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:65:8: ( 'return' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:65:10: 'return'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:60:8: ( 'setw' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:60:10: 'setw'
             {
-            match("return"); 
+            match("setw"); 
 
 
 
@@ -1470,10 +1472,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__113;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:66:8: ( 'right' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:66:10: 'right'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:61:8: ( 'short' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:61:10: 'short'
             {
-            match("right"); 
+            match("short"); 
 
 
 
@@ -1493,10 +1495,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__114;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:67:8: ( 'setw' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:67:10: 'setw'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:62:8: ( 'static' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:62:10: 'static'
             {
-            match("setw"); 
+            match("static"); 
 
 
 
@@ -1516,10 +1518,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__115;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:68:8: ( 'short' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:68:10: 'short'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:63:8: ( 'string' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:63:10: 'string'
             {
-            match("short"); 
+            match("string"); 
 
 
 
@@ -1539,10 +1541,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__116;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:69:8: ( 'static' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:69:10: 'static'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:64:8: ( 'switch' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:64:10: 'switch'
             {
-            match("static"); 
+            match("switch"); 
 
 
 
@@ -1562,10 +1564,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__117;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:70:8: ( 'string' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:70:10: 'string'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:65:8: ( 'using' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:65:10: 'using'
             {
-            match("string"); 
+            match("using"); 
 
 
 
@@ -1585,10 +1587,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__118;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:71:8: ( 'switch' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:71:10: 'switch'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:8: ( 'vector' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:66:10: 'vector'
             {
-            match("switch"); 
+            match("vector"); 
 
 
 
@@ -1608,10 +1610,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__119;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:72:8: ( 'using' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:72:10: 'using'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:67:8: ( 'virtual' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:67:10: 'virtual'
             {
-            match("using"); 
+            match("virtual"); 
 
 
 
@@ -1631,10 +1633,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__120;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:73:8: ( 'vector' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:73:10: 'vector'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:68:8: ( 'void' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:68:10: 'void'
             {
-            match("vector"); 
+            match("void"); 
 
 
 
@@ -1654,10 +1656,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__121;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:74:8: ( 'virtual' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:74:10: 'virtual'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:69:8: ( 'while' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:69:10: 'while'
             {
-            match("virtual"); 
+            match("while"); 
 
 
 
@@ -1677,12 +1679,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__122;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:75:8: ( 'void' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:75:10: 'void'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:70:8: ( '{' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:70:10: '{'
             {
-            match("void"); 
-
-
+            match('{'); 
 
             }
 
@@ -1700,10 +1700,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__123;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:76:8: ( 'while' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:76:10: 'while'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:71:8: ( '||' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:71:10: '||'
             {
-            match("while"); 
+            match("||"); 
 
 
 
@@ -1723,10 +1723,10 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__124;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:77:8: ( '{' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:77:10: '{'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:72:8: ( '}' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:72:10: '}'
             {
-            match('{'); 
+            match('}'); 
 
             }
 
@@ -1744,52 +1744,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = T__125;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:78:8: ( '||' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:78:10: '||'
-            {
-            match("||"); 
-
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__125"
-
-    // $ANTLR start "T__126"
-    public final void mT__126() throws RecognitionException {
-        try {
-            int _type = T__126;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:79:8: ( '}' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:79:10: '}'
-            {
-            match('}'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__126"
-
-    // $ANTLR start "T__127"
-    public final void mT__127() throws RecognitionException {
-        try {
-            int _type = T__127;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:80:8: ( '~' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:80:10: '~'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:73:8: ( '~' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:73:10: '~'
             {
             match('~'); 
 
@@ -1802,14 +1758,14 @@ public class BankLexer extends Lexer {
         	// do for sure before leaving
         }
     }
-    // $ANTLR end "T__127"
+    // $ANTLR end "T__125"
 
     // $ANTLR start "BOOLEAN"
     public final void mBOOLEAN() throws RecognitionException {
         try {
             int _type = BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:420:9: ( 'true' | 'false' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:712:9: ( 'true' | 'false' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -1828,7 +1784,7 @@ public class BankLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:420:11: 'true'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:712:11: 'true'
                     {
                     match("true"); 
 
@@ -1837,7 +1793,7 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:420:20: 'false'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:712:20: 'false'
                     {
                     match("false"); 
 
@@ -1861,8 +1817,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:421:7: ( 'class' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:421:9: 'class'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:714:7: ( 'class' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:714:9: 'class'
             {
             match("class"); 
 
@@ -1884,8 +1840,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:422:4: ( 'if' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:422:6: 'if'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:716:4: ( 'if' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:716:6: 'if'
             {
             match("if"); 
 
@@ -1907,8 +1863,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:423:6: ( 'else' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:423:8: 'else'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:718:6: ( 'else' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:718:8: 'else'
             {
             match("else"); 
 
@@ -1930,8 +1886,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:424:5: ( 'for' )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:424:7: 'for'
+            // /home/philosan/Dev/antlr/407_project/Bank.g:720:5: ( 'for' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:720:7: 'for'
             {
             match("for"); 
 
@@ -1953,7 +1909,7 @@ public class BankLexer extends Lexer {
         try {
             int _type = IFSTREAM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:425:10: ( 'ofstream' | 'ifstream' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:722:10: ( 'ofstream' | 'ifstream' )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -1972,7 +1928,7 @@ public class BankLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:425:12: 'ofstream'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:722:12: 'ofstream'
                     {
                     match("ofstream"); 
 
@@ -1981,7 +1937,7 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:425:25: 'ifstream'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:722:25: 'ifstream'
                     {
                     match("ifstream"); 
 
@@ -2005,8 +1961,8 @@ public class BankLexer extends Lexer {
         try {
             int _type = ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:426:4: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )* )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:426:6: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:724:4: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )* )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:724:6: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
             {
             if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -2018,7 +1974,7 @@ public class BankLexer extends Lexer {
             }
 
 
-            // /home/philosan/Dev/antlr/407_project/Bank.g:426:28: ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
+            // /home/philosan/Dev/antlr/407_project/Bank.g:724:28: ( 'a' .. 'z' | 'A' .. 'Z' | DIGIT | '_' )*
             loop3:
             do {
                 int alt3=2;
@@ -2068,7 +2024,7 @@ public class BankLexer extends Lexer {
         try {
             int _type = DIGIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:427:7: ( '0' .. '9' )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:726:7: ( '0' .. '9' )
             // /home/philosan/Dev/antlr/407_project/Bank.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
@@ -2097,34 +2053,78 @@ public class BankLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:428:4: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
-            // /home/philosan/Dev/antlr/407_project/Bank.g:428:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:728:4: ( ( ' ' | '\\t' | '\\r\\n' | '\\u000C' | '\\n' )+ )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:728:6: ( ' ' | '\\t' | '\\r\\n' | '\\u000C' | '\\n' )+
             {
-            // /home/philosan/Dev/antlr/407_project/Bank.g:428:6: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // /home/philosan/Dev/antlr/407_project/Bank.g:728:6: ( ' ' | '\\t' | '\\r\\n' | '\\u000C' | '\\n' )+
             int cnt4=0;
             loop4:
             do {
-                int alt4=2;
-                int LA4_0 = input.LA(1);
-
-                if ( ((LA4_0 >= '\t' && LA4_0 <= '\n')||LA4_0=='\r'||LA4_0==' ') ) {
+                int alt4=6;
+                switch ( input.LA(1) ) {
+                case ' ':
+                    {
                     alt4=1;
-                }
+                    }
+                    break;
+                case '\t':
+                    {
+                    alt4=2;
+                    }
+                    break;
+                case '\r':
+                    {
+                    alt4=3;
+                    }
+                    break;
+                case '\f':
+                    {
+                    alt4=4;
+                    }
+                    break;
+                case '\n':
+                    {
+                    alt4=5;
+                    }
+                    break;
 
+                }
 
                 switch (alt4) {
             	case 1 :
-            	    // /home/philosan/Dev/antlr/407_project/Bank.g:
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:728:8: ' '
             	    {
-            	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||input.LA(1)=='\r'||input.LA(1)==' ' ) {
-            	        input.consume();
-            	    }
-            	    else {
-            	        MismatchedSetException mse = new MismatchedSetException(null,input);
-            	        recover(mse);
-            	        throw mse;
-            	    }
+            	    match(' '); 
 
+            	    }
+            	    break;
+            	case 2 :
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:728:13: '\\t'
+            	    {
+            	    match('\t'); 
+
+            	    }
+            	    break;
+            	case 3 :
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:728:20: '\\r\\n'
+            	    {
+            	    match("\r\n"); 
+
+
+
+            	    }
+            	    break;
+            	case 4 :
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:728:29: '\\u000C'
+            	    {
+            	    match('\f'); 
+
+            	    }
+            	    break;
+            	case 5 :
+            	    // /home/philosan/Dev/antlr/407_project/Bank.g:728:40: '\\n'
+            	    {
+            	    match('\n'); 
 
             	    }
             	    break;
@@ -2139,7 +2139,7 @@ public class BankLexer extends Lexer {
             } while (true);
 
 
-             _channel = HIDDEN; 
+            skip();
 
             }
 
@@ -2157,7 +2157,7 @@ public class BankLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /home/philosan/Dev/antlr/407_project/Bank.g:429:9: ( ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* ) | ( '/*' ( options {greedy=false; } : . )* '*/' ) )
+            // /home/philosan/Dev/antlr/407_project/Bank.g:730:9: ( ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' | '\\u000C' ) )* ) | ( '/*' ( options {greedy=false; } : . )* '*/' ) )
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -2187,31 +2187,31 @@ public class BankLexer extends Lexer {
             }
             switch (alt7) {
                 case 1 :
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' | '\\u000C' ) )* )
                     {
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )* )
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:12: '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:11: ( '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' | '\\u000C' ) )* )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:12: '//' (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' | '\\u000C' ) )*
                     {
                     match("//"); 
 
 
 
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:17: (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' ) )*
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:17: (~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' | '\\u000C' ) )*
                     loop5:
                     do {
                         int alt5=2;
                         int LA5_0 = input.LA(1);
 
-                        if ( ((LA5_0 >= '\u0000' && LA5_0 <= '\b')||(LA5_0 >= '\u000B' && LA5_0 <= '\f')||(LA5_0 >= '\u000E' && LA5_0 <= '\uFFFF')) ) {
+                        if ( ((LA5_0 >= '\u0000' && LA5_0 <= '\b')||LA5_0=='\u000B'||(LA5_0 >= '\u000E' && LA5_0 <= '\uFFFF')) ) {
                             alt5=1;
                         }
 
 
                         switch (alt5) {
                     	case 1 :
-                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:429:17: ~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' )
+                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:730:17: ~ ( '\\t' | '\\r' | '\\n' | '\\r\\n' | '\\u000C' )
                     	    {
-                    	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\b')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
+                    	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\b')||input.LA(1)=='\u000B'||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
                     	        input.consume();
                     	    }
                     	    else {
@@ -2236,16 +2236,16 @@ public class BankLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:66: ( '/*' ( options {greedy=false; } : . )* '*/' )
                     {
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:55: ( '/*' ( options {greedy=false; } : . )* '*/' )
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:56: '/*' ( options {greedy=false; } : . )* '*/'
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:66: ( '/*' ( options {greedy=false; } : . )* '*/' )
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:67: '/*' ( options {greedy=false; } : . )* '*/'
                     {
                     match("/*"); 
 
 
 
-                    // /home/philosan/Dev/antlr/407_project/Bank.g:429:61: ( options {greedy=false; } : . )*
+                    // /home/philosan/Dev/antlr/407_project/Bank.g:730:72: ( options {greedy=false; } : . )*
                     loop6:
                     do {
                         int alt6=2;
@@ -2270,7 +2270,7 @@ public class BankLexer extends Lexer {
 
                         switch (alt6) {
                     	case 1 :
-                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:429:88: .
+                    	    // /home/philosan/Dev/antlr/407_project/Bank.g:730:99: .
                     	    {
                     	    matchAny(); 
 
@@ -2290,7 +2290,7 @@ public class BankLexer extends Lexer {
                     }
 
 
-                     _channel = HIDDEN; 
+                    skip();
 
                     }
                     break;
@@ -2306,8 +2306,8 @@ public class BankLexer extends Lexer {
     // $ANTLR end "COMMENT"
 
     public void mTokens() throws RecognitionException {
-        // /home/philosan/Dev/antlr/407_project/Bank.g:1:8: ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT )
-        int alt8=84;
+        // /home/philosan/Dev/antlr/407_project/Bank.g:1:8: ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT )
+        int alt8=82;
         alt8 = dfa8.predict(input);
         switch (alt8) {
             case 1 :
@@ -2887,95 +2887,79 @@ public class BankLexer extends Lexer {
                 }
                 break;
             case 73 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:468: T__126
-                {
-                mT__126(); 
-
-
-                }
-                break;
-            case 74 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:475: T__127
-                {
-                mT__127(); 
-
-
-                }
-                break;
-            case 75 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:482: BOOLEAN
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:468: BOOLEAN
                 {
                 mBOOLEAN(); 
 
 
                 }
                 break;
-            case 76 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:490: CLASS
+            case 74 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:476: CLASS
                 {
                 mCLASS(); 
 
 
                 }
                 break;
-            case 77 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:496: IF
+            case 75 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:482: IF
                 {
                 mIF(); 
 
 
                 }
                 break;
-            case 78 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:499: ELSE
+            case 76 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:485: ELSE
                 {
                 mELSE(); 
 
 
                 }
                 break;
-            case 79 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:504: FOR
+            case 77 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:490: FOR
                 {
                 mFOR(); 
 
 
                 }
                 break;
-            case 80 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:508: IFSTREAM
+            case 78 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:494: IFSTREAM
                 {
                 mIFSTREAM(); 
 
 
                 }
                 break;
-            case 81 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:517: ID
+            case 79 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:503: ID
                 {
                 mID(); 
 
 
                 }
                 break;
-            case 82 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:520: DIGIT
+            case 80 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:506: DIGIT
                 {
                 mDIGIT(); 
 
 
                 }
                 break;
-            case 83 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:526: WS
+            case 81 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:512: WS
                 {
                 mWS(); 
 
 
                 }
                 break;
-            case 84 :
-                // /home/philosan/Dev/antlr/407_project/Bank.g:1:529: COMMENT
+            case 82 :
+                // /home/philosan/Dev/antlr/407_project/Bank.g:1:515: COMMENT
                 {
                 mCOMMENT(); 
 
@@ -2990,39 +2974,39 @@ public class BankLexer extends Lexer {
 
     protected DFA8 dfa8 = new DFA8(this);
     static final String DFA8_eotS =
-        "\1\uffff\1\60\2\uffff\1\62\3\uffff\1\65\1\uffff\1\71\1\73\1\75\1"+
-        "\77\1\uffff\1\102\1\104\1\107\2\uffff\1\110\1\111\20\54\4\uffff"+
-        "\2\54\36\uffff\11\54\1\173\7\54\1\u0084\30\54\1\u009f\6\54\1\uffff"+
-        "\4\54\1\u00aa\1\54\1\u00ac\1\54\1\uffff\3\54\1\u00b1\21\54\1\u00c3"+
-        "\1\u00c4\1\54\1\u00c6\1\u00c7\1\uffff\1\54\1\u00c9\4\54\1\u00ce"+
-        "\1\u00cf\2\54\1\uffff\1\54\1\uffff\1\54\1\u00d4\1\u00d5\1\54\1\uffff"+
-        "\5\54\1\u00dc\7\54\1\u00e4\1\54\1\u00e6\1\54\2\uffff\1\u00e8\2\uffff"+
-        "\1\u00e9\1\uffff\1\u00ea\3\54\2\uffff\1\u00ee\1\u00e6\2\54\2\uffff"+
-        "\5\54\1\u00f6\1\uffff\1\u00f7\3\54\1\u00fb\2\54\1\uffff\1\u00fe"+
-        "\1\uffff\1\54\3\uffff\1\54\1\u0101\1\u0102\1\uffff\5\54\1\u0108"+
-        "\1\u0109\2\uffff\1\u010a\1\u010b\1\u010c\1\uffff\1\u010d\1\54\1"+
-        "\uffff\1\54\1\u0110\2\uffff\1\u0111\2\54\1\u0114\1\54\6\uffff\1"+
-        "\u0116\1\54\2\uffff\1\u0118\1\54\1\uffff\1\54\1\uffff\1\u0118\1"+
-        "\uffff\1\u011b\1\u011c\2\uffff";
+        "\1\uffff\1\56\2\uffff\1\60\3\uffff\1\63\1\uffff\1\67\1\71\1\73\1"+
+        "\75\1\uffff\1\100\1\102\1\105\2\uffff\20\52\4\uffff\2\52\34\uffff"+
+        "\11\52\1\167\7\52\1\u0080\30\52\1\u009b\6\52\1\uffff\4\52\1\u00a6"+
+        "\1\52\1\u00a8\1\52\1\uffff\3\52\1\u00ad\21\52\1\u00bf\1\u00c0\1"+
+        "\52\1\u00c2\1\u00c3\1\uffff\1\52\1\u00c5\4\52\1\u00ca\1\u00cb\2"+
+        "\52\1\uffff\1\52\1\uffff\1\52\1\u00d0\1\u00d1\1\52\1\uffff\5\52"+
+        "\1\u00d8\7\52\1\u00e0\1\52\1\u00e2\1\52\2\uffff\1\u00e4\2\uffff"+
+        "\1\u00e5\1\uffff\1\u00e6\3\52\2\uffff\1\u00ea\1\u00e2\2\52\2\uffff"+
+        "\5\52\1\u00f2\1\uffff\1\u00f3\3\52\1\u00f7\2\52\1\uffff\1\u00fa"+
+        "\1\uffff\1\52\3\uffff\1\52\1\u00fd\1\u00fe\1\uffff\5\52\1\u0104"+
+        "\1\u0105\2\uffff\1\u0106\1\u0107\1\u0108\1\uffff\1\u0109\1\52\1"+
+        "\uffff\1\52\1\u010c\2\uffff\1\u010d\2\52\1\u0110\1\52\6\uffff\1"+
+        "\u0112\1\52\2\uffff\1\u0114\1\52\1\uffff\1\52\1\uffff\1\u0114\1"+
+        "\uffff\1\u0117\1\u0118\2\uffff";
     static final String DFA8_eofS =
-        "\u011d\uffff";
+        "\u0119\uffff";
     static final String DFA8_minS =
         "\1\11\1\75\2\uffff\1\46\3\uffff\1\53\1\uffff\1\55\1\151\1\52\1\72"+
-        "\1\uffff\1\74\2\75\2\uffff\2\11\1\165\1\157\1\141\1\145\1\154\1"+
-        "\141\1\145\1\146\1\145\1\141\1\162\2\145\1\163\1\145\1\150\4\uffff"+
-        "\1\162\1\146\36\uffff\1\164\1\157\1\145\1\163\1\141\2\156\1\141"+
-        "\1\146\1\60\1\144\1\163\1\157\1\154\1\162\2\164\1\60\1\146\1\156"+
-        "\1\155\1\167\1\151\1\142\1\164\1\147\1\164\1\157\1\141\2\151\1\143"+
-        "\1\162\2\151\1\165\1\163\1\157\1\154\1\141\1\145\1\162\1\60\1\163"+
-        "\1\164\1\163\1\141\1\145\1\142\1\uffff\1\154\1\145\1\141\1\163\1"+
-        "\60\1\154\1\60\1\164\1\uffff\1\164\1\147\1\145\1\60\1\166\1\164"+
-        "\1\154\1\165\1\150\1\167\1\162\1\164\1\151\1\164\1\156\2\164\1\144"+
-        "\1\154\1\145\1\164\2\60\1\153\2\60\1\uffff\1\164\1\60\1\163\1\165"+
-        "\1\164\1\154\2\60\1\164\1\145\1\uffff\1\151\1\uffff\1\162\2\60\1"+
-        "\163\1\uffff\1\141\1\145\1\151\1\162\1\164\1\60\1\164\1\151\1\156"+
-        "\1\143\1\147\1\157\1\165\1\60\1\145\1\60\1\162\2\uffff\1\60\2\uffff"+
-        "\1\60\1\uffff\1\60\1\154\2\145\2\uffff\2\60\1\156\1\145\2\uffff"+
-        "\1\160\1\164\2\143\1\156\1\60\1\uffff\1\60\1\143\1\147\1\150\1\60"+
+        "\1\uffff\1\74\2\75\2\uffff\1\165\1\157\1\141\1\145\1\154\1\141\1"+
+        "\145\1\146\1\145\1\141\1\162\2\145\1\163\1\145\1\150\4\uffff\1\162"+
+        "\1\146\34\uffff\1\164\1\157\1\145\1\163\1\141\2\156\1\141\1\146"+
+        "\1\60\1\144\1\163\1\157\1\154\1\162\2\164\1\60\1\146\1\156\1\155"+
+        "\1\167\1\151\1\142\1\164\1\147\1\164\1\157\1\141\2\151\1\143\1\162"+
+        "\2\151\1\165\1\163\1\157\1\154\1\141\1\145\1\162\1\60\1\163\1\164"+
+        "\1\163\1\141\1\145\1\142\1\uffff\1\154\1\145\1\141\1\163\1\60\1"+
+        "\154\1\60\1\164\1\uffff\1\164\1\147\1\145\1\60\1\166\1\164\1\154"+
+        "\1\165\1\150\1\167\1\162\1\164\1\151\1\164\1\156\2\164\1\144\1\154"+
+        "\1\145\1\164\2\60\1\153\2\60\1\uffff\1\164\1\60\1\163\1\165\1\164"+
+        "\1\154\2\60\1\164\1\145\1\uffff\1\151\1\uffff\1\162\2\60\1\163\1"+
+        "\uffff\1\141\1\145\1\151\1\162\1\164\1\60\1\164\1\151\1\156\1\143"+
+        "\1\147\1\157\1\165\1\60\1\145\1\60\1\162\2\uffff\1\60\2\uffff\1"+
+        "\60\1\uffff\1\60\1\154\2\145\2\uffff\2\60\1\156\1\145\2\uffff\1"+
+        "\160\1\164\2\143\1\156\1\60\1\uffff\1\60\1\143\1\147\1\150\1\60"+
         "\1\162\1\141\1\uffff\1\60\1\uffff\1\145\3\uffff\1\164\2\60\1\uffff"+
         "\1\145\2\141\1\145\1\164\2\60\2\uffff\3\60\1\uffff\1\60\1\154\1"+
         "\uffff\1\141\1\60\2\uffff\1\60\1\155\1\143\1\60\1\145\6\uffff\1"+
@@ -3030,10 +3014,10 @@ public class BankLexer extends Lexer {
         "\2\60\2\uffff";
     static final String DFA8_maxS =
         "\1\176\1\75\2\uffff\1\46\3\uffff\1\75\1\uffff\1\76\1\151\1\57\1"+
-        "\72\1\uffff\2\75\1\76\2\uffff\2\40\1\165\1\162\2\157\1\156\1\157"+
-        "\1\145\1\156\1\157\1\145\1\165\1\151\1\167\1\163\1\157\1\150\4\uffff"+
-        "\1\162\1\146\36\uffff\1\164\1\157\1\145\1\163\1\141\1\156\1\165"+
-        "\1\141\1\154\1\172\1\144\1\163\1\157\1\154\1\162\2\164\1\172\1\146"+
+        "\72\1\uffff\2\75\1\76\2\uffff\1\165\1\162\2\157\1\156\1\157\1\145"+
+        "\1\156\1\157\1\145\1\165\1\151\1\167\1\163\1\157\1\150\4\uffff\1"+
+        "\162\1\146\34\uffff\1\164\1\157\1\145\1\163\1\141\1\156\1\165\1"+
+        "\141\1\154\1\172\1\144\1\163\1\157\1\154\1\162\2\164\1\172\1\146"+
         "\1\156\1\155\1\167\1\157\1\142\1\164\1\147\1\164\1\157\1\162\2\151"+
         "\1\143\1\162\2\151\1\165\1\163\1\157\1\154\1\141\1\145\1\162\1\172"+
         "\1\163\1\164\1\163\1\141\1\145\1\142\1\uffff\1\154\1\145\1\141\1"+
@@ -3052,127 +3036,126 @@ public class BankLexer extends Lexer {
         "\1\uffff\1\172\1\uffff\2\172\2\uffff";
     static final String DFA8_acceptS =
         "\2\uffff\1\3\1\4\1\uffff\1\7\1\10\1\11\1\uffff\1\15\4\uffff\1\27"+
-        "\3\uffff\1\40\1\41\22\uffff\1\107\1\110\1\111\1\112\2\uffff\1\121"+
-        "\1\122\1\123\1\2\1\1\1\5\1\6\1\13\1\14\1\12\1\17\1\20\1\21\1\16"+
-        "\1\23\1\22\1\124\1\24\1\26\1\25\1\31\1\32\1\30\1\34\1\33\1\36\1"+
-        "\37\1\35\1\42\1\43\61\uffff\1\56\10\uffff\1\115\32\uffff\1\51\12"+
-        "\uffff\1\117\1\uffff\1\63\4\uffff\1\67\21\uffff\1\44\1\45\1\uffff"+
-        "\1\47\1\50\1\uffff\1\53\4\uffff\1\60\1\116\4\uffff\1\64\1\65\6\uffff"+
-        "\1\75\7\uffff\1\105\1\uffff\1\113\1\uffff\1\46\1\52\1\114\3\uffff"+
-        "\1\61\7\uffff\1\74\1\76\3\uffff\1\102\2\uffff\1\106\2\uffff\1\55"+
-        "\1\57\5\uffff\1\72\1\73\1\77\1\100\1\101\1\103\2\uffff\1\54\1\62"+
-        "\2\uffff\1\70\1\uffff\1\104\1\uffff\1\120\2\uffff\1\66\1\71";
+        "\3\uffff\1\40\1\41\20\uffff\1\105\1\106\1\107\1\110\2\uffff\1\117"+
+        "\1\120\1\121\1\2\1\1\1\5\1\6\1\13\1\14\1\12\1\17\1\20\1\21\1\16"+
+        "\1\23\1\22\1\122\1\24\1\26\1\25\1\31\1\32\1\30\1\34\1\33\1\36\1"+
+        "\37\1\35\61\uffff\1\54\10\uffff\1\113\32\uffff\1\47\12\uffff\1\115"+
+        "\1\uffff\1\61\4\uffff\1\65\21\uffff\1\42\1\43\1\uffff\1\45\1\46"+
+        "\1\uffff\1\51\4\uffff\1\56\1\114\4\uffff\1\62\1\63\6\uffff\1\73"+
+        "\7\uffff\1\103\1\uffff\1\111\1\uffff\1\44\1\50\1\112\3\uffff\1\57"+
+        "\7\uffff\1\72\1\74\3\uffff\1\100\2\uffff\1\104\2\uffff\1\53\1\55"+
+        "\5\uffff\1\70\1\71\1\75\1\76\1\77\1\101\2\uffff\1\52\1\60\2\uffff"+
+        "\1\66\1\uffff\1\102\1\uffff\1\116\2\uffff\1\64\1\67";
     static final String DFA8_specialS =
-        "\u011d\uffff}>";
+        "\u0119\uffff}>";
     static final String[] DFA8_transitionS = {
-            "\1\56\1\24\2\uffff\1\25\22\uffff\1\56\1\1\1\2\1\3\2\uffff\1"+
-            "\4\1\22\1\5\1\6\1\7\1\10\1\11\1\12\1\13\1\14\12\55\1\15\1\16"+
-            "\1\17\1\20\1\21\2\uffff\32\54\1\uffff\1\23\4\uffff\1\26\1\27"+
-            "\1\30\1\31\1\32\1\33\1\34\1\54\1\35\2\54\1\36\1\54\1\37\1\53"+
-            "\1\40\1\54\1\41\1\42\1\52\1\43\1\44\1\45\3\54\1\46\1\47\1\50"+
-            "\1\51",
+            "\2\54\1\uffff\2\54\22\uffff\1\54\1\1\1\2\1\3\2\uffff\1\4\1\22"+
+            "\1\5\1\6\1\7\1\10\1\11\1\12\1\13\1\14\12\53\1\15\1\16\1\17\1"+
+            "\20\1\21\2\uffff\32\52\1\uffff\1\23\4\uffff\1\24\1\25\1\26\1"+
+            "\27\1\30\1\31\1\32\1\52\1\33\2\52\1\34\1\52\1\35\1\51\1\36\1"+
+            "\52\1\37\1\40\1\50\1\41\1\42\1\43\3\52\1\44\1\45\1\46\1\47",
+            "\1\55",
+            "",
+            "",
             "\1\57",
             "",
             "",
-            "\1\61",
+            "",
+            "\1\61\21\uffff\1\62",
+            "",
+            "\1\64\17\uffff\1\65\1\66",
+            "\1\70",
+            "\1\72\4\uffff\1\72",
+            "\1\74",
+            "",
+            "\1\76\1\77",
+            "\1\101",
+            "\1\103\1\104",
             "",
             "",
-            "",
-            "\1\63\21\uffff\1\64",
-            "",
-            "\1\66\17\uffff\1\67\1\70",
-            "\1\72",
-            "\1\74\4\uffff\1\74",
-            "\1\76",
-            "",
-            "\1\100\1\101",
-            "\1\103",
-            "\1\105\1\106",
-            "",
-            "",
-            "\2\56\2\uffff\1\56\22\uffff\1\56",
-            "\2\56\2\uffff\1\56\22\uffff\1\56",
-            "\1\112",
-            "\1\113\2\uffff\1\114",
-            "\1\115\6\uffff\1\116\1\117\2\uffff\1\121\2\uffff\1\120",
-            "\1\122\11\uffff\1\123",
-            "\1\125\1\uffff\1\124",
-            "\1\127\12\uffff\1\126\2\uffff\1\130",
-            "\1\131",
-            "\1\133\7\uffff\1\132",
-            "\1\134\11\uffff\1\135",
+            "\1\106",
+            "\1\107\2\uffff\1\110",
+            "\1\111\6\uffff\1\112\1\113\2\uffff\1\115\2\uffff\1\114",
+            "\1\116\11\uffff\1\117",
+            "\1\121\1\uffff\1\120",
+            "\1\123\12\uffff\1\122\2\uffff\1\124",
+            "\1\125",
+            "\1\127\7\uffff\1\126",
+            "\1\130\11\uffff\1\131",
+            "\1\132\3\uffff\1\133",
+            "\1\134\2\uffff\1\135",
             "\1\136\3\uffff\1\137",
-            "\1\140\2\uffff\1\141",
-            "\1\142\3\uffff\1\143",
-            "\1\144\2\uffff\1\145\13\uffff\1\146\2\uffff\1\147",
+            "\1\140\2\uffff\1\141\13\uffff\1\142\2\uffff\1\143",
+            "\1\144",
+            "\1\145\3\uffff\1\146\5\uffff\1\147",
             "\1\150",
-            "\1\151\3\uffff\1\152\5\uffff\1\153",
+            "",
+            "",
+            "",
+            "",
+            "\1\151",
+            "\1\152",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "\1\153",
             "\1\154",
-            "",
-            "",
-            "",
-            "",
             "\1\155",
             "\1\156",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "\1\157",
             "\1\160",
-            "\1\161",
-            "\1\162",
+            "\1\161\6\uffff\1\162",
             "\1\163",
-            "\1\164",
-            "\1\165\6\uffff\1\166",
-            "\1\167",
-            "\1\170\5\uffff\1\171",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\24\54\1\172\5\54",
+            "\1\164\5\uffff\1\165",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\24\52\1\166\5\52",
+            "\1\170",
+            "\1\171",
+            "\1\172",
+            "\1\173",
             "\1\174",
             "\1\175",
             "\1\176",
-            "\1\177",
-            "\1\u0080",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\22\52\1\177\7\52",
             "\1\u0081",
             "\1\u0082",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\22\54\1\u0083\7\54",
-            "\1\u0085",
-            "\1\u0086",
+            "\1\u0083",
+            "\1\u0084",
+            "\1\u0085\5\uffff\1\u0086",
             "\1\u0087",
             "\1\u0088",
-            "\1\u0089\5\uffff\1\u008a",
+            "\1\u0089",
+            "\1\u008a",
             "\1\u008b",
-            "\1\u008c",
-            "\1\u008d",
+            "\1\u008c\20\uffff\1\u008d",
             "\1\u008e",
             "\1\u008f",
-            "\1\u0090\20\uffff\1\u0091",
+            "\1\u0090",
+            "\1\u0091",
             "\1\u0092",
             "\1\u0093",
             "\1\u0094",
@@ -3182,31 +3165,31 @@ public class BankLexer extends Lexer {
             "\1\u0098",
             "\1\u0099",
             "\1\u009a",
-            "\1\u009b",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u009c",
             "\1\u009d",
             "\1\u009e",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u009f",
             "\1\u00a0",
             "\1\u00a1",
+            "",
             "\1\u00a2",
             "\1\u00a3",
             "\1\u00a4",
             "\1\u00a5",
-            "",
-            "\1\u00a6",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00a7",
-            "\1\u00a8",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00a9",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00ab",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00ad",
             "",
+            "\1\u00aa",
+            "\1\u00ab",
+            "\1\u00ac",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00ae",
             "\1\u00af",
             "\1\u00b0",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00b1",
             "\1\u00b2",
             "\1\u00b3",
             "\1\u00b4",
@@ -3220,139 +3203,135 @@ public class BankLexer extends Lexer {
             "\1\u00bc",
             "\1\u00bd",
             "\1\u00be",
-            "\1\u00bf",
-            "\1\u00c0",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00c1",
-            "\1\u00c2",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00c5",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "",
+            "\1\u00c4",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\1\u00c6",
+            "\1\u00c7",
             "\1\u00c8",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00ca",
-            "\1\u00cb",
+            "\1\u00c9",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00cc",
             "\1\u00cd",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00d0",
-            "\1\u00d1",
             "",
+            "\1\u00ce",
+            "",
+            "\1\u00cf",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00d2",
             "",
             "\1\u00d3",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00d4",
+            "\1\u00d5",
             "\1\u00d6",
-            "",
             "\1\u00d7",
-            "\1\u00d8",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00d9",
             "\1\u00da",
             "\1\u00db",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00dc",
             "\1\u00dd",
             "\1\u00de",
             "\1\u00df",
-            "\1\u00e0",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00e1",
-            "\1\u00e2",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00e3",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00e5",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "",
+            "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "",
+            "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00e7",
+            "\1\u00e8",
+            "\1\u00e9",
             "",
             "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00eb",
             "\1\u00ec",
+            "",
+            "",
             "\1\u00ed",
-            "",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00ee",
             "\1\u00ef",
             "\1\u00f0",
-            "",
-            "",
             "\1\u00f1",
-            "\1\u00f2",
-            "\1\u00f3",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00f4",
             "\1\u00f5",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\1\u00f6",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u00f8",
             "\1\u00f9",
-            "\1\u00fa",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u00fc",
-            "\1\u00fd",
             "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "",
+            "\1\u00fb",
+            "",
+            "",
+            "",
+            "\1\u00fc",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "",
             "\1\u00ff",
-            "",
-            "",
-            "",
             "\1\u0100",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "",
+            "\1\u0101",
+            "\1\u0102",
             "\1\u0103",
-            "\1\u0104",
-            "\1\u0105",
-            "\1\u0106",
-            "\1\u0107",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "",
             "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\1\u010a",
+            "",
+            "\1\u010b",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "",
+            "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u010e",
-            "",
             "\1\u010f",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\1\u0111",
             "",
             "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u0112",
+            "",
+            "",
+            "",
+            "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u0113",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "",
+            "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "\1\u0115",
             "",
+            "\1\u0116",
             "",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "",
-            "",
-            "",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u0117",
-            "",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\1\u0119",
-            "",
-            "\1\u011a",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
-            "\12\54\7\uffff\32\54\4\uffff\1\54\1\uffff\32\54",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
+            "\12\52\7\uffff\32\52\4\uffff\1\52\1\uffff\32\52",
             "",
             ""
     };
@@ -3387,7 +3366,7 @@ public class BankLexer extends Lexer {
             this.transition = DFA8_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT );";
+            return "1:1: Tokens : ( T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | BOOLEAN | CLASS | IF | ELSE | FOR | IFSTREAM | ID | DIGIT | WS | COMMENT );";
         }
     }
  

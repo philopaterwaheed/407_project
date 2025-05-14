@@ -105,22 +105,28 @@ include : '#include' (
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[RecognitionException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
 
-lib : '<' (~('\r' | '\n' | '>'))* '>' ;
+lib : '<' (~('>'))* '>' ;
 
 // catch blocks go first
   catch[MismatchedTokenException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[RecognitionException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
 
-header : '"' (~('\r' | '\n' | '"'))* '"' ;
+header : '"' (~('"'))* '"' ;
 
 // catch blocks go first
   catch[MismatchedTokenException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[RecognitionException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
 
-name_space : 'using' 'namespace' ((ID ('::' ID)*) -> ^(NameSpace ID ('::' ID)*)) ';' ;
+name_space : 'using' 'namespace' ( name_space_name -> ^(NameSpace name_space_name )) ';' ;
 
+// catch blocks go first
+  catch[MismatchedTokenException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
+  catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
+  catch[RecognitionException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
+name_space_name 
+	:	 (ID ('::' ID)*) ; 
 // catch blocks go first
   catch[MismatchedTokenException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
@@ -719,9 +725,9 @@ ID : ('a'..'z' | 'A'..'Z') ( 'a'..'z' | 'A'..'Z' | DIGIT | '_')* ;
 
 DIGIT : '0'..'9' ;
 
-WS : (' ' | '\n' | '\r' | '\t')+ {skip();} ;
+WS : ( ' '| '\t' | '\r\n' | '\u000C' | '\n')+ {skip();} ;
 
-COMMENT : ('//' ~( '\t' | '\r' | '\n' | '\r\n' )* ) | ('/*' (options {greedy=false;} : .)* '*/') {skip();} ;
+COMMENT : ('//' ~( '\t' | '\r' | '\n' | '\r\n' | '\u000C' )* ) | ('/*' (options {greedy=false;} : .)* '*/') {skip();} ;
 
 
 
