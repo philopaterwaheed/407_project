@@ -9,10 +9,16 @@ import java.util.regex.Pattern;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
 import javax.swing.plaf.basic.BasicSplitPaneUI;
 import javax.swing.plaf.basic.BasicTabbedPaneUI;
+import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.JTextComponent;
+import javax.swing.text.*;
+import java.awt.Color;
+import java.awt.Rectangle;
 
 import org.antlr.runtime.*;
 import org.antlr.runtime.tree.*;
@@ -23,12 +29,18 @@ public class AnotherGUI extends JFrame {
 	private final DotRunner dotRunner;
 	private Path outputDirectory;
 
+	private DefaultHighlighter.DefaultHighlightPainter searchHighlightPainter;
+	private DefaultHighlighter.DefaultHighlightPainter currentMatchPainter;
+	private Object currentMatchHighlight;
+
 	private static final String DEFAULT_OUTPUT_DIR = "graphs";
 
 	// UI Components
 	private JSplitPane editorSplitPane;
 	private JPanel editorPanel;
 	private JPanel treePanel;
+	private JPanel searchPanel;
+	private JTextField searchField;
 	private JTextArea codeEditor;
 	private JTextArea outputConsole;
 	private JLabel treeLabel;
@@ -36,6 +48,11 @@ public class AnotherGUI extends JFrame {
 	private JButton showTreeBtn;
 	private JButton loadFileBtn;
 	private JButton themeToggleBtn;
+	private JButton findNextButton;
+	private JButton findPrevButton;
+	private JButton closeSearchButton;
+	private JMenuItem findMenuItem;
+	private Action toggleFindAction;
 	private JLabel statusLabel;
 	private JLabel compileStatusIcon;
 	private JList<String> fileList;
@@ -108,8 +125,25 @@ public class AnotherGUI extends JFrame {
 
 		settingsMenu.add(themesMenu);
 
+		JMenu editMenu = new JMenu("Edit");
+
+		toggleFindAction = new AbstractAction("Find") {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				toggleSearchPanel();
+			}
+		};
+		toggleFindAction.putValue(Action.ACCELERATOR_KEY,
+				KeyStroke.getKeyStroke(KeyEvent.VK_F, KeyEvent.CTRL_DOWN_MASK));
+
+		findMenuItem = new JMenuItem(toggleFindAction);
+		editMenu.add(findMenuItem);
+
+
+
 		// Add menus to the menu bar
 		menuBar.add(fileMenu);
+		menuBar.add(editMenu);
 		menuBar.add(settingsMenu);
 
 		// Set the menu bar to the frame
@@ -738,8 +772,255 @@ public class AnotherGUI extends JFrame {
 		editorSplitPane.setDividerSize(3);
 		editorSplitPane.setBorder(null);
 		editorPanel.add(editorSplitPane, BorderLayout.CENTER);
+		createSearchPanel();
+		codeEditor.getInputMap(JComponent.WHEN_FOCUSED).put(
+				KeyStroke.getKeyStroke(KeyEvent.VK_F, KeyEvent.CTRL_DOWN_MASK),
+				"showSearch");
+		codeEditor.getActionMap().put("showSearch", new AbstractAction() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				toggleSearchPanel();
+			}
+		});
+
 
 	}
+	private void createSearchPanel() {
+		searchHighlightPainter = new DefaultHighlighter.DefaultHighlightPainter(new Color(255, 255, 0, 100)); // Semi-transparent yellow
+		currentMatchPainter = new DefaultHighlighter.DefaultHighlightPainter(new Color(255, 100, 100, 100)); // Semi-transparent red
+
+
+		searchPanel = new JPanel();
+		searchPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		searchPanel.setVisible(false);
+
+		searchField = new JTextField(20);
+		findNextButton = new JButton("Next");
+		findPrevButton = new JButton("Previous");
+		closeSearchButton = new JButton("×");
+
+		searchField.getDocument().addDocumentListener(new DocumentListener() {
+			@Override
+			public void insertUpdate(DocumentEvent e) {
+				updateSearch();
+			}
+
+			@Override
+			public void removeUpdate(DocumentEvent e) {
+				updateSearch();
+			}
+
+			@Override
+			public void changedUpdate(DocumentEvent e) {
+				updateSearch();
+			}
+		});
+
+		searchField.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
+					toggleSearchPanel();
+					codeEditor.requestFocus();
+				} else if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+					if (e.isShiftDown()) {
+						findPrevious();
+					} else {
+						findNext();
+					}
+					e.consume();
+				}
+			}
+		});
+
+		findNextButton.addActionListener(e -> findNext());
+		findPrevButton.addActionListener(e -> findPrevious());
+		closeSearchButton.addActionListener(e -> {
+			toggleSearchPanel();
+			codeEditor.requestFocus();
+		});
+
+		searchPanel.add(searchField);
+		searchPanel.add(findPrevButton);
+		searchPanel.add(findNextButton);
+		searchPanel.add(closeSearchButton);
+
+		editorPanel.add(searchPanel, BorderLayout.NORTH);
+
+		InputMap inputMap = searchField.getInputMap(JComponent.WHEN_FOCUSED);
+		ActionMap actionMap = searchField.getActionMap();
+
+		inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_ENTER, 0), "none");
+
+		KeyStroke f3 = KeyStroke.getKeyStroke(KeyEvent.VK_F3, 0);
+		KeyStroke shiftF3 = KeyStroke.getKeyStroke(KeyEvent.VK_F3, InputEvent.SHIFT_DOWN_MASK);
+
+		inputMap.put(f3, "findNext");
+		inputMap.put(shiftF3, "findPrevious");
+
+		actionMap.put("findNext", new AbstractAction() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				findNext();
+			}
+		});
+
+		actionMap.put("findPrevious", new AbstractAction() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				findPrevious();
+			}
+		});
+	}
+
+
+	private void toggleSearchPanel() {
+		if (searchPanel == null || codeEditor == null || searchField == null) {
+			return;
+		}
+
+		boolean willBeVisible = !searchPanel.isVisible();
+		searchPanel.setVisible(willBeVisible);
+
+		if (!willBeVisible) {
+			removeHighlights();
+		} else {
+			String selectedText = codeEditor.getSelectedText();
+			if (selectedText != null) {
+				searchField.setText(selectedText);
+			}
+			searchField.requestFocus();
+		}
+	}
+
+
+
+	private void updateSearch() {
+		if (searchField == null || codeEditor == null) {
+			return;
+		}
+
+		String searchText = searchField.getText();
+		String content = codeEditor.getText();
+
+		removeHighlights();
+
+		if (searchText.isEmpty()) {
+			return;
+		}
+
+		try {
+			int index = 0;
+			while ((index = content.toLowerCase().indexOf(searchText.toLowerCase(), index)) != -1) {
+				codeEditor.getHighlighter().addHighlight(index, index + searchText.length(), searchHighlightPainter);
+				index += searchText.length();
+			}
+		} catch (BadLocationException e) {
+			e.printStackTrace();
+		}
+	}
+
+
+	private void removeHighlights() {
+		Highlighter highlighter = codeEditor.getHighlighter();
+		Highlighter.Highlight[] highlights = highlighter.getHighlights();
+		for (Highlighter.Highlight h : highlights) {
+			highlighter.removeHighlight(h);
+		}
+		currentMatchHighlight = null;
+	}
+
+
+	private void updateCurrentMatchHighlight(int startIndex, int endIndex) {
+		if (currentMatchHighlight != null) {
+			codeEditor.getHighlighter().removeHighlight(currentMatchHighlight);
+		}
+
+		try {
+			currentMatchHighlight = codeEditor.getHighlighter().addHighlight(
+					startIndex,
+					endIndex,
+					currentMatchPainter
+			);
+		} catch (BadLocationException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void findNext() {
+		if (searchField == null || codeEditor == null) {
+			return;
+		}
+
+		String searchText = searchField.getText().toLowerCase();
+		if (searchText.isEmpty()) {
+			return;
+		}
+
+		String content = codeEditor.getText().toLowerCase();
+		int caretPosition = codeEditor.getSelectionEnd();
+
+		int index = content.indexOf(searchText, caretPosition);
+		if (index == -1) {
+			index = content.indexOf(searchText);
+		}
+
+		if (index != -1) {
+			codeEditor.setCaretPosition(index);
+			codeEditor.select(index, index + searchText.length());
+			updateCurrentMatchHighlight(index, index + searchText.length());
+			try {
+				Rectangle rect = codeEditor.modelToView(index);
+				if (rect != null) {
+					rect.y -= 50;
+					rect.height += 100;
+					codeEditor.scrollRectToVisible(rect);
+				}
+			} catch (BadLocationException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+
+	private void findPrevious() {
+		if (searchField == null || codeEditor == null) {
+			return;
+		}
+
+		String searchText = searchField.getText().toLowerCase();
+		if (searchText.isEmpty()) {
+			return;
+		}
+
+		String content = codeEditor.getText().toLowerCase();
+		int caretPosition = codeEditor.getSelectionStart();
+
+		int index = content.lastIndexOf(searchText, caretPosition - 1);
+
+		if (index == -1) {
+			index = content.lastIndexOf(searchText);
+		}
+
+		if (index != -1) {
+			codeEditor.setCaretPosition(index);
+			codeEditor.select(index, index + searchText.length());
+			updateCurrentMatchHighlight(index, index + searchText.length());
+			try {
+				Rectangle rect = codeEditor.modelToView(index);
+				if (rect != null) {
+					rect.y -= 50;
+					rect.height += 100;
+					codeEditor.scrollRectToVisible(rect);
+				}
+			} catch (BadLocationException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+
+
 
 	private void removeFile() {
 		String selectedFile = fileList.getSelectedValue();
