@@ -77,15 +77,15 @@ public class AnotherGUI extends JFrame {
 	public AnotherGUI() {
 		this.dotRunner = new DotRunner();
 		this.outputDirectory = Paths.get(DEFAULT_OUTPUT_DIR);
+		currentTheme = ThemeColors.draculaTheme();
+		loadThemePreference();
 		try {
 			PathUtils.ensureDirectoryExists(this.outputDirectory);
 		} catch (IOException e) {
 			throw new RuntimeException("Failed to create output directory: " + e.getMessage(), e);
 		}
 		// Initialize with dracula theme
-		currentTheme = ThemeColors.draculaTheme();
 		initUI();
-		switchTheme(currentThemeType);
 		setExtendedState(JFrame.MAXIMIZED_BOTH);
 		setTitle("CS407 Compiler");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -337,6 +337,8 @@ public class AnotherGUI extends JFrame {
 			}
 			applyTheme();
 			highlighter.updateSyntaxHighlighterTheme(currentThemeType);
+			saveThemePreference();
+
 		});
 	}
 
@@ -1341,6 +1343,29 @@ public class AnotherGUI extends JFrame {
 
 		return sb.toString();
 	}
+	private void saveThemePreference() {
+		Properties props = new Properties();
+		props.setProperty("theme", currentThemeType.name());
+
+		ConfigManager configManager = new ConfigManager(System.getProperty("user.dir"));
+		configManager.saveConfig("settings", props);
+	}
+
+	private void loadThemePreference() {
+		ConfigManager configManager = new ConfigManager(System.getProperty("user.dir"));
+		Properties props = configManager.loadConfig("settings");
+
+		String themeName = props.getProperty("theme");
+		if (themeName != null) {
+			try {
+				ThemeType savedTheme = ThemeType.valueOf(themeName);
+				switchTheme(savedTheme);
+			} catch (IllegalArgumentException e) {
+				System.err.println("Invalid theme name in settings: " + themeName);
+			}
+		}
+	}
+
 
 	private void showParseTree() {
 		try {
