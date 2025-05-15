@@ -56,6 +56,7 @@ public class AnotherGUI extends JFrame {
 	private JButton closeSearchButton;
 	private JMenuItem findMenuItem;
 	private Action toggleFindAction;
+	private JButton saveFileBtn;
 	private JLabel statusLabel;
 	private JLabel compileStatusIcon;
 	private JList<String> fileList;
@@ -108,6 +109,8 @@ public class AnotherGUI extends JFrame {
 		JMenu fileMenu = createMenu("File");
 
 		JMenuItem openItem = createMenuItem("Open", e -> loadFile());
+		JMenuItem saveMenuItem = createMenuItem("Save", e -> saveFile());
+		fileMenu.add(saveMenuItem);
 		JMenuItem exitItem = createMenuItem("Exit", e -> System.exit(0));
 
 		fileMenu.add(openItem);
@@ -141,6 +144,7 @@ public class AnotherGUI extends JFrame {
 
 		findMenuItem = new JMenuItem(toggleFindAction);
 		editMenu.add(findMenuItem);
+
 
 
 
@@ -792,6 +796,20 @@ public class AnotherGUI extends JFrame {
 				toggleSearchPanel();
 			}
 		});
+		KeyStroke saveKeyStroke = KeyStroke.getKeyStroke(KeyEvent.VK_S, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask());
+		InputMap inputMap = codeEditor.getInputMap(JComponent.WHEN_FOCUSED);
+		ActionMap actionMap = codeEditor.getActionMap();
+		inputMap.put(saveKeyStroke, "save");
+		actionMap.put("save", new AbstractAction() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				saveFile();
+			}
+		});
+
+
+
+
 		highlighter = new SyntaxHighlighter(codeEditor);
 		codeEditor.getDocument().addDocumentListener(new DocumentListener() {
 			public void insertUpdate(DocumentEvent e) {
@@ -1151,7 +1169,41 @@ public class AnotherGUI extends JFrame {
 			updateComponentRecursively(c);
 		}
 	}
+	private void saveFile() {
+		JFileChooser fileChooser = new JFileChooser();
+		fileChooser.setDialogTitle("Save File");
+		updateFileChooserUI(fileChooser); // Reuse existing method to apply theme
 
+		// If there's a selected file in the list, suggest its name as default
+		if (fileList.getSelectedValue() != null) {
+			fileChooser.setSelectedFile(new File(fileList.getSelectedValue()));
+		}
+
+		int userSelection = fileChooser.showSaveDialog(this);
+
+		if (userSelection == JFileChooser.APPROVE_OPTION) {
+			File fileToSave = fileChooser.getSelectedFile();
+
+			try (FileWriter writer = new FileWriter(fileToSave)) {
+				writer.write(codeEditor.getText());
+
+				// Update file list if it's a new file
+				String fileName = fileToSave.getName();
+				if (!fileListModel.contains(fileName)) {
+					fileListModel.addElement(fileName);
+					fileContentsMap.put(fileName, codeEditor.getText());
+				}
+
+				// Update status
+				statusLabel.setText("File saved: " + fileToSave.getName());
+			} catch (IOException ex) {
+				JOptionPane.showMessageDialog(this,
+						"Error saving file: " + ex.getMessage(),
+						"Save Error",
+						JOptionPane.ERROR_MESSAGE);
+			}
+		}
+	}
 	private void generateGraphVisualization(String dotInput) {
 		try {
 			Path outputPath = outputDirectory.resolve("Parse.png");
