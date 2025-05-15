@@ -118,6 +118,9 @@ public class SyntaxHighlighter {
                 CommonTokenStream tokens = new CommonTokenStream(lexer);
                 tokens.fill(); // force token generation
 
+                boolean insideString = false;
+                int stringStart = -1;
+
                 List<Token> tokenList = tokens.getTokens();
                 for (Token token : tokenList) {
                     int start = ((org.antlr.runtime.CommonToken) token).getStartIndex();
@@ -127,6 +130,20 @@ public class SyntaxHighlighter {
                     if (start >= 0 && length > 0 && (start + length) <= doc.getLength()) {
                         // Get the default style for this token type
                         Style style = tokenStyles.getOrDefault(token.getType(), defaultStyle);
+
+                        // Start or end of a string
+                        if (token.getType() == 56) { // '"'
+                            if (!insideString) {
+                                stringStart = start;
+                                insideString = true;
+                            } else {
+                                doc.setCharacterAttributes(stringStart, end - stringStart + 1, tokenStyles.get(56), true);
+                                insideString = false;
+                                stringStart = -1;
+                            }
+                            continue;
+                        }
+
 
                         // Special case for numbers - detect different formats
                         if (token.getType() == 18) { // DIGIT token type
@@ -195,7 +212,6 @@ public class SyntaxHighlighter {
             }
         });
     }
-
 
 
     public void updateSyntaxHighlighterTheme(ThemeType theme) {
