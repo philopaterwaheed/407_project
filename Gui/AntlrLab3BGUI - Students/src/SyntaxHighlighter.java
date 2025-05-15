@@ -32,7 +32,7 @@ public class SyntaxHighlighter {
 
         initStyles();
 
-        highlightTimer = new Timer(300, e -> performHighlighting());
+        highlightTimer = new Timer(1000, e -> performHighlighting());
         highlightTimer.setRepeats(false);
     }
 
