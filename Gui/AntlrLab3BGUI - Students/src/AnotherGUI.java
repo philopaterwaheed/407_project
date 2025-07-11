@@ -24,6 +24,7 @@ import java.awt.Rectangle;
 import org.antlr.runtime.*;
 import org.antlr.runtime.tree.*;
 import org.antlr.stringtemplate.*;
+import org.antlr.stringtemplate.StringTemplate;
 
 public class AnotherGUI extends JFrame {
 
@@ -1232,66 +1233,10 @@ public class AnotherGUI extends JFrame {
 			DOTTreeGenerator gen = new DOTTreeGenerator();
 			StringTemplate st = gen.toDOT(t);
 
-			// Apply theme colors
-			String bgColor, nodeStyle, graphStyle;
-			switch (currentThemeType) {
-				case DARK:
-					bgColor = "bgcolor=\"#323232\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#424242\", color=\"#FFFFFF\", fontcolor=\"#FFFFFF\"]";
-					graphStyle = "graph [fontcolor=\"#FFFFFF\", color=\"#FFFFFF\"]";
-					break;
-				case DRACULA:
-					bgColor = "bgcolor=\"#282a36\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#44475a\", color=\"#f8f8f2\", fontcolor=\"#f8f8f2\"]";
-					graphStyle = "graph [fontcolor=\"#f8f8f2\", color=\"#f8f8f2\"]";
-					break;
-				case MONOKAI:
-					bgColor = "bgcolor=\"#272822\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#3e3d32\", color=\"#f8f8f2\", fontcolor=\"#f8f8f2\"]";
-					graphStyle = "graph [fontcolor=\"#f8f8f2\", color=\"#f8f8f2\"]";
-					break;
-				case SOLARIZED_DARK:
-					bgColor = "bgcolor=\"#002b36\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#073642\", color=\"#93a1a1\", fontcolor=\"#93a1a1\"]";
-					graphStyle = "graph [fontcolor=\"#93a1a1\", color=\"#93a1a1\"]";
-					break;
-				case SOLARIZED_LIGHT:
-					bgColor = "bgcolor=\"#fdf6e3\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#eee8d5\", color=\"#657b83\", fontcolor=\"#657b83\"]";
-					graphStyle = "graph [fontcolor=\"#657b83\", color=\"#657b83\"]";
-					break;
-				case GITHUB_DARK:
-					bgColor = "bgcolor=\"#0d1117\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#21262d\", color=\"#c9d1d9\", fontcolor=\"#c9d1d9\"]";
-					graphStyle = "graph [fontcolor=\"#c9d1d9\", color=\"#c9d1d9\"]";
-					break;
-				case NORD:
-					bgColor = "bgcolor=\"#2e3440\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#3b4252\", color=\"#d8dee9\", fontcolor=\"#d8dee9\"]";
-					graphStyle = "graph [fontcolor=\"#d8dee9\", color=\"#d8dee9\"]";
-					break;
-				case GRUVBOX_DARK:
-					bgColor = "bgcolor=\"#282828\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#3c3836\", color=\"#ebdbb2\", fontcolor=\"#ebdbb2\"]";
-					graphStyle = "graph [fontcolor=\"#ebdbb2\", color=\"#ebdbb2\"]";
-					break;
-				default:
-					bgColor = "bgcolor=\"#ffffff\"";
-					nodeStyle = "node [style=filled, fillcolor=\"#f8f9fa\", color=\"#000000\", fontcolor=\"#000000\"]";
-					graphStyle = "graph [fontcolor=\"#000000\", color=\"#000000\"]";
-					break;
-			}
+			// Use raw DOT content without applying any additional theming
+			String formattedDot = st.toString();
 
-// Add edge styling based on theme
-			String edgeStyle = "edge [" + nodeStyle.substring(nodeStyle.indexOf("color=\""), nodeStyle.indexOf("\", fontcolor")) + "\"]";
-
-// Format the DOT content with all styles
-			String formattedDot = st.toString()
-					.replaceFirst("digraph \\{", String.format("digraph {\n  %s\n  %s\n  %s\n  %s",
-							bgColor, graphStyle, nodeStyle, edgeStyle));
-
-
-			// Save DOT file (using platform-independent path)
+			// Save DOT file
 			Path dotFilePath = outputDirectory.resolve("Dot.dot");
 			try {
 				out = new PrintWriter(dotFilePath.toFile());
