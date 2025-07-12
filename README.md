@@ -6,18 +6,18 @@
 
 
 
-A comprehensive C++ language parser and integrated development environment (IDE) built with ANTLR 3. This project provides syntax analysis, parse tree visualization, and a feature-rich code editor with multiple syntax highlighting themes.
+A comprehensive C++ language parser and integrated development environment (IDE) built with ANTLR 3. This project provides syntax analysis, Abstract syntax tree visualization, and a feature-rich code editor with multiple syntax highlighting themes.
 
 ## Overview
 
-This project implements a complete C++ language parser using ANTLR 3 grammar definitions. It features a modern Swing-based IDE that provides real-time syntax highlighting, parse tree generation and visualization, error reporting, and comprehensive file management capabilities.
+This project implements a complete C++ language parser using ANTLR 3 grammar definitions. It features a modern Swing-based IDE that provides real-time syntax highlighting, Abstract syntax tree generation and visualization, error reporting, and comprehensive file management capabilities.
 
 ### Key Features
 
 - **Complete C++ Grammar Support**: Handles variables, expressions, control structures, functions, classes, file I/O, and more
 - **Real-time Syntax Highlighting**: Multiple color themes with token-specific highlighting
-- **Parse Tree Visualization**: Generate and display visual parse trees using Graphviz
-- **Advanced Editor Features**: Find/replace functionality, saving/loading files, config saving
+- **Abstract syntax tree Visualization**: Generate and display visual Abstract syntax trees using Graphviz
+- **Advanced Editor Features**: Find in file functionality, saving/loading files, config saving
 - **Multiple Themes**: 14 different color schemes including Dracula, Monokai, Nord, and more
 - **Cross-platform Support**: Works on Windows, macOS, and Linux
 - **Error Handling**: Comprehensive error reporting and recovery
@@ -60,7 +60,7 @@ Before setting up the project, ensure you have:
 1. **Java Development Kit (JDK) 8 or higher**
 2. **ANTLR 3.5.3**
 3. **Apache Ant** (for building)
-4. **Graphviz** (for parse tree visualization)
+4. **Graphviz** (for Abstract syntax tree visualization)
     - Windows: Download from [Graphviz website](https://graphviz.org/download/)
     - macOS: `brew install graphviz`
     - Linux: `sudo apt-get install graphviz` (Ubuntu/Debian) or equivalent
@@ -193,11 +193,11 @@ int main() {
 - View compilation results in the output console
 - Error messages show line numbers and descriptions
 
-#### 2. Parse Tree Visualization
-- Click **"Show Parse Tree"** after successful compilation
-- The system generates a visual parse tree using Graphviz
+#### 2. Abstract syntax tree Visualization
+- Click **"Show Abstract syntax tree"** after successful compilation
+- The system generates a visual Abstract syntax tree using Graphviz
 - Trees are saved as PNG files in the `graphs/` directory
-- A separate viewer window displays the parse tree
+- A separate viewer window displays the Abstract syntax tree
 
 #### 3. File Operations
 - **Load File**: Open existing C++ files
@@ -256,7 +256,7 @@ compy/
 │   ├── BankParser.java        # Generated parser (after ANTLR)
 │   ├── SyntaxHighlighter.java # Syntax highlighting engine
 │   ├── DotRunner.java         # Graphviz integration
-│   ├── ParseTreeViewer.java   # Parse tree display window
+│   ├── ParseTreeViewer.java   # Abstract syntax tree display window
 │   ├── ThemeColors.java       # Theme color definitions
 │   ├── ThemeType.java         # Theme enumeration
 │   ├── ConfigManager.java     # Configuration handling
@@ -264,7 +264,7 @@ compy/
 ├── lib/
 │   └── antlr-3.5.3-complete-no-st3.jar
 ├── config/                    # Configuration files
-├── graphs/                    # Generated parse tree images
+├── graphs/                    # Generated Abstract syntax tree images
 ├── build.xml                  # Ant build configuration
 └── README.md
 ```
@@ -301,7 +301,7 @@ To extend the C++ grammar:
     - Check write permissions in the project directory
     - Verify `config/` directory exists and is writable
 
-4. **Parse tree not displaying**
+4. **Abstract syntax tree not displaying**
     - Ensure successful compilation before showing tree
     - Check Graphviz installation and PATH configuration
     - Verify `graphs/` directory permissions
@@ -309,7 +309,7 @@ To extend the C++ grammar:
 ### Performance Tips
 
 - Large files may take longer to highlight; consider breaking into smaller modules
-- Parse tree generation time increases with code complexity
+- Abstract syntax tree generation time increases with code complexity
 - Close unused theme windows to conserve memory
 
 ## Contributing
@@ -328,6 +328,6 @@ This project is open source and available under the MIT License.
 ## Acknowledgments
 
 - Built with ANTLR 3 for robust parsing capabilities
-- Graphviz integration for parse tree visualization
+- Graphviz integration for Abstract syntax tree visualization
 - Multiple theme inspirations from popular code editors
 - Cross-platform compatibility through Java Swing
