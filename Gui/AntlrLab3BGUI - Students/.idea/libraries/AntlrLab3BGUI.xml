@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="AntlrLab3BGUI">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/AntlrLab3BGUI.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

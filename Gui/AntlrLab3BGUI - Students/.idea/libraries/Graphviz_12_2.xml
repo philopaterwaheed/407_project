@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Graphviz-12.2">
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../../windows_10_cmake_Release_Graphviz-12.2.1-win64/Graphviz-12.2.1-win64" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
