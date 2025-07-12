@@ -1,4 +1,10 @@
-# C++ Language Parser and IDE
+# Compy - C++ Language Parser and IDE
+
+
+
+![ezgif-5fddc727bc2483](https://github.com/user-attachments/assets/d2f9ea1c-29df-4946-87b0-8baff070c163)
+
+
 
 A comprehensive C++ language parser and integrated development environment (IDE) built with ANTLR 3. This project provides syntax analysis, parse tree visualization, and a feature-rich code editor with multiple syntax highlighting themes.
 
@@ -63,7 +69,7 @@ Before setting up the project, ensure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/philopaterwaheed/compy.git
 cd compy
 ```
 
